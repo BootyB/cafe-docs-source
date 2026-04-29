@@ -1,0 +1,13 @@
+= Getting Started with CAFE
+:page-slug: getting-started
+:page-title: Getting Started with Cafe Raids
+:page-audience: normal-users
+:page-category: start-here
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-discord-thread: Getting Started
+:page-owner: @docs-team
+:page-last-updated: 2026-04-28
+
+== MEGA PLACEHOLDERRRRRR

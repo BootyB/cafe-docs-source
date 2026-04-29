@@ -1,0 +1,779 @@
+= Proto-Ozma Bot Commands
+:page-slug: Proto-Ozma Bot Commands
+:page-title: Proto-Ozma Bot Commands
+:page-audience: normal-users
+:page-category: bot-commands
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #bot-help
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+Complete reference for all Proto-Ozma bot commands focused on FFXIV Forays raid scheduling and management.
+
+== Quick Reference
+
+[cols="2,3"]
+|===
+|Command |Description
+
+|`/schedule`
+|Schedule Baldesion Arsenal, Forked Tower, or DRS runs
+
+|`/plusone`
+|Request a plus-one spot for your first BA clear
+
+|`/ba_toolbox`
+|Access BA guides, macros, timelines, and mechanics
+
+|`/my-signups`
+|View and manage your Forked Tower and DRS signups
+
+|`/forked-preferences`
+|Manage your party friends and phantom job preferences
+
+|`/prog-point-poll`
+|Participate in the weekly FT prog point poll
+
+|`/runaudit`
+|Audit BA or DRS runs over a time period
+
+|`/manage-run`
+|Manage your scheduled runs as a raid leader
+|===
+
+== Detailed Command Reference
+
+=== /schedule
+
+Schedule a new raid run for Baldesion Arsenal (BA), Forked Tower (FT), or Delubrum Reginae Savage (DRS).
+
+*Syntax:*
+[source,discord]
+----
+/schedule
+----
+
+*How it works:*
+
+1. Run `/schedule` to start the interactive scheduler
+2. Select your raid type (BA, FT, or DRS)
+3. Fill out the scheduling modal with:
+   * **Date/Time** - Natural language supported (e.g., "tomorrow 8pm EST", "Friday 3pm pacific")
+   * **Run Type** - Fresh prog, clear party, reclear, etc.
+   * **Description** - Details about the run
+   * **Sign-up Link** (optional) - External spreadsheet or form
+   * **Passcode** (optional) - Custom 4-digit passcode or auto-generated
+   * **Customization** (FT only) - Party count and role composition (e.g., "6 parties 1t2h5d")
+
+4. Confirm your selections
+5. Bot creates the run announcement and manages signups
+
+*Natural Language Time Examples:*
+[source]
+----
+tomorrow 10pm EST
+next Friday 3pm pacific
+May 5th at 8:30 PM EDT
+2024-10-02 18:30
+----
+
+*FT Role Composition Format:*
+[source]
+----
+6 parties 1t2h5d       (6 parties: 1 tank, 2 heals, 5 DPS each)
+4 parties 2t2h4d       (4 parties: 2 tanks, 2 heals, 4 DPS each)
+----
+
+*Features:*
+
+* **BA Runs** - Automatic party leader tracking, perception, spirit dart signups
+* **FT Runs** - Role-based signups with reserve system, automatic roster distribution
+* **DRS Runs** - Party composition with role selection
+* **Thread Management** - Creates dedicated Discord threads for run coordination
+* **Reminders** - Users can set personal reminders 90 minutes before run start
+
+NOTE: Timezone defaults to Eastern Time (ET) if not specified. Use natural language for easy scheduling!
+
+---
+
+=== /plusone
+
+Request a plus-one spot for your first Baldesion Arsenal clear. This allows you to bring a friend or get assistance from experienced players.
+
+*Syntax:*
+[source,discord]
+----
+/plusone
+----
+
+*How it works:*
+
+1. Run `/plusone` and read the disclaimer
+2. Confirm you want to continue
+3. Bot displays upcoming BA runs
+4. Select the run you'd like to request a plus-one for
+5. Bot sends your request to the raid leader
+
+*Important Guidelines:*
+
+* Intended for **first clear only**
+* Helping a friend is acceptable
+* All requests are logged
+* Abuse of this system may result in restrictions
+* Raid leaders have final approval
+
+*Example Response:*
+
+The bot shows all upcoming BA runs with:
+
+* Run date and time
+* Raid leader name
+* Run type (Fresh, Reclear, etc.)
+* Current party availability
+
+---
+
+=== /ba_toolbox
+
+Access comprehensive Baldesion Arsenal guides, macros, boss timelines, and mechanic animations.
+
+*Syntax:*
+[source,discord]
+----
+/ba_toolbox
+----
+
+*Available Resources:*
+
+**Macros & General Guides:**
+
+* **Portal Macro** - Party assignment macro and portal map
+* **sportals** - Solo elemental room portal routing
+* **Elemental Room Percepting** - Trap, portal, and chest locations for all rooms
+
+**Boss Mechanics (Animated):**
+
+* **Absolute Virtue Mechanics**
+  - Puddles
+  - Medusa Javelin
+  - Hostile Aspect
+  - Meteor
+  - All Mechanics (displays all at once)
+
+* **Proto-Ozma Mechanics**
+  - Acceleration Bomb
+  - Black Hole
+  - Meteor
+  - Ozma Cube
+  - All Mechanics (displays all at once)
+
+**Text Timelines:**
+
+Detailed boss fight timelines for:
+
+* Art
+* Owain
+* Raiden
+* Absolute Virtue
+* Proto Ozma
+
+*How to use:*
+
+1. Run `/ba_toolbox`
+2. Select a category from the dropdown
+3. For mechanics or timelines, select specific boss/mechanic
+4. Bot posts the resource directly to the channel
+5. Toolbox remains open for additional selections
+
+*Cooldown System:*
+
+* 2-second per-user cooldown to prevent spam
+* Channel-specific cooldown for same selection
+* Prevents duplicate resource posts
+
+TIP: Use the mechanics animations to help your party prepare for difficult phases!
+
+---
+
+=== /my-signups
+
+View and manage all your active Forked Tower and DRS signups in one convenient interface.
+
+*Syntax:*
+[source,discord]
+----
+/my-signups
+----
+
+*Features:*
+
+* **View All Signups** - See all upcoming runs you're registered for
+* **Quick Withdrawal** - Unsign from runs directly from the menu
+* **Run Details** - Shows:
+  - Run date and time
+  - Raid leader name
+  - Your selected roles
+  - Party assignment (if distributed)
+  - Signup status (Active, Reserve, or specific slot)
+
+* **Multi-Run Management** - Handle multiple signups across different raid leaders
+
+*Response Includes:*
+
+[source]
+----
+📋 Your Upcoming Signups
+
+Run #1: Forked Tower - May 5, 2026 8:00 PM EDT
+Raid Leader: @RaidLeader
+Roles: Tank, Healer
+Status: Active - Party A Lead
+
+Run #2: DRS - May 6, 2026 3:00 PM EDT
+Raid Leader: @AnotherLeader
+Roles: DPS(Melee)
+Status: Reserve #3
+----
+
+*Withdrawal:*
+
+Use the dropdown menu to select runs to withdraw from. Withdrawals are instant and notify the raid leader.
+
+NOTE: If you're blacklisted from FT signups, this command will inform you and show the reason.
+
+---
+
+=== /forked-preferences
+
+Manage your personal preferences for Forked Tower raids including party friend lists and phantom job selections. These selections allow Raid Leads utilizing the CAFE Roster Manager to better place you where you want to go! 
+
+*Syntax:*
+[source,discord]
+----
+/forked-preferences
+----
+
+*Available Preferences:*
+
+**Party Friends (BA Runs):**
+
+* Add Discord users you prefer to party with
+* System attempts to place you together when possible
+* Mutual preferences increase priority
+* Maximum 7 party friends
+
+**Phantom Jobs (FT Runs):**
+
+* Select your preferred jobs for Phantom Rush phantom selection
+* Bot considers these during automatic roster creation
+* Helps optimize party composition
+* Can select multiple jobs in order of preference
+
+*How to use:*
+
+1. Run `/forked-preferences`
+2. Select which preference to manage:
+   * View Party Friends
+   * Add Party Friends
+   * Remove Party Friends
+   * View Phantom Jobs
+   * Set Phantom Jobs
+
+3. Follow the interactive prompts
+4. Preferences are encrypted and stored securely
+
+*Privacy:*
+
+* All interactions are ephemeral (only you can see them)
+* Preferences are encrypted at rest
+* Data is only used for roster management
+* You can delete your preferences at any time
+
+TIP: Setting party friends early increases your chances of being grouped together!
+
+---
+
+=== /prog-point-poll
+
+Participate in the bi-weekly Forked Tower progression point poll to help determine community prog priorities.
+
+*Syntax:*
+[source,discord]
+----
+/prog-point-poll
+----
+
+*How it works:*
+
+1. Run `/prog-point-poll`
+2. Modal appears with current week's prog point options
+3. Select which prog points you'd like to practice
+4. Submit your vote
+5. Results are aggregated bi-weekly
+
+*Prog Point Options:*
+
+Typical prog points include:
+
+* Early Prog
+* Dead Stars
+* Marble Dragon
+* Magitaur
+* Reclear
+
+*Voting Period:*
+
+* Polls reset weekly
+* One vote per user per week
+* Can update your vote before weekly reset
+* Results influence raid leader prog focus
+
+*Example Modal:*
+
+[source]
+----
+📊 FT Prog Point Poll - Week of April 28
+
+Which prog points would you like to focus on this week?
+☐ Early Prog
+☐ Dead Stars
+☐ Marble Dragon
+☐ Magitaur
+☐ Reclear
+----
+
+NOTE: Polls help the community coordinate prog priorities across different raid leaders!
+
+---
+
+=== /runaudit
+
+Audit Baldesion Arsenal or Delubrum Reginae Savage runs over a selected time period to analyze completion rates and statistics.
+
+*Syntax:*
+[source,discord]
+----
+/runaudit runtype:<ba|drs> timerange:<week1|week2|month1|month3> [ephemeral:true]
+----
+
+*Parameters:*
+
+* **runtype** (required) - Select BA or DRS
+* **timerange** (required) - Time period to audit:
+  - `week1` - Last 1 week
+  - `week2` - Last 2 weeks
+  - `month1` - Last 1 month
+  - `month3` - Last 3 months
+* **ephemeral** (optional) - Show results only to you (default: false for staff, true for others)
+
+*Statistics Provided:*
+
+* Total runs scheduled
+* Completed runs
+* Cancelled runs
+* Success rate percentage
+* Runs by raid leader (breakdown)
+* Runs by type (Fresh, Reclear, etc.)
+* Average party fill rate
+
+*Cooldown:*
+
+* 5-minute cooldown per user
+* Prevents spam and database load
+* Cooldown bypassed for staff with ephemeral=false
+
+*Example Output:*
+
+[source]
+----
+📊 BA Run Audit - Last 1 Month
+
+Total Runs: 45
+├─ Completed: 38 (84.4%)
+├─ Cancelled: 7 (15.6%)
+└─ Success Rate: 84.4%
+
+Top Raid Leaders:
+1. @RaidLeader1 - 15 runs (13 completed)
+2. @RaidLeader2 - 12 runs (11 completed)
+3. @RaidLeader3 - 10 runs (9 completed)
+
+Run Types:
+├─ Fresh Prog: 18 runs
+├─ Reclear: 20 runs
+└─ Practice: 7 runs
+----
+
+TIP: Use this command to track community activity and identify trends!
+
+---
+
+=== /manage-run
+
+Manage your scheduled raid runs as a raid leader. View, edit, or cancel your upcoming runs.
+
+*Syntax:*
+[source,discord]
+----
+/manage-run
+----
+
+*Who can use this:*
+
+* Raid leaders can manage their own runs
+* Staff members can manage any user's runs
+
+*Features:*
+
+**View Your Runs:**
+
+* Lists all your upcoming scheduled runs (BA, FT, DRS)
+* Shows run details, current signups, and status
+
+**Edit Runs:**
+
+* Change run time
+* Update description
+* Modify party configuration (FT only)
+* Toggle signup availability
+
+**Cancel Runs:**
+
+* Cancel runs with notification to all signups
+* Removes run from schedule
+* Sends DMs to affected users
+
+**Run Information:**
+
+* View detailed signup lists
+* Check party composition
+* See reserve queue
+* Export roster data
+
+*How to use:*
+
+1. Run `/manage-run`
+2. If raid leader: Bot shows your runs
+3. If staff: Select a user first, then their runs
+4. Select the run you want to manage from dropdown
+5. Choose the action to perform
+
+*Example Run Selection:*
+[source]
+----
+Select a run to manage:
+
+▸ FT - May 5, 8:00 PM EDT (12 signups, 6 parties)
+▸ BA - May 7, 6:00 PM EDT (Fresh Prog, 5 PLs signed)
+▸ DRS - May 9, 4:00 PM EDT (Reclear, 18 signups)
+----
+
+NOTE: Cancelling a run sends automatic notifications to the applicable channel!
+
+---
+
+== Context Menu Commands
+
+Context menu commands are accessed by right-clicking (desktop) or long-pressing (mobile) on messages.
+
+=== Set/Remove Reminder
+
+Set or remove a personal reminder for a scheduled run. Bot will DM you 90 minutes before the run starts.
+
+*How to use:*
+
+1. Right-click a run announcement message
+2. Navigate to **Apps** menu
+3. Select **Set/Remove Reminder**
+4. Confirm in the DM interaction
+
+*Features:*
+
+* Works for both BA/DRS and FT runs
+* 90-minute advance notification
+* Includes run details in reminder DM
+* Shows available spots and current signup status
+* One-click removal from reminders
+* Manages multiple reminders via Reminder Manager button
+
+*Reminder Content:*
+
+[source]
+----
+⏰ Run Reminder - 90 Minutes Warning
+
+Forked Tower Run
+Starts: May 5, 2026 8:00 PM EDT (in 90 minutes)
+Raid Leader: @RaidLeader
+
+Current Status: 35/48 signups (13 spots available)
+
+Thread: [Click here to view]
+----
+
+*Disclaimer:*
+
+Reminders are sent on a best-effort basis. Bot restarts or technical issues may prevent delivery.
+
+---
+
+=== Manage Run
+
+Quick access to run management interface via context menu.
+
+*How to use:*
+
+1. Right-click a run announcement message
+2. Navigate to **Apps** menu  
+3. Select **Manage Run**
+4. Access management options (if authorized)
+
+*Requirements:*
+
+* Must be the raid leader of the run, or
+* Must have staff permissions
+
+*Functionality:*
+
+Same as `/manage-run` command but faster access from the run message directly.
+
+---
+
+== Understanding Run Types
+
+=== Baldesion Arsenal (BA)
+
+**Structure:**
+
+* 6 main parties (Party A-F) led by party leaders
+* 1 support party (Party S) - optional
+* Special roles: Perception (trap detection), Spirit Dart (damage mitigation)
+
+**Signup Process:**
+
+* Party leaders sign up via party leader buttons
+* Support party spots are separate
+* Perception and Spirit Dart signups available
+* Plus-one system for first-timers
+
+**Party Assignment:**
+
+* Not automatically assigned
+* Raid leader manages party composition
+* Party friends system helps group preferences
+
+---
+
+=== Forked Tower (FT)
+
+**Structure:**
+
+* 4-6 parties (configurable)
+* Role-based composition (e.g., 1 tank, 2 heals, 5 DPS per party)
+* Party A-F with Left/Right side assignments
+
+**Signup Process:**
+
+1. Sign up via thread buttons
+2. Select your available roles (can select multiple)
+3. System tracks signups vs. available slots
+4. Reserve queue activates when full
+
+**Role Selection:**
+
+* Tank
+* Healer
+* Healer(Shield)
+* DPS(Melee)
+* DPS(Phys Ranged)
+* DPS(Caster)
+* DPS(Flex) - Can fill any DPS role
+
+**Roster Distribution:**
+
+* Automatic roster distribution by raid leader
+* Algorithm assigns roles based on needs
+* Party friends are grouped when possible
+* Phantom job preferences considered
+* Reserve players fill dropouts
+
+---
+
+=== Delubrum Reginae Savage (DRS)
+
+**Structure:**
+
+* 48-player alliance (6 parties of 8)
+* Role-based composition per party
+* Similar to FT but larger scale
+
+**Signup Process:**
+
+* Role selection required
+* Tracks Essence/Lost Action requirements
+* Roster assignment before run
+
+**Special Considerations:**
+
+* Strict role requirements
+* Reclear-only runs may require proof
+* More complex mechanics require coordination
+
+---
+
+== Signup Systems
+
+=== Internal Signups (FT & DRS)
+
+**How it works:**
+
+* Click signup button in run thread
+* Select your available roles from dropdown
+* Bot confirms your signup
+* View your signup status anytime with `/my-signups`
+
+**Reserve System:**
+
+When run is full:
+
+* Additional signups go to reserve queue
+* Reserves are numbered (Reserve #1, #2, etc.)
+* Auto-promoted when spots open
+* Notification sent when moved from reserve to active
+
+**Withdrawing:**
+
+* Click "Remove Sign-up" button in thread, or
+* Use `/my-signups` to withdraw from any run
+* Instant confirmation
+* Next reserve auto-promoted
+
+---
+
+=== External Signups
+
+**How it works:**
+
+* Raid leader provides external link (Google Sheets, etc.)
+* Bot announcement includes signup link
+* Raid leader manages roster externally
+* Bot can still track and announce the run
+
+**Limitations:**
+
+* No automatic roster distribution
+* No reserve queue management
+* Manual party assignment required
+
+---
+
+== Troubleshooting
+
+**Command not responding?**
+
+* Verify bot is online (green status)
+* Check you're in the correct channel
+* Some commands require specific roles (raid leader, staff)
+* Try again after a moment - Discord may be experiencing issues
+
+**Can't sign up for FT run?**
+
+* Check if signups are closed
+* Verify you're not blacklisted (command will tell you)
+* Run may be at capacity with full reserves
+* Ensure you've selected at least one role
+
+**Reminder not received?**
+
+* Check your DM settings allow messages from server members
+* Bot must be able to DM you (test with `/forked-preferences`)
+* Reminders sent 90 minutes before - check timing
+* Bot restarts may prevent delivery (rare)
+
+**Natural language time not parsing?**
+
+* Include timezone if outside Eastern Time
+* Use common formats: "May 5 at 8pm EST"
+* Fall back to explicit format: "2026-05-05 20:00"
+* Check AM/PM specification
+
+**Can't manage my run?**
+
+* Verify you're the raid leader for that run
+* Use `/manage-run` not right-click if thread was deleted
+* Contact staff if run is showing as someone else's
+
+---
+
+== Tips & Best Practices
+
+**For Scheduling:**
+
+* Use natural language time input for convenience ("tomorrow 8pm", "next Friday 3pm pacific")
+* Include detailed descriptions - helps attract signups
+* Set passcode ahead of time to avoid last-minute changes
+* Post announcements at least 24-48 hours ahead for best turnout
+
+**For Signups:**
+
+* Sign up early - popular runs fill quickly
+* Select all roles you can play to increase acceptance chances
+* Set party friends early for better grouping
+* Use `/my-signups` regularly to track your commitments
+* Withdraw ASAP if you can't make it - helps reserves get promoted
+
+**For Raid Leaders:**
+
+* Use `/manage-run` to keep tabs on signup progress
+* Distribute rosters 1-2 hours before run for best attendance
+* Consider party friend preferences when manually adjusting
+* Cancel early if you can't lead - give people time to adjust
+
+**For BA Runs:**
+
+* Set party friends to ensure you're with experienced players
+* Sign up for perception/spirit dart early if comfortable
+* Plus-one system is for first clear only - don't abuse it
+* Check `/ba_toolbox` for mechanics refreshers before run
+
+**For FT Runs:**
+
+* Keep phantom job preferences updated
+* Select flexible roles to improve party placement
+* Vote in `/prog-point-poll` to influence community focus
+* Check thread frequently as run time approaches
+
+**For Reminders:**
+
+* Set reminders for runs 2+ days out - easy to forget
+* Use Reminder Manager to view all reminders in one place
+* Ensure bot can DM you (check privacy settings)
+* Don't rely solely on reminders - check schedule regularly
+
+---
+
+== Related Documentation
+
+* xref:user-guide/getting-started.adoc[Getting Started with Proto-Ozma]
+* xref:user-guide/signup-guide.adoc[Comprehensive Signup Guide]
+* xref:user-guide/raid-leader-guide.adoc[Raid Leader Guide]
+* xref:features/ba-scheduling.adoc[BA Scheduling System]
+* xref:features/ft-role-system.adoc[FT Role Assignment Algorithm]
+* xref:features/streak-system.adoc[Attendance Streak System]
+
+---
+
+== Support
+
+Need help with Proto-Ozma commands?
+
+* Check this documentation first
+* Ask in #bot-help channel
+* Contact staff via ModMail for private issues
+* Report bugs to bot administrators
+* Suggest features in feedback channels
+
+---
+
+_Last updated: April 29, 2026_

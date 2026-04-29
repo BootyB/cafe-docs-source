@@ -1,0 +1,10 @@
+= A La Carte
+:page-slug: joining-raids
+:page-title: How to Join Raids
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-04-28

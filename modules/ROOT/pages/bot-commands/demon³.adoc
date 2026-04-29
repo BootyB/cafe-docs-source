@@ -1,0 +1,212 @@
+= Demon³ Bot Commands
+:page-slug: Demon³ Bot Commands
+:page-title: Demon³ Bot Commands
+:page-audience: normal-users
+:page-category: bot-commands
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #bot-help
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+Complete reference for all bot commands.
+
+== Quick Reference
+
+[cols="2,3"]
+|===
+|Command |Description
+
+|`/d20`
+|Roll a 20-sided die with physics simulation
+
+|`/alison`
+|Send a heartfelt message
+
+|`/eorzeatime`
+|Display current Eorzean, Server, and Local times
+
+|`/tictactoe`
+|Play tic-tac-toe with another player
+|===
+
+== Detailed Command Reference
+
+=== /d20
+
+Roll a 20-sided die with realistic physics simulation.
+
+*Syntax:*
+[source,discord]
+----
+/d20
+----
+
+*Examples:*
+
+[source,discord]
+----
+/d20
+/d20 animated:true
+----
+
+*Response:*
+
+The bot simulates a realistic dice roll using physics including:
+
+* Initial throw velocity and spin
+* Bounce physics and trajectory
+* Environmental factors (temperature, humidity from real sensors)
+* Playing surface dimensions
+* Settling time and stability
+
+*Special Results:*
+
+* **Natural 20 (Critical Success)** - Green embed with success message
+* **Natural 1 (Critical Fail)** - Red embed with fail image
+
+*Roll Analysis includes:*
+
+* Throw statistics (speed, rotations, bounces)
+* Real-time room conditions (temperature, humidity)
+* Table effects and throw style
+* Final stability percentage
+* Environmental impact on dice movement
+
+NOTE: Room conditions are fetched from real environmental sensors when available!
+
+---
+
+=== /alison
+
+Send a heartfelt (or not so heartfelt) message to a specific user.
+
+*Syntax:*
+[source,discord]
+----
+/alison
+----
+
+*Response:*
+
+Sends a ping with a random message. Messages vary based on the user and include:
+
+* Heartfelt compliments and encouragement
+* Positive affirmations
+* Humorous or sassy messages (for specific users)
+
+*Usage tracking:*
+
+* Tracks pings per user per day
+* Stores 30 days of history
+* Auto-cleanup of old data
+
+---
+
+=== /eorzeatime
+
+Display the current time in Eorzea (FFXIV), Server Time (UTC), and your Local Time.
+
+*Syntax:*
+[source,discord]
+----
+/eorzeatime
+----
+
+*Response:*
+
+Shows a live-updating message with:
+
+* **Server Time (UTC)** - FFXIV server time
+* **Eorzea Time** - In-game Eorzean time
+* **Local Time** - Your local timezone
+
+The message updates automatically every Eorzean minute (~3 seconds).
+
+NOTE: The message will continue updating in real-time for 10min.
+
+---
+
+=== /tictactoe
+
+Start a game of tic-tac-toe with another player.
+
+*Syntax:*
+[source,discord]
+----
+/tictactoe
+----
+
+*How it works:*
+
+1. Run `/tictactoe` to start
+2. Select your opponent from the user menu
+3. Bot randomly assigns X and O
+4. Players take turns clicking buttons on the game board
+5. First to get three in a row wins!
+
+*Response includes:*
+
+* Visual game board with button interface
+* Current turn indicator
+* Player assignments (X and O)
+* Win/draw detection
+
+*Restrictions:*
+
+* Cannot play against yourself
+* Cannot play against bots
+* Only one game per player pair at a time
+
+---
+
+== Context Menu Commands
+
+=== Toggle Pin
+
+Pin or unpin a message quickly.
+
+*Usage:*
+
+1. Right-click (desktop) or long-press (mobile) a message
+2. Navigate to **Apps** menu
+3. Select **Toggle Pin**
+
+*Response:*
+
+Toggles the pin status of the selected message.
+
+---
+
+== Troubleshooting
+
+**Command not responding?**
+
+* Verify the bot is online (green status indicator)
+* Check you have required roles/permissions
+* Try using the command in an appropriate channel
+* Some commands may be temporarily disabled
+
+---
+
+== Related Documentation
+
+* xref:user-guide/getting-started.adoc[Getting Started Guide]
+* xref:admin-guide/modmail-setup.adoc[ModMail Setup Guide]
+* xref:admin-guide/lodestone-config.adoc[Lodestone Configuration]
+* xref:features/d20-physics.adoc[D20 Physics Engine Documentation]
+
+---
+
+== Support
+
+Need help with a command?
+
+* Check this documentation first
+* Ask in #bot-help channel
+* Contact staff via ModMail for private issues
+* Report bugs to bot administrators
+
+---
+
+_Last updated: April 29, 2026_

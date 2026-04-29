@@ -1,0 +1,667 @@
+= How to Join Scheduled Runs (BA, FT, DRS)
+:page-slug: joining-scheduled-runs
+:page-title: How to Join BA, FT, and DRS Runs
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+Complete step-by-step guide for joining Baldesion Arsenal (BA), Forked Tower (FT), and Delubrum Reginae Savage (DRS) runs through CAFE's Proto-Ozma scheduling system.
+
+== Overview
+
+Proto-Ozma manages scheduled raid runs with different signup methods depending on the content type:
+
+* **Baldesion Arsenal (BA)** - FFA passcode drop with Party leader signup system
+* **Forked Tower (FT)** - Role-based internal/external signups with reserves
+* **Delubrum Reginae Savage (DRS)** - Role-based internal/external signups similar to FT
+
+This guide walks you through finding and joining runs for each type.
+
+== Finding Scheduled Runs
+
+=== Check Schedule Channels
+
+Runs are posted in dedicated schedule channels:
+
+* `#ba-schedule` - Baldesion Arsenal runs
+* `#ft-schedule` - Forked Tower runs
+* `#drs-schedule` - Delubrum Reginae Savage runs
+ext install asciidoctor.asciidoctor-vscode
+=== Run Announcement Format
+
+Each run announcement includes:
+
+[source]
+----
+🗓️ Forked Tower Run
+⏰ May 5, 2026 @ 8:00 PM EDT
+👤 Raid Leader: @RaidLeaderName
+📋 Type: Fresh/AnyProg
+
+Description:
+Working on final boss mechanics, looking for consistent players!
+
+Signup Thread: [Link]
+----
+
+**Key Information:**
+
+* **Date/Time** - When the run starts (timezone included)
+* **Raid Leader** - Who's organizing the run
+* **Type** - Fresh prog, reclear, non-standard, etc.
+* **Composition** - Party structure (FT/DRS only)
+* **Thread/Signup Link** - Where to sign up
+
+TIP: Set a reminder! Right-click the announcement → Apps → "Set/Remove Reminder"
+
+== Joining Baldesion Arsenal (BA) Runs
+
+BA uses a **party leader signup system** where you sign up for specific party positions.
+
+=== Step 1: Understand BA Structure
+
+BA runs consist of:
+
+* **6 Main Parties** (Earth, Wind, Water, Fire, Lightning, Ice)
+  - Each party has 1 Party Leader + 7 members
+  - 48 players total in main parties
+
+* **1 Support Party** (Party S) - Optional
+  - Supports main parties during encounters
+  - Usually 8 players
+
+* **Special Roles**
+  - **Perception** - Trap detection (uses Perception action)
+  - **Spirit Dart** - Raid damage buff (uses Spirit Dart action)
+
+=== Step 2: Check the Schedule
+
+Find a run that works for you using the schedule.
+
+* Note the run time
+* Be ready before it starts
+* Make sure you’re available for the full duration
+
+=== Step 3: Wait for the Password Ping
+
+**30 Minutes Before the Run:**
+
+* The passcode will be posted in `#arsenal-passwords`
+* Keep an eye on the channel so you don’t miss it
+
+=== Step 4: Get Into the Run
+
+**Before the run starts:**
+
+* Be in Kugane and ready
+* Open Party Finder
+
+**At Run Time:**
+
+1. Use the posted passcode to enter Baldesion Arsenal
+2. Join any available party in Party Finder (A–F or Support)
+3. Parties are free-for-all unless instructed otherwise
+4. Follow your party leader once inside
+
+=== Step 5: Optional — Party Leader Signups
+
+If you want to lead a party:
+
+1. Go to `#arsenal-party-leads`
+2. Find your run
+3. Use the dropdown to select a party (A–F or Support)
+
+The bot will update the embed with your name.
+
+NOTE: The only button is for removing your signup.
+
+=== Step 6: Party Leader Timing (For Reference)
+
+* **55 Minutes Before:** Party leaders receive the passcode to set up Party Finder
+* **30 Minutes Before:** Passcode is posted publicly in `#arsenal-passwords`
+
+=== Step 7: Need Help Getting In?
+
+**Option 1: Use Plus-One (First Clear Only)**
+
+[source,discord]
+----
+/plusone
+----
+
+1. Run the command
+2. Select your run
+3. Wait for approval
+
+IMPORTANT: Plus-one is for first clears only.
+
+**Option 2: Contact a Raid Leader**
+
+* DM the raid leader
+* Ask if there’s space
+
+**Option 3: Join Support Party**
+
+* Often more flexible
+* Good option for newer players
+
+== Joining Forked Tower (FT) Runs
+
+FT uses **role-based internal signups** with automatic roster management.
+
+=== Step 1: Understand FT Structure
+
+FT runs consist of:
+
+* **4-6 Parties** (typically 6) - Party A through F
+* **Role Composition** - Usually 1 tank, 2 healers, 5 DPS per party
+* **Side Assignments** - Left (A, D, E) vs Right (B, C, F) for positioning
+* **Party Leads** - Each party has a designated leader
+
+Total slots: 48 players (6 parties × 8 players) or 32 players (4 parties × 8 players)
+
+=== Step 2: Find the Signup Thread
+
+Each FT run creates a Discord thread:
+
+1. Look for the thread link in the announcement
+2. Or find it in the channel's active threads
+3. Thread name format: `[RL Name]'s FT Run - [Date/Time]`
+
+=== Step 3: Review Signup Status
+
+The thread contains a status embed:
+
+[source]
+----
+📊 Forked Tower Signups
+Run Time: May 5, 2026 @ 8:00 PM EDT
+
+Signups: 35 / 48
+Reserves: 3
+
+Available Slots by Role:
+├─ Tank: 2 / 6
+├─ Healer: 1 / 12
+├─ Healer(Shield): Open
+├─ DPS(Melee): 8 / 12
+├─ DPS(Phys Ranged): 5 / 12  
+├─ DPS(Caster): 4 / 12
+└─ DPS(Flex): 7 / 12
+
+Status: ✅ Signups Open
+----
+
+**What This Tells You:**
+
+* How many spots are available
+* Which roles are needed most
+* If signups are open or closed
+* Reserve queue status
+
+=== Step 4: Sign Up
+
+Click the **"✅ Sign Up"** button in the thread.
+
+**Role Selection Modal Appears:**
+
+[source]
+----
+Select your available roles:
+☐ Tank
+☐ Healer
+☐ Healer(Shield)
+☐ DPS(Melee)
+☐ DPS(Phys Ranged)
+☐ DPS(Caster)
+----
+
+**Role Selection Tips:**
+
+* ✅ **Select all roles you can play** - Increases your chances of getting in
+* ✅ **DPS(Flex)** - Can fill any DPS slot, very valuable
+* ✅ **Multiple roles** - Makes roster distribution easier
+* ❌ Don't select roles you can't actually play
+* ❌ Don't select roles you're not comfortable with
+
+**After Submitting:**
+
+* Bot confirms your signup
+* You're added to either active signups or reserve queue
+* Status embed updates with new counts
+
+=== Step 5: Understanding Reserve System
+
+**If Run is Full:**
+
+[source]
+----
+You've been added to the reserve queue!
+Position: Reserve #3
+
+You'll be automatically promoted if spots open.
+You'll receive a notification if promoted to active.
+----
+
+**Reserve Queue Rules:**
+
+* Reserves are numbered in order of signup
+* Auto-promoted when active players withdraw
+* Notification sent when promoted
+* Can withdraw at any time
+
+**Checking Your Status:**
+
+[source,discord]
+----
+/my-signups
+----
+
+Shows all your signups with current status (Active, Reserve, Party Assignment)
+
+=== Step 6: Set Your Phantom Job Preferences
+
+Help the roster system place you optimally:
+
+[source,discord]
+----
+/forked-preferences
+----
+
+1. Select "Set Phantom Jobs"
+2. Choose your preferred jobs for Phantom Rush
+3. System considers these during roster creation
+4. Helps optimize party composition
+
+TIP: Keep these updated as your job preferences change!
+
+=== Step 7: Before the Run
+
+**When Raid Leader Distributes Roster:**
+
+You'll receive a DM or ping with:
+
+[source]
+----
+🎯 FT Roster Assignment
+
+Run: May 5, 2026 @ 8:00 PM EDT
+Your Assignment:
+├─ Party: Party B (Right Side)
+├─ Role: DPS(Melee)
+└─ Party Lead: @PartyLeadName
+
+Thread: [Click here]
+----
+
+**1 Hour Before Run:**
+
+* ✅ Review your party assignment
+* ✅ Join the FT voice channel
+* ✅ Check the thread for updates
+* ✅ Ensure you have appropriate job ready
+* ✅ Review mechanics if needed
+
+**At Run Time:**
+
+* Enter Forked Tower using the provided passcode
+* Find your party letter (A-F)
+* Note your side (Left or Right)
+* Follow party lead instructions
+* Coordinate with your party in voice
+
+=== Step 8: During the Run
+
+**Party Communication:**
+
+* Stay in voice chat with your party
+* Listen to party lead callouts
+* Coordinate cooldowns and mechanics
+* Call out if you need help
+
+**If You Need to Leave:**
+
+1. Notify your party lead immediately
+2. Unsign from the thread (click "Unsign" button)
+3. Bot notifies raid leader of withdrawal
+
+**After Completion:**
+
+* Your attendance is recorded
+* Streak counter increments (check with `/ft-streaks`)
+* Can sign up for future runs
+
+== Joining DRS Runs
+
+DRS uses a similar system to FT with some differences.
+
+=== Step 1: Understand DRS Structure
+
+DRS runs consist of:
+
+* **6 Parties** (Party A through F)
+* **8 Players per Party** (48 total)
+* **Role Composition** - Typically 2 tanks, 2 healers, 4 DPS per party
+* **Lost Actions Required** - Specific loadouts needed
+
+=== Step 2: Check Requirements
+
+DRS runs may have specific requirements:
+
+* **Reclear-only** - Must have previous clear
+* **Essence Requirements** - Specific essences needed
+* **Lost Action Requirements** - Required actions for your role
+* **Item Level** - Usually i435+ with augmented gear
+
+**Proof of Clear:**
+
+Reclear runs may ask for:
+
+* Achievement verification
+* Previous run attendance
+* Raid leader reference
+
+=== Step 3: Sign Up Process
+
+Same as FT:
+
+1. Find the signup thread
+2. Click "Sign Up" button  
+3. Select your available roles
+4. Wait for confirmation
+
+**Role Options:**
+
+* Tank
+* Healer
+* DPS(Melee)
+* DPS(Phys Ranged)
+* DPS(Caster)
+
+=== Step 4: Prepare Your Lost Actions
+
+**Before the run, prepare:**
+
+* Check raid leader's required lost actions list
+* Farm fragments if needed
+* Ensure you have the right essence
+* Practice your rotation with the loadout
+
+**Common DRS Lost Actions:**
+
+* **Tanks**: Lost Rampage, Lost Focus
+* **Healers**: Lost Seraph Strike, Lost Excellence
+* **DPS**: Lost Font of Magic/Power, Lost Slash/Shot
+
+=== Step 5: Before the Run
+
+**After Roster Distribution:**
+
+* ✅ Review your party and role assignment
+* ✅ Equip appropriate essence
+* ✅ Load your required lost actions
+* ✅ Join DRS voice channel
+* ✅ Check in with party lead
+
+**At Run Time:**
+
+* Enter DRS using provided passcode
+* Find your assigned party
+* Confirm lost actions with party lead
+* Follow pull countdown and strategy
+
+== Managing Your Signups
+
+=== View All Your Signups
+
+[source,discord]
+----
+/my-signups
+----
+
+**Shows:**
+
+* All upcoming runs you're signed up for
+* Your role selections
+* Party assignments (if distributed)
+* Signup status (Active, Reserve, or specific slot)
+
+**Quick Actions:**
+
+* Withdraw from specific runs
+* See run details
+* Check time until run starts
+
+=== Withdraw from a Run
+
+**Method 1: My Signups Command**
+
+[source,discord]
+----
+/my-signups
+----
+
+1. Select run from dropdown
+2. Click "Withdraw"
+3. Confirm withdrawal
+
+**Method 2: Thread Button**
+
+1. Go to the run's signup thread
+2. Click "Unsign" button
+3. Confirm withdrawal
+
+**What Happens:**
+
+* You're removed from signups
+* Next reserve is auto-promoted
+* Raid leader is notified
+* Status embed updates
+
+IMPORTANT: Withdraw ASAP if you can't make it! Helps reserves get promoted in time.
+
+=== Update Your Roles (FT/DRS Only)
+
+If you need to change your role selections:
+
+1. Withdraw from the run
+2. Sign up again with updated roles
+3. Your new selections are recorded
+
+NOTE: You may lose your position in line if run is full!
+
+== Setting Up Reminders
+
+Never miss a run with personal reminders!
+
+=== Set a Reminder
+
+**Method 1: Context Menu**
+
+1. Right-click the run announcement
+2. Apps → "Set/Remove Reminder"
+3. Confirm in the interaction
+
+**Method 2: Reminder Manager**
+
+1. Look for "⏰ Reminder Manager" button (usually in FT threads)
+2. Click to view all your reminders
+3. Add new reminders via dropdown
+
+=== How Reminders Work
+
+* Bot DMs you **90 minutes before** the run starts
+* Includes run details and current status
+* Shows available spots and signup info
+* Works for BA, FT, and DRS runs
+
+**Example Reminder:**
+
+[source]
+----
+⏰ Run Reminder - 90 Minutes Warning
+
+Forked Tower Run
+Starts: May 5, 2026 8:00 PM EDT (in 90 minutes)
+Raid Leader: @RaidLeaderName
+
+Your Status: Active - Party B (Right Side)
+Role: DPS(Melee)
+
+Current Signups: 47/48 (1 spot available)
+
+Thread: [Click here to view]
+----
+
+=== Remove a Reminder
+
+Same as setting one:
+
+1. Right-click announcement → Apps → "Set/Remove Reminder"
+2. Or use Reminder Manager to bulk remove
+
+== Tips for Success
+
+=== General Tips
+
+* ✅ **Sign up early** - Popular runs fill quickly
+* ✅ **Be flexible** - Select multiple roles to increase chances
+* ✅ **Set reminders** - Don't forget about runs 2-3 days out
+* ✅ **Communicate** - Contact raid leader if you have questions
+* ✅ **Withdraw early** - If you can't make it, withdraw ASAP
+* ✅ **Stay updated** - Check thread regularly as run time approaches
+
+=== BA-Specific Tips
+
+* Set party friends early for better grouping
+* Review `/ba_toolbox` mechanics before first run
+* Bring appropriate logos actions for your role
+* Listen to party leader - they're responsible for 8 people
+* Support party is great for learning
+
+=== FT-Specific Tips
+
+* Select DPS(Flex) if you can play multiple DPS jobs
+* Keep phantom job preferences updated
+* Track your streaks for motivation (`/ft-streaks`)
+* Vote in prog polls to influence community focus (`/prog-point-poll`)
+* Check thread 30 minutes before for last-minute changes
+
+=== DRS-Specific Tips
+
+* Farm fragments ahead of time
+* Practice lost action rotations before run
+* Reclear runs move fast - know mechanics
+* Bring appropriate essences for your role
+* Have backup lost actions in case of death
+
+== Frequently Asked Questions
+
+**Q: Can I sign up for multiple runs at the same time?**
+
+A: Yes! Use `/my-signups` to track all your commitments. Just make sure times don't overlap.
+
+**Q: What if I'm on reserve and the run fills up?**
+
+A: Stay on reserve! People drop out frequently. You'll be auto-promoted and notified.
+
+**Q: Can I change my role selection after signing up?**
+
+A: Yes, but you need to withdraw and sign up again. You may lose your spot if run is full.
+
+**Q: How do party friends work?**
+
+A: Set them with `/forked-preferences`. System tries to place you together, but can't guarantee it. Mutual preferences have higher priority.
+
+**Q: What if I sign up but can't make it?**
+
+A: Withdraw ASAP using `/my-signups` or the thread's Unsign button. Helps reserves get promoted.
+
+**Q: Can I be blacklisted from signups?**
+
+A: Yes, repeated no-shows or disruptive behavior can result in signup restrictions. Contact staff if you believe this is an error.
+
+**Q: How do I know if I got into a run?**
+
+A: Check the signup status embed in the thread, or use `/my-signups`. You'll see "Active" or "Reserve #X".
+
+**Q: When are rosters distributed?**
+
+A: Usually 1-2 hours before run time. You'll receive a DM or ping with your assignment.
+
+**Q: What if I don't get a roster assignment?**
+
+A: Check the thread - raid leader may post assignments there. If still missing, DM the raid leader.
+
+**Q: Can I request a specific party or party lead?**
+
+A: Not directly, but party friends system helps. For specific requests, contact the raid leader via DM.
+
+**Q: What's the difference between DPS(Flex) and selecting all DPS roles?**
+
+A: DPS(Flex) specifically signals you can fill any DPS slot as needed. Selecting all roles is similar but may be less clear to the roster system.
+
+**Q: Do I need Discord Nitro to join runs?**
+
+A: No, but you need to be able to join voice channels and receive DMs from the bot.
+
+== Troubleshooting
+
+**Can't click signup button:**
+
+* Signups may be closed - check status embed
+* You may be blacklisted - command will tell you
+* Thread may be archived - ask raid leader to unarchive
+* Bot may be experiencing issues - wait and try again
+
+**Didn't receive reminder:**
+
+* Check DM privacy settings - bot must be able to DM you
+* Reminder sends 90 minutes before - check timing
+* Test with `/forked-preferences` to verify DMs work
+* Bot restarts can prevent delivery (rare)
+
+**Don't see my signup in the list:**
+
+* Use `/my-signups` to verify it registered
+* Check if you're on reserve queue
+* Thread embed may be updating slowly
+* Contact raid leader if confirmed missing
+
+**Can't select a role:**
+
+* That role may be full - check available slots
+* You may need to select multiple roles
+* Modal may have timed out - try again
+
+**Roster wasn't distributed:**
+
+* Raid leader distributes manually - may be delayed
+* Check thread for announcements
+* DM raid leader if less than 30 minutes to start
+
+== Related Documentation
+
+* xref:bot-commands/proto-ozma.adoc[Proto-Ozma Bot Commands Reference]
+* xref:user-guide/role-selection.adoc[Understanding Role Selection]
+* xref:features/ba-system.adoc[BA System Deep Dive]
+* xref:features/ft-signup-system.adoc[FT Signup System Guide]
+* xref:features/streak-system.adoc[Attendance Streak Tracking]
+
+== Support
+
+Need help joining a run?
+
+* Check this guide first
+* Ask in #bot-help channel
+* Contact the raid leader directly via DM
+* Contact staff via ModMail for issues
+* Report bugs to bot administrators
+
+---
+
+_Last updated: April 29, 2026_

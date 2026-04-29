@@ -1,0 +1,13 @@
+= DRS Resources
+:page-slug: drs-resources
+:page-title: Delubrum Savage Resources
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #drs-resources
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+== Raid Resources
+

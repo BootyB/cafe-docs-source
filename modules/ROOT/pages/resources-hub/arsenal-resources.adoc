@@ -1,0 +1,24 @@
+= Arsenal Resources
+:page-slug: arsenal-resources
+:page-title: Arsenal Resources
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #arsenal-resources
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+== Baldesion Arsensal Resources
+
+[link=https://tinyurl.com/Portals-BA]
+image::hydatos-portal-map.png[BA Portals Map]
+
+:hide-uri-scheme:
+http://tinyurl.com/Timeline-BA
+
+[link=https://ffxiv-eureka.com/BA-visual-guide.pdf]
+image::ba-visual-guide.png[The Baldesion Arsenal-a visual guide]
+
+
+== Specific Job Guides

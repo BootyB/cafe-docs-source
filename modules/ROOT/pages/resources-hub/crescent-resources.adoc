@@ -1,0 +1,14 @@
+= The Occult Crescent
+:page-slug: crescent-resources
+:page-title: The Occult Crescent
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #crescent-resources
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+== South Horn
+
+== North Horn

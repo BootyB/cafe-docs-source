@@ -1,0 +1,16 @@
+= Tower of Forks
+:page-slug: forked-resources
+:page-title: The Occult Crescent
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #forked-resources
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+== The Forked Tower: Blood
+
+
+== The Forked Tower: Ice
+

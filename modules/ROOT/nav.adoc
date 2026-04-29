@@ -1,0 +1,23 @@
+* xref:index.adoc[Home]
+
+.Cheeky's Stuff
+* xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
+
+.Start Here
+* xref:start-here/getting-started.adoc[Getting Started]
+
+.User Guide
+* xref:user-guide/joining-scheduled-runs.adoc[Joining Raids]
+
+.Bot Commands
+* xref:bot-commands/demon³.adoc[Demon³ Slash Commands]
+* xref:bot-commands/proto-ozma.adoc[Proto-Ozma Slash Commands]
+
+.Resources Hub
+* xref:resources-hub/crescent-resources.adoc[Crescent Resources]
+* xref:resources-hub/forked-resources.adoc[Forked Resources]
+* xref:resources-hub/bozja-resources.adoc[Bozja Resources]
+* xref:resources-hub/eureka-resources.adoc[Eureka Resources]
+* xref:resources-hub/drs-resources.adoc[DRS Resources]
+* xref:resources-hub/arsenal-resources.adoc[Arsenals Resources]
+

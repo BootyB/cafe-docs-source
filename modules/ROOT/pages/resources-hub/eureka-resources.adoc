@@ -1,0 +1,12 @@
+= Eureka Resources
+:page-slug: eureka-resources
+:page-title: Eureka Resources
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #eureka-resources
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+== The Fobidden Land, Eureka

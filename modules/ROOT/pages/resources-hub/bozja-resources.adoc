@@ -1,0 +1,12 @@
+= Bozja Resources
+:page-slug: bozja-resources
+:page-title: Save the Queen: Blades of Gunnhildr
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #bozja-resources
+:page-owner: @docs-team
+:page-last-updated: 2026-04-29
+
+== Bozjan and Zandor Resources
