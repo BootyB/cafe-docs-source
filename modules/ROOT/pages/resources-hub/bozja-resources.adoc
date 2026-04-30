@@ -9,4 +9,58 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-04-29
 
-== Bozjan and Zandor Resources
+== Basic Resource Links
+---
+
+https://www.reddit.com/r/ffxiv/comments/om3l6k/i_updated_my_map_of_the_bozjan_southern_front_as/[Bozjan Southern Front and Zandor Map] (Credit: RaidenMatsui - Reddit: u/RaidenMatsui)
+
+https://docs.google.com/spreadsheets/d/1P-BB75bAYytcYpPXPrgXkvWg_Xvs7_TwloE9tz9cxS0/edit?gid=1623371440#gid=1623371440[Bozja Guides] (Credit: By: Ybolg Shebibolg)
+
+https://docs.google.com/document/d/1zl-Z99fF1x8uhZwk9ewW4Q5UcR2dLLS_zzxQSRFWQNM/edit?tab=t.0[Bozja Information] (Credit: Ylandah)
+
+https://ffxiv.kmiwl.de/bozja/[Lost Actions] (Credit: Kmiwl)
+
+https://docs.google.com/document/d/1x6Yf8ewBXAPt0nMXt0gFPVjaby_KrTx-W4Zjal-I_Yg/edit?tab=t.0[Zandor CE Battle Guide] (Credit: u/Ylandah (For layout), The Geek and Hermit & Mrhappy1227 (For CE guides))
+
+https://docs.google.com/presentation/d/1IXJalAFUasymj1nIxfF2ihi4wR7MpetGHJO41kgqZa4/edit?slide=id.p#slide=id.p[CLL and Dal Strategies+Holsters] (Credit: Celliera Tsukemeownya)
+
+https://docs.google.com/spreadsheets/d/15VOR-2mV-vJUaptjEQRKQzommbh7T02K69wsb0UXq_U/edit?gid=0#gid=0[Boza Scaling] (Credit: celery)
+
+https://docs.google.com/document/d/1nDnR3vjzUqkx30JbzPZE2oNZoFSIQfv3D3kRW2vGZ5I/edit?tab=t.0[CLL/Dal Spawning Logic] (credit: celery)
+
+https://docs.google.com/spreadsheets/d/12OTz5WzRtuNDrRRuvu9OSl-5SQkIEyN6SsySf0BLESQ/edit?gid=1138845215#gid=1138845215[BSF/Zandor EXP and Mettle Collection] (Credit: Unknown)
+
+== Farming Guides
+---
+
+https://docs.google.com/presentation/d/1d5fXPAjpSwScplTubtVQd6TCeKaKl8uWWTG2hGJLshc/edit?slide=id.p#slide=id.p[Bozja "Powerleveling"] (Credit: Celliera Tsukemeownya)
+
+https://docs.google.com/document/d/1oAqt15SuzRPWgyr8CQUior57mPBDSJEej7N98jKCCpQ/edit?tab=t.0#heading=h.9n8q5yjy4wd3[Bozja Omni-Farm FAQs] (Credit: Pashmina Burana and Gormlaith Kall)
+
+https://imgur.com/hkRy6YO[Group Rank V Farming] (Credit: Celliera Tsukemeownya + Carter Valentine)
+
+https://docs.google.com/presentation/d/1ax8nkureepnIoTTSdcNhyIHQgCLqbcZzoe_H8kpyunU/edit?slide=id.p#slide=id.p[Bozja Solo Cluster + Fragment Farming] (Credit: Celliera Tsukemeownya)
+
+== Duel Guides
+---
+
+https://docs.google.com/document/d/1gnNB6UWSgHEtPyyaq9X-LNcKgI7Y5HYIisjVriVjC4k/edit?tab=t.0[BSF Duel Cheese] (Credit: Celliera Tsukemeownya and Unknown)
+
+https://docs.google.com/document/d/1uOc66HMhw0GauYSjX_Mwx876oB-kC1eVQujY4tLZ468/edit?tab=t.0[Zandor Duel Cheese] (Credit: Cam Klauser and Celliera Tsukemeownya)
+
+https://www.youtube.com/watch?v=kWtYQZq0x0c[FFXIV Endwalker Cheese Guide for Bozjan Southern Front and Zandor Duels] (Credit: Dinglefart)
+
+== Delubrum Reginae Resources
+
+https://docs.google.com/presentation/d/1QP7R6tUbwSNWX30crFon2z3xhfe0m5NPu7pCySyI6r4/edit?slide=id.p#slide=id.p[DRN Speedrun Builds] (Credit: Temuulen Kha - Malboro- Discord: nrhnpotato)
+
+https://imgur.com/y0jNEno[DRN Speedrun Loadout Guide] (Credit: Royce Blackwater)
+
+== Quick Visual Guides
+---
+
+image::how-to-do-damage-z.png[https://imgur.com/OUHdHZT]
+
+image::group-farming.png[https://imgur.com/hkRy6YO]
+
+image::speedrun-drn.png[https://imgur.com/y0jNEno]
