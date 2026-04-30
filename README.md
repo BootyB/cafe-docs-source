@@ -24,9 +24,9 @@ This is an Antora documentation component with the following structure:
 The easiest way to edit documentation is through our **online editor** at https://cafe-docs.vercel.app/
 
 - Click the "Edit" button on any documentation page
+- Log in with Discord (anonymous edits not supported)
 - Make your changes in the browser-based editor
 - Preview your changes in real-time
-- Submit your changes directly (requires GitHub authentication)
 
 **Alternative methods:**
 
@@ -51,7 +51,7 @@ All documentation is written in [AsciiDoc](https://docs.asciidoctor.org/asciidoc
 **Online Editor (Recommended)**  
 The built-in editor at https://cafe-docs.vercel.app/ provides instant preview as you type. Simply click "Edit" on any page to get started.
 
-**Local Preview**  
+**Local Preview**
 To preview locally, you'll need to build with Antora. See the main [cafe-docs](https://github.com/BootyB/cafe-docs) repository for build instructions.
 
 ## 🔗 Related Repositories
