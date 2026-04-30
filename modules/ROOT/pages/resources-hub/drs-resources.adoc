@@ -1,4 +1,4 @@
-= DRS Resources
+= Delubrum Savage Resources
 :page-slug: drs-resources
 :page-title: Delubrum Savage Resources
 :page-audience: normal-users
@@ -10,4 +10,53 @@
 :page-last-updated: 2026-04-29
 
 == Raid Resources
+---
+
+
+https://docs.google.com/spreadsheets/d/11aMSvRlvVkv9ZhDdks19ge1p0HipHOq8RGAIe-N4UxU/edit#gid=0[Delubrum Reginae Savage Lost Action Loadout Guide] (Credit: Seliph Tride - Discord: jay#1827)
+
+image:24px-BSF.png[icon] https://docs.google.com/document/d/1bwtmlk_w__vbnfYVnwZPhIAi3rFbA41zuM0Um93FV1Q/edit[Delubrum Reginae - Savage guide] (Credit: Snowflakes Be Damned)
+
+https://docs.google.com/document/d/1A3Mvz_rDRrQgygwJqEXbEJLc3_t_pN49jtB6NKbPJ-M/edit?tab=t.0[DR Savage Calling Guide] (Credit:  F’yriel Eostre)
+
+https://docs.google.com/presentation/d/1dey6gAbshIzG7hKh-_92NDRGhTVZSnmF57FcY7iTww4/edit?slide=id.gc056bbd373_0_950#slide=id.gc056bbd373_0_950[Nickelodeon Slime Prog - A Real Shitty Guide] (Credit: Yuuki Furu)
+
+https://docs.google.com/presentation/d/1dey6gAbshIzG7hKh-_92NDRGhTVZSnmF57FcY7iTww4/edit?slide=id.gc056bbd373_0_950#slide=id.gc056bbd373_0_950[Avowed Cleaves - Batteries Not Included] (Credit: Yuuki Furu)
+
+https://docs.google.com/presentation/d/14EihlOMYb-xl90SmSWIAG0rAYjlCzKSFyU-NvmDoKWk/edit?slide=id.p#slide=id.p[Queen's Chess 2 - Electric Boogaloo] (Credit: Yuuki Furu)
+
+https://www.twitch.tv/thundergodcv/clip/PoisedCovertDumplingsItsBoshyTime-Vu4V6JZqHzM9LPUf[Minotaur Tank With Trap] (Credit: thundergodcv https://www.twitch.tv/thundergodcv[Twitch Channel])
+
+*DRS TA Swords Practice* https://drshelper.github.io/ta[Trinity Avowed (Savage) Swords Practice Mini-Game] (Credit: Regen Aloy)
+
+
+---
+=== Visual Guides
+---
+
+*Queen's Guard Reflect Positions*
+
+image::reflect-pos.png[align="center"]
+
+*Trinity Avowed Pipe Game Patterns*
+
+image::trinity-pipe.png[align="center"]
+
+*Elemental Brand*
+
+image::elemental Brand.png[align="center"]
+
+*Stygimoloch Lord Debuff Icons*
+
+image::styg-debuffs.png[align="center"]
+
+*Queen's Chess Cheat Sheet*
+
+image::checkerboard.png[align="center"]
+
+== Video Guides
+---
+
+
+
 
