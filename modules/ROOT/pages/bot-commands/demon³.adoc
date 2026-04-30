@@ -191,10 +191,7 @@ Toggles the pin status of the selected message.
 
 == Related Documentation
 
-* xref:user-guide/getting-started.adoc[Getting Started Guide]
-* xref:admin-guide/modmail-setup.adoc[ModMail Setup Guide]
-* xref:admin-guide/lodestone-config.adoc[Lodestone Configuration]
-* xref:features/d20-physics.adoc[D20 Physics Engine Documentation]
+* xref:user-guide/proto-ozma.adoc[Proto-Ozma Bot Commands]
 
 ---
 
@@ -203,9 +200,9 @@ Toggles the pin status of the selected message.
 Need help with a command?
 
 * Check this documentation first
-* Ask in #bot-help channel
-* Contact staff via ModMail for private issues
-* Report bugs to bot administrators
+* Ask in #somechannel channel
+* Contact staff via ModMail
+* Report bugs to staff
 
 ---
 
