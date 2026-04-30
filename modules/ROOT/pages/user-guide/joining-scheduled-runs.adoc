@@ -30,7 +30,6 @@ Runs are posted in dedicated schedule channels:
 * `#ba-schedule` - Baldesion Arsenal runs
 * `#ft-schedule` - Forked Tower runs
 * `#drs-schedule` - Delubrum Reginae Savage runs
-ext install asciidoctor.asciidoctor-vscode
 === Run Announcement Format
 
 Each run announcement includes:
@@ -100,24 +99,27 @@ Find a run that works for you using the schedule.
 * Be in Kugane and ready
 * Open Party Finder
 
-**At Run Time:**
+IMPORTANT: If you are new, make sure you've unlocked BA. Inside Hydatos, talk to the Expedition Scholar...yaddda yadda
 
-1. Use the posted passcode to enter Baldesion Arsenal
-2. Join any available party in Party Finder (A–F or Support)
+**At Passcode Drop:**
+
+1. Find the passcode in `#arsenal-passwords`
+2. Join any available party in Private Tab of Party Finder (Earth, Wind, Water, Fire, Lightning, Ice, or Support)
 3. Parties are free-for-all unless instructed otherwise
-4. Follow your party leader once inside
+4. Pay attention to discord or party chat for updates
+5. Join voice channels if you want to!
 
 === Step 5: Optional — Party Leader Signups
 
 If you want to lead a party:
 
 1. Go to `#arsenal-party-leads`
-2. Find your run
-3. Use the dropdown to select a party (A–F or Support)
+2. Find the run you're interested in
+3. Use the dropdown to select a party (Earth, Wind, Water, Fire, Lightning, Ice, or Support)
 
 The bot will update the embed with your name.
 
-NOTE: The only button is for removing your signup.
+NOTE: Make sure you have DM's enabled for this server, as the bot will send you important information about your party and the run.
 
 === Step 6: Party Leader Timing (For Reference)
 
@@ -146,8 +148,8 @@ IMPORTANT: Plus-one is for first clears only.
 
 **Option 3: Join Support Party**
 
-* Often more flexible
-* Good option for newer players
+* Support party does the support FATE and may go into BA for the last two bosses.
+* Sometimes preformed by vets, ask in discord or instance if support slots are open.
 
 == Joining Forked Tower (FT) Runs
 
@@ -157,12 +159,11 @@ FT uses **role-based internal signups** with automatic roster management.
 
 FT runs consist of:
 
-* **4-6 Parties** (typically 6) - Party A through F
-* **Role Composition** - Usually 1 tank, 2 healers, 5 DPS per party
-* **Side Assignments** - Left (A, D, E) vs Right (B, C, F) for positioning
-* **Party Leads** - Each party has a designated leader
+* **4-6 Parties** (typically 6) - Party ABC, 123
+* **Role Composition** - Usually 2 tanks, 2 healers, 4 DPS per party
+* **Side Assignments** - Left (A, B, C) vs Right (1, 2, 3) for positioning
 
-Total slots: 48 players (6 parties × 8 players) or 32 players (4 parties × 8 players)
+TIP: Forked Tower Blood runs require 24 players to start, so try and fill low populated runs to help the community!
 
 === Step 2: Find the Signup Thread
 
@@ -205,7 +206,7 @@ Status: ✅ Signups Open
 
 === Step 4: Sign Up
 
-Click the **"✅ Sign Up"** button in the thread.
+Click the **Choose your role(s)** dropdown in the thread.
 
 **Role Selection Modal Appears:**
 
@@ -223,10 +224,8 @@ Select your available roles:
 **Role Selection Tips:**
 
 * ✅ **Select all roles you can play** - Increases your chances of getting in
-* ✅ **DPS(Flex)** - Can fill any DPS slot, very valuable
 * ✅ **Multiple roles** - Makes roster distribution easier
-* ❌ Don't select roles you can't actually play
-* ❌ Don't select roles you're not comfortable with
+* ❌ Don't select roles you're not comfortable performing
 
 **After Submitting:**
 
@@ -240,7 +239,7 @@ Select your available roles:
 
 [source]
 ----
-You've been added to the reserve queue!
+You've been added to the reserves!
 Position: Reserve #3
 
 You'll be automatically promoted if spots open.
@@ -265,7 +264,7 @@ Shows all your signups with current status (Active, Reserve, Party Assignment)
 
 === Step 6: Set Your Phantom Job Preferences
 
-Help the roster system place you optimally:
+Help the raid lead place you optimally:
 
 [source,discord]
 ----
@@ -273,8 +272,8 @@ Help the roster system place you optimally:
 ----
 
 1. Select "Set Phantom Jobs"
-2. Choose your preferred jobs for Phantom Rush
-3. System considers these during roster creation
+2. Choose your preferred jobs for Forked Tower
+3. Raid leads can see your preferences while using the CAFE Roster Manager Acivity
 4. Helps optimize party composition
 
 TIP: Keep these updated as your job preferences change!
@@ -309,31 +308,9 @@ Thread: [Click here]
 **At Run Time:**
 
 * Enter Forked Tower using the provided passcode
-* Find your party letter (A-F)
-* Note your side (Left or Right)
-* Follow party lead instructions
-* Coordinate with your party in voice
-
-=== Step 8: During the Run
-
-**Party Communication:**
-
-* Stay in voice chat with your party
-* Listen to party lead callouts
-* Coordinate cooldowns and mechanics
-* Call out if you need help
-
-**If You Need to Leave:**
-
-1. Notify your party lead immediately
-2. Unsign from the thread (click "Unsign" button)
-3. Bot notifies raid leader of withdrawal
-
-**After Completion:**
-
-* Your attendance is recorded
-* Streak counter increments (check with `/ft-streaks`)
-* Can sign up for future runs
+* Find your party letter (ABC or 123)
+* Follow raid lead instructions
+* Join voice channels if you want to!
 
 == Joining DRS Runs
 
@@ -348,29 +325,12 @@ DRS runs consist of:
 * **Role Composition** - Typically 2 tanks, 2 healers, 4 DPS per party
 * **Lost Actions Required** - Specific loadouts needed
 
-=== Step 2: Check Requirements
-
-DRS runs may have specific requirements:
-
-* **Reclear-only** - Must have previous clear
-* **Essence Requirements** - Specific essences needed
-* **Lost Action Requirements** - Required actions for your role
-* **Item Level** - Usually i435+ with augmented gear
-
-**Proof of Clear:**
-
-Reclear runs may ask for:
-
-* Achievement verification
-* Previous run attendance
-* Raid leader reference
-
 === Step 3: Sign Up Process
 
 Same as FT:
 
-1. Find the signup thread
-2. Click "Sign Up" button  
+1. Find the signup thread of the run you're interested in
+2. Click the "Choose your role(s)" dropdown
 3. Select your available roles
 4. Wait for confirmation
 
@@ -388,8 +348,6 @@ Same as FT:
 
 * Check raid leader's required lost actions list
 * Farm fragments if needed
-* Ensure you have the right essence
-* Practice your rotation with the loadout
 
 **Common DRS Lost Actions:**
 
@@ -405,14 +363,7 @@ Same as FT:
 * ✅ Equip appropriate essence
 * ✅ Load your required lost actions
 * ✅ Join DRS voice channel
-* ✅ Check in with party lead
-
-**At Run Time:**
-
-* Enter DRS using provided passcode
-* Find your assigned party
-* Confirm lost actions with party lead
-* Follow pull countdown and strategy
+* ✅ HAVE FUN!
 
 == Managing Your Signups
 
@@ -452,27 +403,24 @@ Same as FT:
 **Method 2: Thread Button**
 
 1. Go to the run's signup thread
-2. Click "Unsign" button
+2. Click "Remove Signup" button
 3. Confirm withdrawal
 
 **What Happens:**
 
 * You're removed from signups
 * Next reserve is auto-promoted
-* Raid leader is notified
 * Status embed updates
 
 IMPORTANT: Withdraw ASAP if you can't make it! Helps reserves get promoted in time.
 
 === Update Your Roles (FT/DRS Only)
 
-If you need to change your role selections:
+If you need to change your role selections, you can do it two ways:
 
-1. Withdraw from the run
-2. Sign up again with updated roles
-3. Your new selections are recorded
-
-NOTE: You may lose your position in line if run is full!
+1. In the /my-signups interface
+2. Using the dropdown again in the run's thread
+3. Your new selections are updated immediately
 
 == Setting Up Reminders
 
@@ -488,7 +436,7 @@ Never miss a run with personal reminders!
 
 **Method 2: Reminder Manager**
 
-1. Look for "⏰ Reminder Manager" button (usually in FT threads)
+1. Look for "⏰ Reminder Manager" button (usually in FT/DRS threads)
 2. Click to view all your reminders
 3. Add new reminders via dropdown
 
@@ -533,11 +481,10 @@ Same as setting one:
 * ✅ **Set reminders** - Don't forget about runs 2-3 days out
 * ✅ **Communicate** - Contact raid leader if you have questions
 * ✅ **Withdraw early** - If you can't make it, withdraw ASAP
-* ✅ **Stay updated** - Check thread regularly as run time approaches
+* ✅ **Stay updated** - Check the raid lead's thread regularly as run time approaches
 
 === BA-Specific Tips
 
-* Set party friends early for better grouping
 * Review `/ba_toolbox` mechanics before first run
 * Bring appropriate logos actions for your role
 * Listen to party leader - they're responsible for 8 people
@@ -567,19 +514,19 @@ A: Yes! Use `/my-signups` to track all your commitments. Just make sure times do
 
 **Q: What if I'm on reserve and the run fills up?**
 
-A: Stay on reserve! People drop out frequently. You'll be auto-promoted and notified.
+A: Stay on reserve! People drop out frequently. Check the thread and the raid lead may open up more spots.
 
 **Q: Can I change my role selection after signing up?**
 
-A: Yes, but you need to withdraw and sign up again. You may lose your spot if run is full.
+A: Yes, just click the dropdown again in the thread or use `/my-signups` to update your roles.
 
 **Q: How do party friends work?**
 
-A: Set them with `/forked-preferences`. System tries to place you together, but can't guarantee it. Mutual preferences have higher priority.
+A: Set them with `/forked-preferences`. System tries to place you together, but can't guarantee it. Mutual preferences have higher priority. Raid leads can see this info when using the roster manager.
 
 **Q: What if I sign up but can't make it?**
 
-A: Withdraw ASAP using `/my-signups` or the thread's Unsign button. Helps reserves get promoted.
+A: Withdraw ASAP using `/my-signups` or the thread's "Remove Signup" button. Helps reserves get promoted.
 
 **Q: Can I be blacklisted from signups?**
 
@@ -587,27 +534,15 @@ A: Yes, repeated no-shows or disruptive behavior can result in signup restrictio
 
 **Q: How do I know if I got into a run?**
 
-A: Check the signup status embed in the thread, or use `/my-signups`. You'll see "Active" or "Reserve #X".
+A: Check the signup status embed in the thread, or use `/my-signups`. You'll see "Active" or "Reserve #X". In the case of BA, you'll know you got in when you join a party in Party Finder after the passcode drops. Lightning hands may be required!
 
 **Q: When are rosters distributed?**
 
-A: Usually 1-2 hours before run time. You'll receive a DM or ping with your assignment.
+A: Raid leads usually post rosters 1-6 hours before run time. The final roster is distributed with the passcode ping.
 
-**Q: What if I don't get a roster assignment?**
+**Q: Can I request a specific party**
 
-A: Check the thread - raid leader may post assignments there. If still missing, DM the raid leader.
-
-**Q: Can I request a specific party or party lead?**
-
-A: Not directly, but party friends system helps. For specific requests, contact the raid leader via DM.
-
-**Q: What's the difference between DPS(Flex) and selecting all DPS roles?**
-
-A: DPS(Flex) specifically signals you can fill any DPS slot as needed. Selecting all roles is similar but may be less clear to the roster system.
-
-**Q: Do I need Discord Nitro to join runs?**
-
-A: No, but you need to be able to join voice channels and receive DMs from the bot.
+A: Absolutely! Use /forkred-preferenced to set your preferred party. Raid leads can see this info when using the roster manager, and the automatic distribution system takes it into account.
 
 == Troubleshooting
 
@@ -628,7 +563,7 @@ A: No, but you need to be able to join voice channels and receive DMs from the b
 **Don't see my signup in the list:**
 
 * Use `/my-signups` to verify it registered
-* Check if you're on reserve queue
+* Check if you're on reserves
 * Thread embed may be updating slowly
 * Contact raid leader if confirmed missing
 
@@ -648,19 +583,17 @@ A: No, but you need to be able to join voice channels and receive DMs from the b
 
 * xref:bot-commands/proto-ozma.adoc[Proto-Ozma Bot Commands Reference]
 * xref:user-guide/role-selection.adoc[Understanding Role Selection]
-* xref:features/ba-system.adoc[BA System Deep Dive]
 * xref:features/ft-signup-system.adoc[FT Signup System Guide]
-* xref:features/streak-system.adoc[Attendance Streak Tracking]
 
 == Support
 
 Need help joining a run?
 
 * Check this guide first
-* Ask in #bot-help channel
+* Ask in #general
 * Contact the raid leader directly via DM
 * Contact staff via ModMail for issues
-* Report bugs to bot administrators
+* Report bugs to staff
 
 ---
 
