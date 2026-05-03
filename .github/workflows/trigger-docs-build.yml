@@ -1,0 +1,23 @@
+# Add this file to cafe-docs-source repository as:
+# .github/workflows/trigger-docs-build.yml
+
+name: Trigger Docs Site Rebuild
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'modules/**'
+      - 'antora.yml'
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger cafe-docs deployment
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.DOCS_DEPLOY_TOKEN }}" \
+            https://api.github.com/repos/BootyB/cafe-docs/dispatches \
+            -d '{"event_type":"content-updated"}'
