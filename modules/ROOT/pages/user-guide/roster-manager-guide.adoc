@@ -1,0 +1,1214 @@
+= CAFE Roster Manager - Raid Lead Guide
+:page-slug: roster-manager-guide
+:page-title: How to Use the CAFE Roster Manager
+:page-audience: raid-leads
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #raid-leads
+:page-owner: @docs-team
+:page-last-updated: 2026-05-02
+
+Complete guide for raid leaders to manage Forked Tower rosters using the CAFE Roster Manager Discord Activity with drag-and-drop party composition.
+
+== Overview
+
+The **CAFE Roster Manager** is a Discord Activity that provides an interactive interface for managing Forked Tower raid rosters. It replaces manual roster distribution with a visual drag-and-drop system that makes party composition fast and intuitive.
+
+**Key Features:**
+
+* 🎯 **Visual Drag & Drop** - Move players between parties and reserves with mouse or touch
+* 🛡️ **Role Validation** - Automatic role enforcement prevents invalid compositions
+* 👥 **Smart Placement** - View player preferences for jobs, parties, and friends
+* 📊 **Real-time Updates** - Changes sync instantly to database
+* 🔐 **Secure Access** - Discord OAuth2 with raid lead permission verification
+* 📱 **Mobile Friendly** - Works on desktop and mobile Discord clients
+
+**Who Can Use It:**
+
+* Raid leads with appropriate Discord roles
+* Staff members
+* Authorized roster managers
+
+TIP: This is a Discord Activity - it runs directly inside Discord, no external website needed!
+
+== Accessing the Roster Manager
+
+=== Step 1: Open the Activity
+
+**Method 1: From FT Run Thread**
+
+1. Navigate to your run's signup thread
+2. Look for the 🎯 **"Manage Roster"** button
+3. Click to launch the Roster Manager Activity
+
+**Method 2: From Activities Menu**
+
+1. Open Discord
+2. Click the rocket ship icon (🚀) in the channel
+3. Select **"CAFE Roster Manager"** from activities list
+4. Choose your run from the list
+
+**Method 3: Direct Link** (if provided)
+
+1. Click the roster manager link shared by staff
+2. Discord will prompt to launch the activity
+3. Authorize the application when prompted
+
+=== Step 2: Authenticate with Discord
+
+**First Time Setup:**
+
+When you first launch the activity, you'll see an authentication screen:
+
+[source]
+----
+🔐 CAFE Roster Manager
+
+Welcome to the CAFE Roster Manager!
+This application requires Discord authentication to verify your permissions.
+
+[Authenticate with Discord]
+----
+
+**What Happens:**
+
+1. Click **"Authenticate with Discord"**
+2. Discord OAuth2 popup appears
+3. Review the requested permissions:
+   - Identify you
+   - Read your guild membership and roles
+4. Click **"Authorize"**
+5. Activity loads with your verified permissions
+
+**Security Notice:**
+
+* Your Discord token is encrypted and stored securely
+* Only raid leads with proper roles can manage rosters
+* Regular participants see read-only view
+* You can revoke access anytime via Discord settings
+
+=== Step 3: Select Your Run
+
+After authentication, you'll see the **Runs List** screen:
+
+[source]
+----
+📋 Active Forked Tower Runs
+
+┌─────────────────────────────────────────────┐
+│ May 5, 2026 @ 8:00 PM EDT                  │
+│ Raid Leader: @YourName                      │
+│ Signups: 35/48 | Reserves: 3                │
+│ Status: Open                                │
+│ [Manage Roster]                             │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ May 6, 2026 @ 7:00 PM EDT                  │
+│ Raid Leader: @OtherRL                       │
+│ Signups: 42/48 | Reserves: 7                │
+│ Status: Open                                │
+│ [View Only]                                 │
+└─────────────────────────────────────────────┘
+----
+
+**Your Runs Show:**
+
+* ✅ **"Manage Roster"** button - Full access to your runs
+* 👁️ **"View Only"** button - Read-only for other RLs' runs
+* 📊 Live signup counts update automatically
+
+**Click "Manage Roster"** to enter the roster management interface.
+
+== Understanding the Roster Manager Interface
+
+=== Main Layout
+
+When you open a run, you'll see:
+
+[source]
+----
+╔═══════════════════════════════════════════════════════════╗
+║ CAFE Roster Manager                          🔐 [Security] ║
+║ May 5, 2026 @ 8:00 PM EDT | RL: @YourName               ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  PARTY A (LEFT SIDE)                                      ║
+║  ┌──────────────────────────────────────────────┐        ║
+║  │ 🛡️ Tank      │ @Player1 (WAR) ★             │        ║
+║  │ 🛡️ Tank      │ @Player2 (GNB)               │        ║
+║  │ 💚 Healer    │ @Player3 (WHM) ★             │        ║
+║  │ 💚 Healer    │ @Player4 (SCH)               │        ║
+║  │ ⚔️ Melee     │ @Player5 (DRG)               │        ║
+║  │ ⚔️ PhysRng   │ @Player6 (MCH)               │        ║
+║  │ ⚔️ Caster    │ @Player7 (BLM)               │        ║
+║  │ ⚔️ Flex      │ [Empty Slot]                 │        ║
+║  └──────────────────────────────────────────────┘        ║
+║                                                           ║
+║  PARTY B (LEFT SIDE) ... PARTY C (LEFT SIDE) ...         ║
+║  PARTY 1 (RIGHT SIDE) ... PARTY 2 (RIGHT SIDE) ...       ║
+║  PARTY 3 (RIGHT SIDE)                                     ║
+║                                                           ║
+║  RESERVES (Standby List)                                  ║
+║  ┌──────────────────────────────────────────────┐        ║
+║  │ 🛡️ @Tank7 (PLD) - Roles: Tank                │        ║
+║  │ 💚 @Healer7 (AST) - Roles: Healer            │        ║
+║  │ ⚔️ @DPS13 (SAM) - Roles: Melee, Flex         │        ║
+║  └──────────────────────────────────────────────┘        ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+----
+
+=== Interface Elements
+
+**Party Cards:**
+
+* **Party Label** - Party A/B/C (Left) or 1/2/3 (Right)
+* **8 Fixed Slots** - Tank→Tank→Healer→Healer→Melee→PhysRng→Caster→Flex
+* **Player Cards** - Show Discord name, job preference, party lead status (★)
+* **Empty Slots** - Grayed out placeholders for vacant positions
+
+**Player Card Information:**
+
+[source]
+----
+@PlayerName (DRG) ★
+├─ Discord Name: @PlayerName
+├─ Current Job: DRG (from phantom preferences)
+├─ Party Lead: ★ (if assigned)
+└─ Draggable: Yes (click and hold to drag)
+----
+
+**Reserves Section:**
+
+* Lists all players on waitlist
+* Shows their available roles
+* Displays phantom job preferences
+* Can be dragged into party slots
+
+**Security Panel (🔐):**
+
+* Top-right corner
+* Shows token security status
+* Green = Authenticated and secure
+* Click to view detailed security info
+
+=== Visual Feedback System
+
+The roster manager provides real-time visual feedback:
+
+**When Dragging:**
+
+* ✅ **Valid drop zones** - Highlighted in green
+* ❌ **Invalid drop zones** - Dimmed with gray overlay
+* 🎯 **Current position** - Source card remains visible
+* 👻 **Drag preview** - Shows player card following cursor
+
+**Drop Zone States:**
+
+* **Compatible Role** - Card glows green, shows "Drop here"
+* **Incompatible Role** - Card dims to 40% opacity, grayscale filter
+* **Same Position** - Original slot highlights differently
+* **Occupied Slot** - Shows swap preview
+
+== Managing Party Composition
+
+=== Drag and Drop Basics
+
+**How to Move a Player:**
+
+1. **Click and Hold** on a player card
+2. **Drag** to desired position
+3. **Release** to drop
+
+**What You Can Do:**
+
+* ✅ Move player from reserves to party slot
+* ✅ Swap two players in different positions
+* ✅ Move player back to reserves
+* ✅ Rearrange players within same party
+* ❌ Can't drop on incompatible role slots
+* ❌ Can't drop outside valid zones
+
+**Example: Adding from Reserves**
+
+1. Find a Tank on reserves list
+2. Click and hold their card
+3. Drag to an empty Tank slot in Party A
+4. Tank slots in all parties highlight green (valid drops)
+5. Healer/DPS slots dim gray (invalid drops)
+6. Release over Party A's Tank slot
+7. Player instantly moves to Party A
+
+=== Role-Based Validation
+
+The roster manager enforces strict role rules:
+
+**Tank Slots (🛡️):**
+
+* Only accept players with Tank role selected
+* Two slots per party (positions 0 and 1)
+* Can swap Tank ↔ Tank only
+
+**Healer Slots (💚):**
+
+* Only accept players with Healer role selected
+* Two slots per party (positions 2 and 3)
+* Can swap Healer ↔ Healer only
+
+**DPS Slots (⚔️):**
+
+* **Melee** - Only Melee DPS (position 4)
+* **PhysRng** - Only Physical Ranged DPS (position 5)
+* **Caster** - Only Caster DPS (position 6)
+* **Flex** - Any DPS role (position 7)
+
+**Multi-Role Players:**
+
+If a player selected multiple roles (e.g., Tank + DPS):
+
+* Can be placed in any matching slot
+* Visual feedback shows all compatible positions
+* Great for filling gaps in composition
+
+**What Happens on Invalid Drop:**
+
+* Drop is rejected
+* Player card returns to original position
+* Error message briefly appears
+* No database changes made
+
+=== Fixed 8-Slot Positioning
+
+**Critical Design Feature:**
+
+Each party has **fixed role positions** that never change:
+
+[source]
+----
+Position 0: 🛡️ Tank
+Position 1: 🛡️ Tank
+Position 2: 💚 Healer
+Position 3: 💚 Healer
+Position 4: ⚔️ DPS (Melee)
+Position 5: ⚔️ DPS (Physical Ranged)
+Position 6: ⚔️ DPS (Caster)
+Position 7: ⚔️ DPS (Flex - Any DPS)
+----
+
+**Why This Matters:**
+
+* ✅ **Consistency** - Same layout across all parties
+* ✅ **No Slot Shifting** - Empty slots stay in position
+* ✅ **Clear Expectations** - Players know where to look for roles
+* ✅ **Prevents Artifacts** - No placeholder bugs from reordering
+
+**Visual Layout:**
+
+```
+Tank    Tank    Healer  Healer  Melee   PhysRng Caster  Flex
+[  0  ] [  1  ] [  2  ] [  3  ] [  4  ] [  5  ] [  6  ] [  7  ]
+```
+
+This layout ensures that when you drag a Tank to position 0, it stays position 0 even if position 1 is empty.
+
+=== Swapping Players
+
+**Direct Swap:**
+
+1. Drag Player A to occupied slot containing Player B
+2. Both must be compatible with opposite roles
+3. Release to perform swap
+4. Players instantly exchange positions
+
+**Example: Tank Swap**
+
+* Party A Position 0: @Tank1 (WAR)
+* Party B Position 1: @Tank2 (PLD)
+
+Drag @Tank1 to Party B Position 1:
+→ @Tank1 moves to Party B Position 1
+→ @Tank2 moves to Party A Position 0
+
+**Cross-Party Swaps:**
+
+* Works between any two parties
+* Works between party and reserves
+* Maintains party lead status independently
+* Syncs to database immediately
+
+=== Managing Reserves (Standby List)
+
+**Reserve Section Features:**
+
+* Shows all waitlisted players
+* Displays their available roles
+* Shows phantom job preferences
+* Sorted by signup time (oldest first)
+
+**Adding Reserve to Party:**
+
+1. Find player in reserves list
+2. Check their available roles
+3. Drag to compatible party slot
+4. Player removed from reserves
+5. Status changes to "Active"
+
+**Moving Player to Reserves:**
+
+1. Drag player card from party slot
+2. Drag to reserves section
+3. Release anywhere in reserves area
+4. Player added to end of reserve queue
+5. Status changes to "Reserve"
+
+**Best Practices:**
+
+* ✅ Check player role preferences before placing
+* ✅ Consider phantom job needs for composition
+* ✅ Communicate with reserves about their status
+* ✅ Promote reserves in signup order when possible
+* ✅ Use multi-role players to fill difficult slots
+
+== Using Player Information
+
+=== Viewing Player Preferences
+
+**Hover Over Player Card:**
+
+[source]
+----
+@PlayerName (DRG)
+────────────────────────
+Discord ID: 123456789
+Available Roles: Tank, DPS(Melee), DPS(Flex)
+Phantom Jobs: DRG, RPR, MNK
+Preferred Parties: Party A, Party 1
+Preferred Friends: @Friend1, @Friend2
+Party Lead Preference: Yes
+────────────────────────
+Click and drag to move
+----
+
+**What This Tells You:**
+
+* **Available Roles** - What positions they can fill
+* **Phantom Jobs** - Their preferred job for FT
+* **Preferred Parties** - Which parties they want
+* **Preferred Friends** - Who they want to party with
+* **Party Lead Preference** - If they're willing to lead
+
+=== Smart Placement Tips
+
+**Use Preferences for Better Rosters:**
+
+1. **Phantom Jobs** - Optimize party DPS composition
+   - Mix melee/ranged/caster appropriately
+   - Consider buff composition (DRG, DNC, etc.)
+   - Balance high-performing jobs across parties
+
+2. **Preferred Friends** - Keep friends together when possible
+   - **Mutual preferences** show as ⭐ (highest priority)
+   - Happy players perform better
+   - Helps with party cohesion
+
+3. **Preferred Parties** - Respect left/right side preferences
+   - Some players prefer specific sides
+   - Veterans may have reasons for preferences
+   - Balance preferences with composition needs
+
+4. **Party Lead Willingness** - Assign ★ to willing players
+   - Essential for voice coordination
+   - Prefer experienced players
+   - Distribute leadership across parties
+
+**Example Smart Placement:**
+
+[source]
+----
+Player A wants Party 1, plays DRG, friends with Player B
+Player B wants Party 1, plays MCH, friends with Player A
+→ Place both in Party 1: DRG in Melee slot, MCH in PhysRng slot
+→ Both get preferred party + play with friend
+→ Party 1 gets good raid buff composition
+----
+
+=== Party Lead Assignment
+
+**Assigning Party Leads:**
+
+Party leads are shown with a ★ symbol on their card.
+
+**How to Assign:**
+
+1. Right-click on a player card (future feature)
+2. Or use party lead toggle button on card
+3. ★ appears next to their name
+4. Only one party lead per party
+
+**Current Status:**
+
+The party lead feature is visible but may require backend integration. Contact staff if you need to manually assign party leads via database.
+
+**Party Lead Responsibilities:**
+
+* Voice coordination for their party
+* Positioning calls during encounters
+* Keeping party together
+* Reporting issues to raid lead
+
+TIP: Choose experienced players who are comfortable with voice communication!
+
+== Roster Distribution Workflow
+
+=== Pre-Run Roster Building
+
+**Recommended Timeline:**
+
+* **24 hours before:** Review signups, plan composition
+* **6 hours before:** Build initial roster in manager
+* **2 hours before:** Finalize placements, assign party leads
+* **1 hour before:** Post roster preview in thread
+* **30 minutes before:** Final adjustments
+* **Passcode drop:** Roster is locked
+
+**Step-by-Step Process:**
+
+1. **Open Roster Manager**
+   - Click "Manage Roster" in your run thread
+   - Authenticate if needed
+   - Wait for roster to load
+
+2. **Review Signups**
+   - Check total active signups vs reserves
+   - Note role distribution
+   - Identify multi-role players
+
+3. **Balance Parties by Role**
+   - Ensure each party has 2 tanks, 2 healers, 4 DPS
+   - Use flex slots for overflow DPS
+   - Fill from reserves if needed
+
+4. **Optimize Composition**
+   - Review phantom job preferences
+   - Balance job types across parties
+   - Consider raid buff coverage
+   - Place friends together when possible
+
+5. **Assign Party Leads**
+   - Mark experienced players with ★
+   - Ensure all parties have a leader
+   - Prefer players with voice communication
+
+6. **Balance Left vs Right**
+   - 3 parties on Left Side (A, B, C)
+   - 3 parties on Right Side (1, 2, 3)
+   - Respect player side preferences
+
+7. **Handle Reserves**
+   - Keep compatible reserves for no-shows
+   - Communicate with reserves about chances
+   - Promote early if spots open
+
+=== Auto-Distribution (Future Feature)
+
+**Coming Soon:**
+
+An automatic roster distribution system will:
+
+* ✅ Balance roles across all parties
+* ✅ Respect player preferences (jobs, parties, friends)
+* ✅ Optimize raid buff composition
+* ✅ Place party leads automatically
+* ✅ Generate balanced left/right sides
+
+**Manual Override:**
+
+Even with auto-distribution, you'll be able to:
+
+* Drag and drop to fine-tune
+* Swap players between parties
+* Adjust for special circumstances
+* Lock specific placements
+
+=== Communicating Roster to Players
+
+**Method 1: Screenshot & Post**
+
+1. Take screenshot of roster manager
+2. Post in run thread with caption:
+
+[source,discord]
+----
+📋 **ROSTER PREVIEW - May 5 FT Run**
+
+Please review your assigned party and role.
+Final roster will be posted with passcode.
+
+If you have concerns, DM me ASAP!
+----
+
+**Method 2: Export Roster (Future)**
+
+Future feature will allow:
+
+* Export as formatted text
+* Export as image
+* Export as Discord embed
+* Auto-post to thread
+
+**Method 3: Direct Messages (Manual)**
+
+For now, manually DM players with:
+
+[source]
+----
+🎯 FT Roster Assignment
+
+Run: May 5, 2026 @ 8:00 PM EDT
+Your Assignment:
+├─ Party: Party B (Left Side)
+├─ Role: DPS(Melee)
+├─ Job: Please bring DRG if possible
+└─ Party Lead: @PartyLeadName
+
+Questions? Reply to this DM!
+----
+
+=== Final Roster Lock
+
+**At Passcode Drop:**
+
+1. Make final adjustments for any no-shows
+2. Promote reserves to fill gaps
+3. Take final screenshot
+4. Post roster with passcode:
+
+[source,discord]
+----
+🔑 **FINAL ROSTER - PASSCODE: AB12**
+
+[Roster Screenshot]
+
+Join your assigned party in Party Finder!
+Party Leads: Create your parties now!
+
+See you in Forked Tower! 🗼
+----
+
+TIP: Keep roster manager open during run for real-time adjustments!
+
+== Handling Common Scenarios
+
+=== Player No-Show
+
+**When Someone Doesn't Show Up:**
+
+1. Open roster manager
+2. Drag no-show player to reserves
+3. Find compatible reserve player
+4. Drag reserve to vacant slot
+5. Announce change in Discord:
+
+[source,discord]
+----
+⚠️ ROSTER UPDATE
+
+@ReservePlayer - You're IN! 
+Replace @NoShowPlayer in Party B, Tank slot.
+Join Party B in PF now!
+----
+
+**If No Compatible Reserves:**
+
+* Ask in Discord for volunteers with that role
+* Shuffle players between parties if needed
+* Consider running with 47 players if close to start
+
+=== Unbalanced Role Distribution
+
+**Too Many Tanks, Not Enough DPS:**
+
+1. Check if tanks selected multi-roles
+2. Contact multi-role tanks:
+
+[source]
+----
+Hey @TankPlayer, I see you selected Tank + DPS(Flex).
+Can you come DPS for this run? We're short on DPS.
+----
+
+3. If yes, move them to DPS slot
+4. Fill tank slot from reserves or volunteers
+
+**Too Many of One DPS Type:**
+
+* Use Flex slots (position 7) for overflow
+* Melee can go in Flex
+* PhysRng can go in Flex
+* Caster can go in Flex
+* Optimize based on player skill/preference
+
+=== Player Requests Specific Party
+
+**When Player Asks to Move:**
+
+1. **Check their preferences first**
+   - Hover over their card
+   - See if request matches preferences
+   - Consider if they have friends in requested party
+
+2. **Evaluate impact**
+   - Will move break current party composition?
+   - Is there compatible slot in requested party?
+   - Are there other players affected?
+
+3. **Make decision**
+   - If easy swap, just drag and drop
+   - If complex, explain why you can't:
+
+[source]
+----
+Hey @Player, I understand you want Party 1, but:
+- You're Melee DPS and Party 1 Melee slots are full
+- Moving you would require swapping 3 other players
+- Can you give Party B a try? I paired you with friends there.
+----
+
+=== Emergency Mid-Run Adjustments
+
+**Player Disconnects During Run:**
+
+1. Keep roster manager open in background
+2. If player can't return quickly:
+   - Check if reserve can join mid-run
+   - Announce in Discord for volunteers
+   - Drag replacement to their slot
+
+3. Update roster and announce:
+
+[source,discord]
+----
+🔄 MID-RUN ROSTER CHANGE
+
+Party C Tank slot:
+@DisconnectedPlayer → @ReplacementPlayer
+
+@ReplacementPlayer join Party C in PF!
+Party C Lead: Wait for new tank before next pull
+----
+
+**Multiple Players Drop:**
+
+* Assess if run is still viable
+* Poll remaining players about continuing
+* May need to cancel and reschedule
+* Update roster to reflect actual participants
+
+== Best Practices
+
+=== Composition Optimization
+
+**Tank Distribution:**
+
+* ✅ Mix Warriors, Paladins, Gunbreakers, Dark Knights
+* ✅ Pair experienced with newer tanks
+* ✅ At least one tank with Provoke macro per party
+* ⚠️ Avoid all same tank job (limits flexibility)
+
+**Healer Distribution:**
+
+* ✅ One shield healer + one pure healer per party (ideal)
+* ✅ Mix WHM, SCH, AST, SGE across parties
+* ✅ At least one raise-capable healer per party
+* ⚠️ Two shields can work but less forgiving
+
+**DPS Distribution:**
+
+* ✅ Balance melee/ranged/caster across parties
+* ✅ Spread raid buffs (DRG, DNC, BRD, etc.)
+* ✅ Mix experienced with newer DPS
+* ✅ Use Flex slots strategically for overflow
+
+**Party Lead Distribution:**
+
+* ✅ One experienced player per party
+* ✅ Prefer players comfortable with voice comms
+* ✅ Spread veterans across parties
+* ✅ Assign before roster distribution
+
+=== Communication Tips
+
+**Be Transparent:**
+
+* Explain your placement decisions when asked
+* Share why you can't accommodate all requests
+* Post roster previews early for feedback
+* Welcome constructive suggestions
+
+**Set Expectations:**
+
+[source,discord]
+----
+📋 Roster Building Update
+
+Working on roster now! Few reminders:
+
+✅ I'll try to honor preferences, but composition comes first
+✅ Roster preview in ~2 hours
+✅ Final roster with passcode at 30 min before
+✅ DM me NOW if you have must-have requests
+
+Thanks for your patience!
+----
+
+**Handle Conflicts Gracefully:**
+
+When players dispute placement:
+
+1. Listen to their concerns
+2. Explain your reasoning
+3. Offer alternatives if possible
+4. Stand firm if needed for run success
+
+=== Time Management
+
+**Don't Wait Until Last Minute:**
+
+* Start roster 24 hours before run
+* Iterate based on feedback
+* Handle special requests early
+* Finalize 1-2 hours before run
+
+**Build Gradually:**
+
+1. **First pass** - Get 48 players placed
+2. **Second pass** - Optimize composition
+3. **Third pass** - Honor preferences where possible
+4. **Final pass** - Assign party leads and polish
+
+**Use Manager Efficiently:**
+
+* Keep it open while planning
+* Make several changes before closing
+* Use drag-and-drop for quick iterations
+* Save frequently (auto-saves on every move)
+
+=== Backup Planning
+
+**Always Have Reserves:**
+
+* Keep 3-5 compatible reserves
+* Know who can fill each role
+* Have emergency contact list
+* Prepare "reserves on standby" message
+
+**Emergency Contacts:**
+
+[source]
+----
+EMERGENCY RESERVE CONTACTS
+
+Tanks: @Reserve1, @Reserve2
+Healers: @Reserve3, @Reserve4  
+DPS: @Reserve5, @Reserve6, @Reserve7
+
+Multi-role: @Reserve8 (Tank+DPS), @Reserve9 (Healer+DPS)
+----
+
+**Contingency Plans:**
+
+* Can run with 46-47 if needed (2 parties of 7)
+* Have multi-role players on speed-dial
+* Know which parties can absorb missing players
+* Communicate clearly if adjustments needed
+
+== Troubleshooting
+
+=== Can't Access Roster Manager
+
+**"Permission Denied" Error:**
+
+* ✅ Verify you have Raid Lead role in Discord
+* ✅ Check with staff if role is missing
+* ✅ Try re-authenticating (🔐 Security Panel → Clear Token)
+* ✅ Ensure you're trying to access YOUR run, not someone else's
+
+**Activity Won't Load:**
+
+* ✅ Refresh Discord (Ctrl+R on desktop)
+* ✅ Check internet connection
+* ✅ Try different Discord client (desktop vs browser)
+* ✅ Clear Discord cache
+* ✅ Report to staff if persists
+
+**Stuck on Authentication Screen:**
+
+* ✅ Allow popups for Discord domain
+* ✅ Try incognito/private browsing mode
+* ✅ Check Discord Developer Portal settings (staff)
+* ✅ Try from Discord desktop app instead of browser
+
+=== Drag and Drop Issues
+
+**Card Won't Drag:**
+
+* ✅ Click and hold for 1 second before dragging
+* ✅ Ensure you have permission (read-only mode can't drag)
+* ✅ Refresh activity and try again
+* ✅ Try from desktop instead of mobile
+
+**Drop Not Working:**
+
+* ✅ Ensure drop zone is highlighted (green = valid)
+* ✅ Check role compatibility (Tank can't go in Healer slot)
+* ✅ Verify slot isn't locked or restricted
+* ✅ Try dropping in different compatible slot first
+
+**Swap Not Happening:**
+
+* ✅ Both players must be compatible with opposite roles
+* ✅ Tank can't swap with Healer
+* ✅ Try moving to empty slot instead of swapping
+* ✅ Check console for error messages (F12)
+
+**Player Returns to Original Position:**
+
+This means the drop was invalid:
+
+* ❌ Incompatible role for target slot
+* ❌ Dropped outside valid drop zone
+* ❌ Network error prevented save
+* ❌ Database sync failed
+
+Check the error message and try again.
+
+=== Data Sync Issues
+
+**Changes Not Saving:**
+
+* ✅ Check internet connection
+* ✅ Look for error messages in activity
+* ✅ Try making smaller changes (one player at a time)
+* ✅ Refresh and verify changes persisted
+* ✅ Check 🔐 Security Panel for token issues
+
+**Roster Shows Old Data:**
+
+* ✅ Refresh the activity (click back to runs list and reopen)
+* ✅ Check if someone else modified roster recently
+* ✅ Verify you're looking at correct run
+* ✅ Contact staff if data seems corrupted
+
+**Player Missing from Roster:**
+
+* ✅ Check reserves section (may have been moved)
+* ✅ Verify they're still signed up (use `/my-signups`)
+* ✅ Check if they withdrew recently
+* ✅ Refresh activity to sync latest data
+
+=== Security & Token Issues
+
+**Token Expired Error:**
+
+[source]
+----
+🔒 Authentication Error
+Your session has expired. Please re-authenticate.
+
+[Authenticate Again]
+----
+
+**What To Do:**
+
+1. Click "Authenticate Again"
+2. Complete Discord OAuth2 flow
+3. Resume roster management
+
+**Token Security Status (🔐):**
+
+Click security panel to see:
+
+[source]
+----
+🔐 Security Status
+
+Token Status: ✅ Valid
+Expires: May 5, 2026 @ 10:30 PM EDT
+Encryption: ✅ AES-256-GCM
+Last Validated: 2 minutes ago
+
+[Clear Token] [Refresh Token]
+----
+
+**Security Actions:**
+
+* **Clear Token** - Logs you out, requires re-auth
+* **Refresh Token** - Gets new token from Discord
+* **View Details** - Shows encrypted token info
+
+=== Performance Issues
+
+**Roster Manager Running Slow:**
+
+* ✅ Close other Discord activities
+* ✅ Refresh Discord client
+* ✅ Use desktop app instead of browser
+* ✅ Clear browser/Discord cache
+* ✅ Check system resources (RAM, CPU)
+
+**Drag Operations Laggy:**
+
+* ✅ Reduce other open applications
+* ✅ Use wired mouse instead of wireless
+* ✅ Disable browser extensions
+* ✅ Try from different device
+
+**Database Timeouts:**
+
+If you see "Database connection timeout" errors:
+
+* ✅ Wait 30 seconds and try again
+* ✅ Check CAFE Discord for server status announcements
+* ✅ Report to staff if persists
+* ✅ Use backup manual roster method if critical
+
+== Advanced Features
+
+=== Keyboard Shortcuts (Future)
+
+Planned keyboard shortcuts for power users:
+
+[source]
+----
+Ctrl+Z - Undo last move
+Ctrl+Y - Redo move
+Ctrl+F - Find player
+Ctrl+S - Manual save (auto-saves by default)
+Esc - Cancel drag operation
+Tab - Cycle through players
+----
+
+=== Bulk Operations (Future)
+
+Planned features for managing multiple players:
+
+* **Multi-select** - Shift+Click to select multiple players
+* **Bulk move** - Move multiple players to reserves at once
+* **Party templates** - Save/load pre-made compositions
+* **Quick filters** - Show only specific roles or preferences
+
+=== Integration with Discord Bot (Future)
+
+Planned integration improvements:
+
+* **Auto-post roster** - Automatically post to thread on save
+* **DM notifications** - Players auto-notified of assignments
+* **Status sync** - Roster manager updates bot embeds automatically
+* **Remind reserves** - Auto-remind reserves when slots open
+
+=== Analytics & Insights (Future)
+
+Planned analytics features:
+
+* **Composition analysis** - Suggestions for optimal job distribution
+* **Preference satisfaction** - How well roster matches preferences
+* **Balance score** - Party power balance metrics
+* **Historical data** - Past roster performance insights
+
+== Tips for New Raid Leads
+
+=== Your First Roster
+
+**Don't Panic:**
+
+* Take your time learning the interface
+* Use drag-and-drop to experiment
+* Changes save automatically, but you can undo
+* Ask experienced RLs for advice
+* Check example rosters from past runs
+
+**Start Simple:**
+
+1. **Just fill all 48 slots first** - Don't worry about optimization
+2. **Balance roles** - Ensure each party has 2/2/4
+3. **Add preferences gradually** - Learn one feature at a time
+4. **Ask for feedback** - Post preview and get input
+
+**Learn by Doing:**
+
+* Practice on old runs (view-only mode)
+* Study how experienced RLs build rosters
+* Ask questions in #raid-leads channel
+* Pair with veteran RL for first few runs
+
+=== Building Confidence
+
+**Shadow Experienced RLs:**
+
+* Watch them build rosters in real-time
+* Ask why they make specific decisions
+* Learn their strategies and shortcuts
+* Observe how they handle conflicts
+
+**Get Feedback:**
+
+* Post roster preview early for review
+* Ask specific questions: "Is this composition balanced?"
+* Listen to player feedback constructively
+* Iterate based on suggestions
+
+**Trust the Tools:**
+
+* Roster manager prevents major mistakes (role validation)
+* Auto-save means you won't lose work
+* Visual feedback guides you to valid moves
+* You can always ask staff for help
+
+=== Common New RL Mistakes
+
+❌ **Waiting too long to build roster**
+→ ✅ Start 24 hours before, iterate gradually
+
+❌ **Trying to please everyone**
+→ ✅ Prioritize composition, then preferences
+
+❌ **Not assigning party leads**
+→ ✅ Choose leads early, announce before run
+
+❌ **Ignoring multi-role players**
+→ ✅ Use them strategically to fill gaps
+
+❌ **Building roster in one sitting**
+→ ✅ Take breaks, review with fresh eyes
+
+❌ **Not communicating changes**
+→ ✅ Announce updates in thread as you make them
+
+❌ **Forgetting about reserves**
+→ ✅ Keep them informed of their chances
+
+=== Mental Checklist Before Run
+
+**2 Hours Before:**
+
+* [ ] All 48 slots filled
+* [ ] Each party has 2 tanks, 2 healers, 4 DPS
+* [ ] Party leads assigned (★ visible)
+* [ ] Left side (A/B/C) and Right side (1/2/3) balanced
+* [ ] Major preferences honored where possible
+* [ ] Roster preview posted in thread
+* [ ] Reserves informed of status
+
+**30 Minutes Before:**
+
+* [ ] Final adjustments for any changes
+* [ ] Emergency reserves identified
+* [ ] Roster manager still open for quick changes
+* [ ] Ready to post final roster with passcode
+
+**At Passcode Drop:**
+
+* [ ] Final screenshot taken
+* [ ] Passcode posted with roster
+* [ ] Monitoring for no-shows
+* [ ] Ready to make real-time adjustments
+
+== Frequently Asked Questions
+
+**Q: Can other raid leads see my roster while I'm building it?**
+
+A: Yes, but only in view-only mode. They can't make changes to your run's roster.
+
+**Q: What happens if I close the activity mid-editing?**
+
+A: All changes auto-save immediately. When you reopen, your roster will be exactly as you left it.
+
+**Q: Can I undo a move?**
+
+A: Currently, just drag the player back to original position. Undo/redo feature coming soon.
+
+**Q: How do I know if a player can play multiple roles?**
+
+A: Hover over their card to see all roles they selected during signup.
+
+**Q: Can players see the roster in real-time as I build it?**
+
+A: No, roster is only visible to raid leads until you post it in Discord thread.
+
+**Q: What if roster manager is down during my run?**
+
+A: Contact staff immediately. They can provide backup access or help you post roster manually.
+
+**Q: Can I copy a roster from a previous run?**
+
+A: Not yet, but roster templates are planned for future updates.
+
+**Q: How do I remove someone from the roster entirely?**
+
+A: Drag them to reserves section. To fully remove, they need to withdraw signup via bot.
+
+**Q: Can I lock specific players so they don't get moved accidentally?**
+
+A: Not yet, but player locking is planned for future updates.
+
+**Q: What's the difference between party lead (★) and raid lead?**
+
+A: **Raid lead** (you) manages entire run. **Party leads** (★) coordinate their specific 8-person party during encounters.
+
+**Q: Do I need to manually save my changes?**
+
+A: No! Every drag-and-drop operation auto-saves to database immediately.
+
+**Q: Can I use roster manager on mobile?**
+
+A: Yes, it works on Discord mobile app, but desktop provides better drag-and-drop experience.
+
+== Related Documentation
+
+* xref:bot-commands/proto-ozma.adoc[Proto-Ozma Bot Commands]
+* xref:user-guide/joining-scheduled-runs.adoc[How to Join Scheduled Runs]
+* xref:features/ft-signup-system.adoc[FT Signup System Technical Guide]
+* xref:admin/discord-activity-setup.adoc[Discord Activity Setup (Staff Only)]
+
+== Getting Help
+
+**For Roster Manager Issues:**
+
+* Check this guide first
+* Ask in `#raid-leads` channel
+* DM staff member for technical issues
+* Report bugs with screenshots to @docs-team
+
+**For Roster Strategy Advice:**
+
+* Ask experienced RLs in `#raid-leads`
+* Review past successful rosters
+* Shadow veteran RLs during their runs
+* Practice with older runs in view-only mode
+
+**For Permission Issues:**
+
+* Verify your Discord roles with staff
+* Check if you're trying to access correct run
+* Try re-authenticating via Security Panel
+* Contact staff via ModMail if unresolved
+
+**Emergency Support:**
+
+If roster manager is critical and not working:
+
+1. Contact staff immediately in `#raid-leads`
+2. Mention it's blocking your run
+3. Staff can provide backup access or manual solutions
+4. Have passcode and run details ready
+
+---
+
+**Pro Tip:** Bookmark this guide and keep it open in another tab while building your first few rosters. You'll build muscle memory quickly!
+
+---
+
+_Last updated: May 2, 2026_
+_For technical documentation, see: ROSTER_MANAGER_CHEAT_SHEET.md_
