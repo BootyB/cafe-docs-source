@@ -8,7 +8,7 @@
 
 .User Guide
 * xref:user-guide/joining-scheduled-runs.adoc[Joining Raids]
-* xref:user-guide/roster-manager-guide.adoc[Creating Raids]
+* xref:user-guide/roster-manager-guide.adoc[CAFE Roster Manager Guide]
 
 .Bot Commands
 * xref:bot-commands/proto-ozma.adoc[Proto-Ozma Slash Commands]
