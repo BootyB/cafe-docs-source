@@ -75,11 +75,10 @@ This application requires Discord authentication to verify your permissions.
 
 **Security Notice:**
 
-* Authentication tokens last for 1 hour at a time.+
-* Your Discord token is encrypted and stored securely
+* Authentication tokens last for 1 hour at a time.
 * Only raid leads can manage their own rosters
 * Regular participants see a demo
-* You can revoke access anytime via Discord settings
+* You can revoke access anytime from Discord settings.
 
 === Step 3: Select Your Run
 
