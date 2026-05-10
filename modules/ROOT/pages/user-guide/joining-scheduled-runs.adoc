@@ -1,13 +1,13 @@
-= How to Join Scheduled Runs (BA, FT, DRS)
+= How to Join Scheduled Runs (FT, DRS, BA)
 :page-slug: joining-scheduled-runs
-:page-title: How to Join BA, FT, and DRS Runs
+:page-title: How to Join FT, DRS, and BA Runs
 :page-audience: normal-users
 :page-category: user-guide
 :page-visibility: public
 :page-publish-targets: web,discord,activity
 :page-discord-channel: #guides
 :page-owner: @docs-team
-:page-last-updated: 2026-05-09
+:page-last-updated: 2026-05-10
 
 Complete step-by-step guide for joining Forked Tower (FT), Delubrum Reginae Savage (DRS), and Baldesion Arsenal (BA) runs through CAFE's Proto-Ozma scheduling system.
 
@@ -58,39 +58,36 @@ TIP: Set a reminder! At the bottom of the channel click the "⏰ Set Reminder" b
 
 == Joining Forked Tower (FT) Runs
 
-Forked Tower Raid leads in CAFE use **role-based internal signups** with the Roster Manager or with External Sign-ups.
-Please check the Discussion Thread for your desired run to see which method the raid lead is using.
-
-TIP: Please note there will be two versions of Forked Tower Runs in the future.
+Forked Tower Raid leads in CAFE use **role-based internal signups** with either the CAFE exclusive Roster Manager or with External Sign-up systems. The signup method is determined by the raid lead and will be specified in the run announcement. Please read the announcement carefully to understand which method is being used for the run you want to join.
 
 
-=== Step 1: Find the Signup Thread
+TIP: Please note there will be two versions of Forked Tower Runs in the future and both will be listed in the same area. Stay Tuned!
+
+=== Reading the Schedule
 
 All CAFE hosted Forked Tower runs are found in the `#forked-schedule` channel. Look for the run you want to join and click the signup thread link.
 
-How to read the schedule:
+*How to read the schedule:*
 
 * ** Date/Time** - When the run starts (automatically converted to your timezone)
 * **Raid Leader** - Who's organizing the run
 * **Space Availability** - Shows how many spots are left on the run
-* **Thread/Signup Link** - Click here to go to the signup thread
+
+** *🟢 Green Light* - Signups Open
+** *🟡 Yellow Light* - Signups are approaching full
+** *🔴 Red Light* - Run is full, join the reserve queue!
+** *🚫 Stop Sign* - Run is full, no reserves requested.
+
+* **Discussion Thread** - Click here to go to the discussion thread for the run, where you can ask questions and coordinate with the other participants.
+* ** Run ID# Sign-Ups** - Click this to go to the sign-ups thread for the run, where you can sign up and select your roles.
 
 TIP: You can also hover over the #forked-chat to see the most active run channels to join!
 
-=== Step 2: Understand Party Structure
+=== Managing your Signups
 
-Standard CAFE Forked Tower runs consist of:
+FT Raid Leads that use the CAFE Roster Manager will have an interactive signup system that allows you to select your roles and see the current signup status in real time. The signup thread will have a status embed that shows how many spots are available, which roles are needed, and if signups are open or closed.
 
-* **4-6 Parties** (typically 6) - Party ABC, 123
-* **Role Composition** - Standard is usually 2 tanks, 2 healers, 4 DPS per party
-* **Phantom Job Preferences** - Optional job preferences to help raid leads with party distribution
-* **Side Assignments** - Left (A, B, C) vs Right (1, 2, 3) for positioning
-
-TIP: Please check with your raid lead for any specific requirements or variations in structure for their run. Some may have different party compositions or special rules.
-
-=== Step 3: Review Signup Status
-
-The thread contains a status embed:
+*Example:*
 
 [source]
 ----
@@ -119,21 +116,35 @@ Status: ✅ Signups Open
 * If signups are open or closed
 * Reserve queue status
 
-=== Step 4: Sign Up
+*How to Sign Up:*
+
+1. Use the dropdown in the thread to select your your prefurred class. You can choose more than one role to increase your chances of getting in.
+2. Once you submit your role selection, the bot will request your phantom job preferences to help the raid lead with party distribution. This step is optional but highly recommended.
+3. On this page you can also request Prog Point from the `Request Prog Point` button, which will add a point to your total in the Prog Point Poll. This is a great way to show support for the run and help it get more votes in the poll, which can influence future raid scheduling and community focus.
+4. After signing up, you can check your status in the thread or use the `My Signups` button. This will show all of your current signups, your role selections, and your party assignment once it's distributed. If the run is full, you'll be added to the reserve queue and will be automatically promoted if spots open up.
+
+TIP: You can also use the command `/forked-preferences` to set your prefurred Phantom Job, Party, Default Timezone, Sit Out status and Party Homies. _Note: Party Homies will not work unless you have eachother on both of your accounts or it will not work_
 
 Click the **Choose your role(s)** dropdown in the thread.
 
-**Role Selection Modal Appears:**
+**Role Selection Options:**
 
 [source]
 ----
 Select your available roles:
-☐ Tank
-☐ Healer
-☐ Healer(Shield)
-☐ DPS(Melee)
-☐ DPS(Phys Ranged)
-☐ DPS(Caster)
+☐ Tank - Reserves
+☐ Healer - Reserves
+☐ Healer(Shield) - Reserves
+☐ DPS(Melee) - Reserves
+☐ DPS(Phys Ranged) - Reserves
+☐ DPS(Caster) - Reserves
+
+Quick Select combinations:
+☐ Select All Roles
+☐ Select All: Tank/Healer
+☐ Select All: Healer/DPS
+☐ Select All: Tank/DPS
+☐ Select All: DPS
 ----
 
 **Role Selection Tips:**
@@ -142,13 +153,7 @@ Select your available roles:
 * ✅ **Multiple roles** - Makes roster distribution easier
 * ❌ Don't select roles you're not comfortable performing
 
-**After Submitting:**
-
-* Bot confirms your signup
-* You're added to either active signups or reserve queue
-* Status embed updates with new counts
-
-=== Step 5: Understanding Reserve System
+=== Understanding the CAFE Roster Manager Reserve System
 
 **If Run is Full:**
 
@@ -176,22 +181,6 @@ You'll receive a notification if promoted to active.
 ----
 
 Shows all your signups with current status (Active, Reserve, Party Assignment)
-
-=== Step 6: Set Your Phantom Job Preferences
-
-Help the raid lead place you optimally:
-
-[source,discord]
-----
-/forked-preferences
-----
-
-1. Select "Set Phantom Jobs"
-2. Choose your preferred jobs for Forked Tower
-3. Raid leads can see your preferences while using the CAFE Roster Manager Acivity
-4. Helps optimize party composition
-
-TIP: Keep these updated as your job preferences change!
 
 === Step 7: Before the Run
 
@@ -227,7 +216,70 @@ Thread: [Click here]
 * Follow raid lead instructions
 * Join voice channels if you want to!
 
+=== Standard CAFE Party Structure
 
+Standard CAFE Forked Tower runs consist of:
+
+* **4-6 Parties** (typically 6) - Party ABC, 123
+* **Role Composition** - Standard is usually 2 tanks, 2 healers, 4 DPS per party
+* **Phantom Job Preferences** - Have atleast 1 Phantom Jop at max-level
+* **Side Assignments** - Left (A, B, C) vs Right (1, 2, 3) for positioning
+
+TIP: Please check with your raid lead for any specific requirements or variations in structure for their run. Some may have different party compositions or special rules.
+
+
+== Joining DRS Runs
+
+DRS uses a similar system to FT with some differences.
+
+=== Step 1: Understand DRS Structure
+
+DRS runs consist of:
+
+* **6 Parties** (Party A through F)
+* **8 Players per Party** (48 total)
+* **Role Composition** - Typically 2 tanks, 2 healers, 4 DPS per party
+* **Lost Actions Required** - Specific loadouts needed
+
+=== Step 3: Sign Up Process
+
+Same as FT:
+
+1. Find the signup thread of the run you're interested in
+2. Click the "Choose your role(s)" dropdown
+3. Select your available roles
+4. Wait for confirmation
+
+**Role Options:**
+
+* Tank
+* Healer
+* DPS(Melee)
+* DPS(Phys Ranged)
+* DPS(Caster)
+
+=== Step 4: Prepare Your Lost Actions
+
+**Before the run, prepare:**
+
+* Check raid leader's required lost actions list
+* Farm fragments if needed
+
+**Common DRS Lost Actions:**
+
+* **Tanks**: Lost Rampage, Lost Focus
+* **Healers**: Lost Seraph Strike, Lost Excellence
+* **DPS**: Lost Font of Magic/Power, Lost Slash/Shot
+
+=== Step 5: Before the Run
+
+**After Roster Distribution:**
+
+* ✅ Review your party and role assignment
+* ✅ Equip appropriate essence
+* ✅ Load your required lost actions
+* ✅ Join DRS voice channel
+* ✅ HAVE FUN!
 
 == Joining Baldesion Arsenal (BA) Runs
 
@@ -297,58 +349,7 @@ TIP: You can also use this same method to sign up for Perception or Spirit Dart 
   - **Spirit Dart** - Raid damage buff (uses Spirit Dart action)
 
 
-== Joining DRS Runs
 
-DRS uses a similar system to FT with some differences.
-
-=== Step 1: Understand DRS Structure
-
-DRS runs consist of:
-
-* **6 Parties** (Party A through F)
-* **8 Players per Party** (48 total)
-* **Role Composition** - Typically 2 tanks, 2 healers, 4 DPS per party
-* **Lost Actions Required** - Specific loadouts needed
-
-=== Step 3: Sign Up Process
-
-Same as FT:
-
-1. Find the signup thread of the run you're interested in
-2. Click the "Choose your role(s)" dropdown
-3. Select your available roles
-4. Wait for confirmation
-
-**Role Options:**
-
-* Tank
-* Healer
-* DPS(Melee)
-* DPS(Phys Ranged)
-* DPS(Caster)
-
-=== Step 4: Prepare Your Lost Actions
-
-**Before the run, prepare:**
-
-* Check raid leader's required lost actions list
-* Farm fragments if needed
-
-**Common DRS Lost Actions:**
-
-* **Tanks**: Lost Rampage, Lost Focus
-* **Healers**: Lost Seraph Strike, Lost Excellence
-* **DPS**: Lost Font of Magic/Power, Lost Slash/Shot
-
-=== Step 5: Before the Run
-
-**After Roster Distribution:**
-
-* ✅ Review your party and role assignment
-* ✅ Equip appropriate essence
-* ✅ Load your required lost actions
-* ✅ Join DRS voice channel
-* ✅ HAVE FUN!
 
 == Managing Your Signups
 
