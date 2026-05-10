@@ -12,6 +12,37 @@
 == How To Start Leading Runs in CAFE
 ---
 
-=== FT Roles
+Hosting runs in CAFE is a great way to get involved with the community and help out your fellow raiders. Whether you're looking to host a FT run, or just want to organize a pickup raid, CAFE has you covered with exclusive tools to make hosting easy and efficient.
 
-FT hosting roles are entirly automated here. 
+TIP: If you have your own Discord sever and want to join CAFE's NA Schedule Broadcast system, you can! Feel free to reach out to a CAFE staff member to get your server added to the broadcast list.
+
+== FT Roles
+
+FT hosting roles are entirly automated here. Using the `/schedule` command in any channel you can type in will walk you through scheduling a FT run. After creating your first FT run you will be automatically assigned the `@Forked Raid Lead` role, and gerneate a personal Raid Lead thread under `forked-chat` for you to manage your run. 
+
+The `@Forked Raid Lead` role is automtically removed after not hosting a run for 7 days, but you can always get it back by hosting another run.
+
+**Pinging Roles**
+
+Only ping `@Forked Tower Raider` when posting a signup. 
+
+For filling empty slots at run time or dropping an impromptu/FFA run you can ping `@LOOK MA AN FT RUN` in `#forked-passwords`, to direct peoplke to your Raid Lead thread for follow-up information.
+
+=== Hosting a Run
+
+**Posting FT Runs**
+
+Use the `/schedule` command anywhere you can post a run. You can choose to:
+
+.. fully automate signups and rosters
+.. link to your own google sign up form
+.. schedule an impromptu run with minimal role assignments and no roster management.
+
+TIP: Try to keep the run description in the post itself short and to the point, you can add as much detail as you want in the personal thread that will be linked to the recruitment post.
+
+== DRS and BA Roles
+
+DRS and BA roles are a bit more of a process, although the only hard requirement is that a raid lead be able to sucessfully lead and call and entire raid with little to no outside help. This ensures that on each serious run, atleast one person can hold everonme's hand through it. 
+
+If you already know how to call, contact someone on `@Staff` to get approved. You'll need to call the run with one of us present to verify it. If you are interested in calling but don't feel comfortable yet, there are plenty of existing callers that are willing to give tips and feedback. TO get practice in before staff approval, ping the relevcant role to request some help: `@DRS-Shadowcalls` or `@BA-Shadowcalls`.
+
