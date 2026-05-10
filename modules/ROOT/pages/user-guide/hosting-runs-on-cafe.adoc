@@ -1,0 +1,17 @@
+= Hosting Runs on CAFE
+:page-slug: Hosting Runs on CAFE
+:page-title: Hosting Runs on CAFE
+:page-audience: normal-users
+:page-category: bot-commands
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-05-10
+
+== How To Start Leading Runs in CAFE
+---
+
+=== FT Roles
+
+FT hosting roles are entirly automated here. 

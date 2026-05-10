@@ -1,0 +1,67 @@
+= Forked Preferances Slash Commands
+:page-slug: Forked Preferances Slash Commands
+:page-title: Forked Preferances Slash Commands
+:page-audience: normal-users
+:page-category: bot-commands
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #bot-help
+:page-owner: @docs-team
+:page-last-updated: 2026-05-10
+
+== Managing Your Signups
+
+=== View All Your Signups
+
+[source,discord]
+----
+/my-signups
+----
+
+**Shows:**
+
+* All upcoming runs you're signed up for
+* Your role selections
+* Party assignments (if distributed)
+* Signup status (Active, Reserve, or specific slot)
+
+**Quick Actions:**
+
+* Withdraw from specific runs
+* See run details
+* Check time until run starts
+
+=== Withdraw from a Run
+
+**Method 1: My Signups Command**
+
+[source,discord]
+----
+/my-signups
+----
+
+1. Select run from dropdown
+2. Click "Withdraw"
+3. Confirm withdrawal
+
+**Method 2: Thread Button**
+
+1. Go to the run's signup thread
+2. Click "Remove Signup" button
+3. Confirm withdrawal
+
+**What Happens:**
+
+* You're removed from signups
+* Next reserve is auto-promoted
+* Status embed updates
+
+IMPORTANT: Withdraw ASAP if you can't make it! Helps reserves get promoted in time.
+
+=== Update Your Roles (FT/DRS Only)
+
+If you need to change your role selections, you can do it two ways:
+
+1. In the /my-signups interface
+2. Using the dropdown again in the run's thread
+3. Your new selections are updated immediately

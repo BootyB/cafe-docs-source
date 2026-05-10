@@ -27,13 +27,13 @@ image::then-again-banner.png[then-again]
 == How Does This Work?
 ---
 
-⁠#recruitment is for posting immediate need party finder activity, sign up sheets, interest gauging, or passwords. General conversation will be deleted.
+⁠`#recruitment`` is for posting immediate need party finder activity, sign up sheets, interest gauging, or passwords. General conversation will be deleted.
 
-#⁠scheduled-events is for posting about party finder activity for a planned event in advance. General conversation will be deleted.
+`#⁠scheduled-events` is for posting about party finder activity for a planned event in advance. General conversation will be deleted.
 
-ALL PF roles are freely able to be pinged in ⁠#recruitment and #⁠scheduled-events  ONLY. More regulation available at the bottom of this message.
+ALL PF roles are freely able to be pinged in `⁠#recruitment` and `#⁠scheduled-events`  ONLY. More regulation available at the bottom of this message.
 
-#⁠a-la-carte-general is for your general purpose chatter and discussion.
+`#⁠a-la-carte-general` is for your general purpose chatter and discussion.
 
 Join the Hub to create a temporary text and voice channel. When all users leave, the temporary associated text and voice channels will automatically be deleted.
 
@@ -44,7 +44,7 @@ Please Note that 2-Factor Authentication must be enabled before any moderation-l
 
 Contact an @Admin in regards to making a channel that lasts longer (this must be done BEFORE channel creation)
 
-Be civil about your usage of pings, don't be a nuisance about seeking attention for your event. If you need to draw attention to your event after the first post ping please use #⁠a-la-carte-general. 
+Be civil about your usage of pings, don't be a nuisance about seeking attention for your event. If you need to draw attention to your event after the first post ping please use `#⁠a-la-carte-general`. 
 
-Refrain from deleting messages in #⁠recruitment, if you've finished your event and want to signal that it is over you can use  ~~  on both sides of your text to cross it out. 
+Refrain from deleting messages in `#⁠recruitment`, if you've finished your event and want to signal that it is over you can use  ~~  on both sides of your text to cross it out. 
 

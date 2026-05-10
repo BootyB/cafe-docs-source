@@ -9,6 +9,17 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-04-29
 
+=== Standard CAFE Party Structure
+
+Standard CAFE Forked Tower runs consist of:
+
+* **4-6 Parties** (typically 6) - Party ABC, 123
+* **Role Composition** - Standard is usually 2 tanks, 2 healers, 4 DPS per party
+* **Phantom Job Preferences** - Have atleast 1 Phantom Jop at max-level
+* **Side Assignments** - Left (A, B, C) vs Right (1, 2, 3) for positioning
+
+TIP: Please check with your raid lead for any specific requirements or variations in structure for their run. Some may have different party compositions or special rules.
+
 == The Forked Tower: Blood
 
 

@@ -11,6 +11,31 @@
 
 == Baldesion Arsensal Resources
 
+This page is a collection of resources for players interested in learning more about the Baldesion Arsenal (BA) raid, including guides, videos, and other helpful materials. Whether you're a seasoned veteran or new to the raid, these resources can help you prepare for your next run and improve your performance.
+
+=== CAFE Run Types
+
+*A Standard BA runs consist of:*
+
+* **6 Main Parties** (Earth, Wind, Water, Fire, Lightning, Ice)
+  - Each party has 1 Party Leader + 7 members
+  - 48 players total in main parties
+
+* **1 Support Party** (Soup) - Optional
+  - This party stays in Hydatos and clears the support FATE for the run. They may go into BA for the last two bosses.
+  - Sometimes preformed by vets, ask in discord or instance if support slots are open.
+  - 8 players total
+
+* **Special Roles**
+  - **Perception** - Trap detection (uses Perception action)
+  - **Spirit Dart** - Raid damage buff (uses Spirit Dart action)
+
+*Non-Standard BA Runs*
+
+Please check the run description for any non-standard rules or requirements. These are usually set with certain conditions that would more than likely cause a run to not clear the content. Please be prepared for a fun time, not a productive time.
+
+== Visual Guides and Maps
+
 [link=https://tinyurl.com/Portals-BA]
 image::hydatos-portal-map.png[BA Portals Map]
 
@@ -22,3 +47,4 @@ image::ba-visual-guide.png[The Baldesion Arsenal-a visual guide]
 
 
 == Specific Job Guides
+

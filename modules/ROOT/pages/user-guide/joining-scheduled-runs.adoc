@@ -22,6 +22,15 @@ Proto-Ozma manages scheduled raid runs with different signup methods depending o
 
 This guide walks you through finding and joining runs for each type.
 
+**Tips for Success:**
+
+* ✅ **Sign up early** - Popular runs fill quickly
+* ✅ **Be flexible** - Select multiple roles to increase chances
+* ✅ **Set reminders** - Don't forget about runs 2-3 days out
+* ✅ **Communicate** - Contact raid leader if you have questions
+* ✅ **Withdraw early** - If you can't make it, withdraw ASAP
+* ✅ **Stay updated** - Check the raid lead's thread regularly as run time approaches
+
 == Finding Scheduled Runs
 
 The first *important* step for joining in any content is to go to #channels and click the selection box next to the categories you are interested in, so that you will see the associated channels here in Discord.
@@ -85,7 +94,7 @@ TIP: You can also hover over the #forked-chat to see the most active run channel
 
 === Managing your Signups
 
-FT Raid Leads that use the CAFE Roster Manager will have an interactive signup system that allows you to select your roles and see the current signup status in real time. The signup thread will have a status embed that shows how many spots are available, which roles are needed, and if signups are open or closed.
+FT Raid Leads that use the CAFE Roster Manager have an interactive signup system that allows you to select your roles and see the current signup status in real time. The signup thread will have a status embed that shows how many spots are available, which roles are needed, and if signups are open or closed.
 
 *Example:*
 
@@ -216,62 +225,157 @@ Thread: [Click here]
 * Follow raid lead instructions
 * Join voice channels if you want to!
 
-=== Standard CAFE Party Structure
+**Tips for Success:**
 
-Standard CAFE Forked Tower runs consist of:
-
-* **4-6 Parties** (typically 6) - Party ABC, 123
-* **Role Composition** - Standard is usually 2 tanks, 2 healers, 4 DPS per party
-* **Phantom Job Preferences** - Have atleast 1 Phantom Jop at max-level
-* **Side Assignments** - Left (A, B, C) vs Right (1, 2, 3) for positioning
-
-TIP: Please check with your raid lead for any specific requirements or variations in structure for their run. Some may have different party compositions or special rules.
+* Select DPS(Flex) if you can play multiple DPS jobs
+* Keep phantom job preferences updated
+* Track your streaks for motivation (`/ft-streaks`)
+* Vote in prog polls to influence community focus (`/prog-point-poll`)
+* Check thread 30 minutes before for last-minute changes
 
 
 == Joining DRS Runs
 
-DRS uses a similar system to FT with some differences.
+DRS Raid leaders in CAFE use *role-based internal signups* with either the CAFE exclusive Roster Manager or with External Sign-up systems. The signup method is determined by the raid lead and will be specified in the run announcement. Please read the announcement carefully to understand which method is being used for the run you want to join.
 
-=== Step 1: Understand DRS Structure
+TIP: If you are looking for resources to prepare for DRS or how to unlock the content, check out the xref:resources-hub/drs-resources.adoc[DRS Resources] page for guides and helpful materials!
 
-DRS runs consist of:
+=== Reading the Schedule
 
-* **6 Parties** (Party A through F)
-* **8 Players per Party** (48 total)
-* **Role Composition** - Typically 2 tanks, 2 healers, 4 DPS per party
-* **Lost Actions Required** - Specific loadouts needed
+All CAFE hosted DRS runs are found in the `#drs-schedule` channel. Look for the run you want to join and click the signup thread link.
 
-=== Step 3: Sign Up Process
+*How to read the schedule:*
 
-Same as FT:
+* ** Date/Time** - When the run starts (automatically converted to your timezone)
+* **Raid Leader** - Who's organizing the run
+* **Space Availability** - Shows how many spots are left on the run
 
-1. Find the signup thread of the run you're interested in
-2. Click the "Choose your role(s)" dropdown
-3. Select your available roles
-4. Wait for confirmation
+** *🟢 Green Light* - Signups Open
+** *🟡 Yellow Light* - Signups are approaching full
+** *🔴 Red Light* - Run is full, join the reserve queue!
+** *🚫 Stop Sign* - Run is full, no reserves requested.
 
-**Role Options:**
+* **Discussion Thread** - Click here to go to the discussion thread for the run, where you can ask questions and coordinate with the other participants.
+* ** Run ID# Sign-Ups** - Click this to go to the sign-ups thread for the run, where you can sign up and select your roles.
 
-* Tank
-* Healer
-* DPS(Melee)
-* DPS(Phys Ranged)
-* DPS(Caster)
+TIP: You can also hover over the #drs-chat to see the most active run channels to join!
 
-=== Step 4: Prepare Your Lost Actions
+=== Managing your Signups
 
-**Before the run, prepare:**
+DRS Raid Leads that use the CAFE Roster Manager have an interactive signup system that allows you to select your roles and see the current signup status in real time. The signup thread will have a status embed that shows how many spots are available, which roles are needed, and if signups are open or closed.
 
-* Check raid leader's required lost actions list
-* Farm fragments if needed
+*Example:*
 
-**Common DRS Lost Actions:**
+[source]
+----
+📊 DRS Signups
+Run Time: May 5, 2026 @ 8:00 PM EDT
 
-* **Tanks**: Lost Rampage, Lost Focus
-* **Healers**: Lost Seraph Strike, Lost Excellence
-* **DPS**: Lost Font of Magic/Power, Lost Slash/Shot
+Signups: 35 / 48
+Reserves: 3
 
-=== Step 5: Before the Run
+Available Slots by Role:
+├─ Tank: 2 / 6
+├─ Healer: 1 / 12
+├─ Healer(Shield): Open
+├─ DPS(Melee): 8 / 12
+├─ DPS(Phys Ranged): 5 / 12  
+├─ DPS(Caster): 4 / 12
+└─ DPS(Flex): 7 / 12
+
+Status: ✅ Signups Open
+----
+
+**What This Tells You:**
+
+* How many spots are available
+* Which roles are needed most
+* If signups are open or closed
+* Reserve queue status
+
+*How to Sign Up:*
+
+1. Use the dropdown in the thread to select your your prefurred class. You can choose more than one role to increase your chances of getting in.
+2. Once you submit your role selection.
+3. On this page you can also request Prog Point from the `Request Prog Point` button, which will add a point to your total in the Prog Point Poll. This is a great way to show support for the run and help it get more votes in the poll, which can influence future raid scheduling and community focus.
+4. After signing up, you can check your status in the thread or use the `My Signups` button. This will show all of your current signups, your role selections, and your party assignment once it's distributed. If the run is full, you'll be added to the reserve queue and will be automatically promoted if spots open up.
+
+TIP: You can also use the command `/forked-preferences` to set your prefurred Phantom Job, Party, Default Timezone, Sit Out status and Party Homies. _Note: Party Homies will not work unless you have eachother on both of your accounts or it will not work_
+
+
+**Role Selection Options:**
+
+[source]
+----
+Select your available roles:
+☐ Tank - Reserves
+☐ Healer - Reserves
+☐ Healer(Shield) - Reserves
+☐ DPS(Melee) - Reserves
+☐ DPS(Phys Ranged) - Reserves
+☐ DPS(Caster) - Reserves
+
+Quick Select combinations:
+☐ Select All Roles
+☐ Select All: Tank/Healer
+☐ Select All: Healer/DPS
+☐ Select All: Tank/DPS
+☐ Select All: DPS
+----
+
+**Role Selection Tips:**
+
+* ✅ **Select all roles you can play** - Increases your chances of getting in
+* ✅ **Multiple roles** - Makes roster distribution easier
+* ❌ Don't select roles you're not comfortable performing
+
+=== Understanding the CAFE Roster Manager Reserve System
+
+**If Run is Full:**
+
+[source]
+----
+You've been added to the reserves!
+Position: Reserve #3
+
+You'll be automatically promoted if spots open.
+You'll receive a notification if promoted to active.
+----
+
+**Reserve Queue Rules:**
+
+* Reserves are numbered in order of signup
+* Auto-promoted when active players withdraw
+* Notification sent when promoted
+* Can withdraw at any time
+
+**Checking Your Status:**
+
+[source,discord]
+----
+/my-signups
+----
+
+Shows all your signups with current status (Active, Reserve, Party Assignment)
+
+=== Step 7: Before the Run
+
+**When Raid Leader Distributes Roster:**
+
+You'll receive a DM or ping with:
+
+[source]
+----
+🎯 DRS Roster Assignment
+
+Run: May 5, 2026 @ 8:00 PM EDT
+Your Assignment:
+├─ Party: Party B (Right Side)
+├─ Role: DPS(Melee)
+└─ Party Lead: @PartyLeadName
+
+Thread: [Click here]
+----
 
 **After Roster Distribution:**
 
@@ -281,15 +385,25 @@ Same as FT:
 * ✅ Join DRS voice channel
 * ✅ HAVE FUN!
 
+** Tips for Success:**
+
+* Farm fragments ahead of time
+* Practice lost action rotations before run
+* Reclear runs move fast - know mechanics
+* Bring appropriate essences for your role
+* Have backup lost actions in case of death
+
 == Joining Baldesion Arsenal (BA) Runs
 
 BA Raid Leaders in CAFE use **password drop** and a **party leader signups** for all BA runs.
 
 Please note _Party Leader Signups_ are optional for BA runs. You can still join the run through the passcode drop method without signing up as a party leader, but signing up helps the raid lead with organization and planning. Keep in mind that you will be required to be responsible for your party of 8 players, so make sure you are comfortable with the role before signing up.
 
+TIP: If you are looking for unlock requirements for BA, check out the xref:resources-hub/arsenal-resources.adoc[Baldesion Arsenal Resources] page for guides and helpful resources!
+
 === Reading the Schedule
 
-Find a run that works for you using the `#arsenal-schedule` channel for CAFE hosted runs or `#na-arsenal-schedule` for external runs.
+_Find a run that works for you using the `#arsenal-schedule` channel for CAFE hosted runs or `#na-arsenal-schedule` for external runs._
 
 *Key Information:*
 
@@ -312,7 +426,7 @@ TIP: Please note you will not be able to use the `Scheduling` button unless you 
 * All parties are free-for-all unless the raid lead specifies otherwise
 * You will find the parties listed in the Private Tab of Party Finder in-game (Earth, Wind, Water, Fire, Lightning, Ice, and Support)
 * Be sure to be Online and in Kugane before the passcode drops to ensure you can join quickly
-* Feel free to join the BA West voice channel anytime after the passcode drops to coordinate with the party and listen to callouts. Being in voice call is nver required but can enhance the experience and help with coordination.
+* Feel free to join the BA West voice channel anytime after the passcode drops to coordinate with the party and listen to callouts. Being in voice call is never required but can enhance the experience and help with coordination.
 
 TIP: If you used the `/plus-one` system, you will receive a DM with the passcode and party assignment 30 minutes before the run starts, so make sure your DMs are open!
 
@@ -332,81 +446,13 @@ TIP: You can also use this same method to sign up for Perception or Spirit Dart 
 * **30 Minutes Before:** Passcode is posted publicly in `#arsenal-passwords`
 * **During the Run:** Party Leads are responsible for coordinating their party with ready checks, marker placement, and communicating with the Raid Lead as needed. If you are unable to fulfill these responsibilities, please do not sign up as a party leader and instead join the run through the passcode drop method.
 
-=== CAFE Run Types
+**Tips for Success:**
 
-*BA runs consist of:*
+* Review `/ba_toolbox` mechanics before first run
+* Bring appropriate logos actions for your role
+* Listen to party leader - they're responsible for 8 people
+* Support party is great for learning - don't be afraid to join it if you're new!
 
-* **6 Main Parties** (Earth, Wind, Water, Fire, Lightning, Ice)
-  - Each party has 1 Party Leader + 7 members
-  - 48 players total in main parties
-
-* **1 Support Party** (Party S) - Optional
-  - This party stays in Hydatos and clears the support FATE for the run. They may go into BA for the last two bosses.
-  - Sometimes preformed by vets, ask in discord or instance if support slots are open.
-
-* **Special Roles**
-  - **Perception** - Trap detection (uses Perception action)
-  - **Spirit Dart** - Raid damage buff (uses Spirit Dart action)
-
-
-
-
-== Managing Your Signups
-
-=== View All Your Signups
-
-[source,discord]
-----
-/my-signups
-----
-
-**Shows:**
-
-* All upcoming runs you're signed up for
-* Your role selections
-* Party assignments (if distributed)
-* Signup status (Active, Reserve, or specific slot)
-
-**Quick Actions:**
-
-* Withdraw from specific runs
-* See run details
-* Check time until run starts
-
-=== Withdraw from a Run
-
-**Method 1: My Signups Command**
-
-[source,discord]
-----
-/my-signups
-----
-
-1. Select run from dropdown
-2. Click "Withdraw"
-3. Confirm withdrawal
-
-**Method 2: Thread Button**
-
-1. Go to the run's signup thread
-2. Click "Remove Signup" button
-3. Confirm withdrawal
-
-**What Happens:**
-
-* You're removed from signups
-* Next reserve is auto-promoted
-* Status embed updates
-
-IMPORTANT: Withdraw ASAP if you can't make it! Helps reserves get promoted in time.
-
-=== Update Your Roles (FT/DRS Only)
-
-If you need to change your role selections, you can do it two ways:
-
-1. In the /my-signups interface
-2. Using the dropdown again in the run's thread
-3. Your new selections are updated immediately
 
 == Setting Up Reminders
 
@@ -458,39 +504,7 @@ Same as setting one:
 1. Right-click announcement → Apps → "Set/Remove Reminder"
 2. Or use Reminder Manager to bulk remove
 
-== Tips for Success
 
-=== General Tips
-
-* ✅ **Sign up early** - Popular runs fill quickly
-* ✅ **Be flexible** - Select multiple roles to increase chances
-* ✅ **Set reminders** - Don't forget about runs 2-3 days out
-* ✅ **Communicate** - Contact raid leader if you have questions
-* ✅ **Withdraw early** - If you can't make it, withdraw ASAP
-* ✅ **Stay updated** - Check the raid lead's thread regularly as run time approaches
-
-=== BA-Specific Tips
-
-* Review `/ba_toolbox` mechanics before first run
-* Bring appropriate logos actions for your role
-* Listen to party leader - they're responsible for 8 people
-* Support party is great for learning
-
-=== FT-Specific Tips
-
-* Select DPS(Flex) if you can play multiple DPS jobs
-* Keep phantom job preferences updated
-* Track your streaks for motivation (`/ft-streaks`)
-* Vote in prog polls to influence community focus (`/prog-point-poll`)
-* Check thread 30 minutes before for last-minute changes
-
-=== DRS-Specific Tips
-
-* Farm fragments ahead of time
-* Practice lost action rotations before run
-* Reclear runs move fast - know mechanics
-* Bring appropriate essences for your role
-* Have backup lost actions in case of death
 
 == Frequently Asked Questions
 
@@ -571,7 +585,7 @@ A: Absolutely! Use /forkred-preferenced to set your preferred party. Raid leads 
 * xref:user-guide/role-selection.adoc[Understanding Role Selection]
 * xref:features/ft-signup-system.adoc[FT Signup System Guide]
 
-== Support
+== Support`
 
 Need help joining a run?
 
