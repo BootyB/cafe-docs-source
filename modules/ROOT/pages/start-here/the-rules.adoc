@@ -10,7 +10,7 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-05-09
 
-= The Rules
+== The Rules
 ---
 
 Stuff That'll Get You Banned
