@@ -7,171 +7,86 @@
 :page-publish-targets: web,discord,activity
 :page-discord-channel: #guides
 :page-owner: @docs-team
-:page-last-updated: 2026-04-29
+:page-last-updated: 2026-05-09
 
-Complete step-by-step guide for joining Baldesion Arsenal (BA), Forked Tower (FT), and Delubrum Reginae Savage (DRS) runs through CAFE's Proto-Ozma scheduling system.
+Complete step-by-step guide for joining Forked Tower (FT), Delubrum Reginae Savage (DRS), and Baldesion Arsenal (BA) runs through CAFE's Proto-Ozma scheduling system.
 
 == Overview
 
 Proto-Ozma manages scheduled raid runs with different signup methods depending on the content type:
 
-* **Baldesion Arsenal (BA)** - FFA passcode drop with Party leader signup system
 * **Forked Tower (FT)** - Role-based internal/external signups with reserves
 * **Delubrum Reginae Savage (DRS)** - Role-based internal/external signups similar to FT
+* **Baldesion Arsenal (BA)** - FFA passcode drop with Party leader signup system
+
 
 This guide walks you through finding and joining runs for each type.
 
 == Finding Scheduled Runs
 
+The first *important* step for joining in any content is to go to #channels and click the selection box next to the categories you are interested in, so that you will see the associated channels here in Discord.
+
 === Check Schedule Channels
 
-Runs are posted in dedicated schedule channels:
+CAFE Hosted Runs are posted in dedicated schedule channels:
 
-* `#ba-schedule` - Baldesion Arsenal runs
-* `#ft-schedule` - Forked Tower runs
+* `#forked-schedule` - Forked Tower runs
 * `#drs-schedule` - Delubrum Reginae Savage runs
-=== Run Announcement Format
+* `#arsenal-schedule` - Baldesion Arsenal runs
 
-Each run announcement includes:
+External Runs are posted in the following channels:
 
-[source]
-----
-🗓️ Forked Tower Run
-⏰ May 5, 2026 @ 8:00 PM EDT
-👤 Raid Leader: @RaidLeaderName
-📋 Type: Fresh/AnyProg
+* `#na-forked-schedule` - External Forked Tower runs
+* `#na-drs-schedule` - External DRS runs
+* `#na-arsenal-schedule` - External BA runs
 
-Description:
-Working on final boss mechanics, looking for consistent players!
+TIP: External Runs are not hosted on CAFE and we will not be able to assist with signups or troubleshooting. Please contact the raid leader and join the other Discord server for help.
 
-Signup Thread: [Link]
-----
+===  Scheduled Runs Channel Format
+
+Each channel has runs that are seperated by type first and date second.
 
 **Key Information:**
 
-* **Date/Time** - When the run starts (timezone included)
-* **Raid Leader** - Who's organizing the run
-* **Type** - Fresh prog, reclear, non-standard, etc.
-* **Composition** - Party structure (FT/DRS only)
-* **Thread/Signup Link** - Where to sign up
+* **Date/Time** - When the run starts (time is automatically converted to your timezone according to your system)
+* **Raid Leader** - Who's organizing the run 
+* **Space Availability** - FT exclusive, this shows how many spots are left on the run.
+* **Party Leads** - BA exclusive, this shows how many party leaders have signed up for the run.
+* **Thread/Signup Link** - Click here to go to the signup thread (FT/DRS)
 
-TIP: Set a reminder! Right-click the announcement → Apps → "Set/Remove Reminder"
-
-== Joining Baldesion Arsenal (BA) Runs
-
-BA uses a **party leader signup system** where you sign up for specific party positions.
-
-=== Step 1: Understand BA Structure
-
-BA runs consist of:
-
-* **6 Main Parties** (Earth, Wind, Water, Fire, Lightning, Ice)
-  - Each party has 1 Party Leader + 7 members
-  - 48 players total in main parties
-
-* **1 Support Party** (Party S) - Optional
-  - Supports main parties during encounters
-  - Usually 8 players
-
-* **Special Roles**
-  - **Perception** - Trap detection (uses Perception action)
-  - **Spirit Dart** - Raid damage buff (uses Spirit Dart action)
-
-=== Step 2: Check the Schedule
-
-Find a run that works for you using the schedule.
-
-* Note the run time
-* Be ready before it starts
-* Make sure you’re available for the full duration
-
-=== Step 3: Wait for the Password Ping
-
-**30 Minutes Before the Run:**
-
-* The passcode will be posted in `#arsenal-passwords`
-* Keep an eye on the channel so you don’t miss it
-
-=== Step 4: Get Into the Run
-
-**Before the run starts:**
-
-* Be in Kugane and ready
-* Open Party Finder
-
-IMPORTANT: If you are new, make sure you've unlocked BA. Inside Hydatos, talk to the Expedition Scholar...yaddda yadda
-
-**At Passcode Drop:**
-
-1. Find the passcode in `#arsenal-passwords`
-2. Join any available party in Private Tab of Party Finder (Earth, Wind, Water, Fire, Lightning, Ice, or Support)
-3. Parties are free-for-all unless instructed otherwise
-4. Pay attention to discord or party chat for updates
-5. Join voice channels if you want to!
-
-=== Step 5: Optional — Party Leader Signups
-
-If you want to lead a party:
-
-1. Go to `#arsenal-party-leads`
-2. Find the run you're interested in
-3. Use the dropdown to select a party (Earth, Wind, Water, Fire, Lightning, Ice, or Support)
-
-The bot will update the embed with your name.
-
-NOTE: Make sure you have DM's enabled for this server, as the bot will send you important information about your party and the run.
-
-=== Step 6: Party Leader Timing (For Reference)
-
-* **55 Minutes Before:** Party leaders receive the passcode to set up Party Finder
-* **30 Minutes Before:** Passcode is posted publicly in `#arsenal-passwords`
-
-=== Step 7: Need Help Getting In?
-
-**Option 1: Use Plus-One (First Clear Only)**
-
-[source,discord]
-----
-/plusone
-----
-
-1. Run the command
-2. Select your run
-3. Wait for approval
-
-IMPORTANT: Plus-one is for first clears only.
-
-**Option 2: Contact a Raid Leader**
-
-* DM the raid leader
-* Ask if there’s space
-
-**Option 3: Join Support Party**
-
-* Support party does the support FATE and may go into BA for the last two bosses.
-* Sometimes preformed by vets, ask in discord or instance if support slots are open.
+TIP: Set a reminder! At the bottom of the channel click the "⏰ Set Reminder" button to get a DM reminder 90 minutes before the run starts with all the important info and signup status.
 
 == Joining Forked Tower (FT) Runs
 
-FT uses **role-based internal signups** with automatic roster management.
+Forked Tower Raid leads in CAFE use **role-based internal signups** with the Roster Manager or with External Sign-ups.
+Please check the Discussion Thread for your desired run to see which method the raid lead is using.
 
-=== Step 1: Understand FT Structure
+TIP: Please note there will be two versions of Forked Tower Runs in the future.
 
-FT runs consist of:
+
+=== Step 1: Find the Signup Thread
+
+All CAFE hosted Forked Tower runs are found in the `#forked-schedule` channel. Look for the run you want to join and click the signup thread link.
+
+How to read the schedule:
+
+* ** Date/Time** - When the run starts (automatically converted to your timezone)
+* **Raid Leader** - Who's organizing the run
+* **Space Availability** - Shows how many spots are left on the run
+* **Thread/Signup Link** - Click here to go to the signup thread
+
+TIP: You can also hover over the #forked-chat to see the most active run channels to join!
+
+=== Step 2: Understand Party Structure
+
+Standard CAFE Forked Tower runs consist of:
 
 * **4-6 Parties** (typically 6) - Party ABC, 123
-* **Role Composition** - Usually 2 tanks, 2 healers, 4 DPS per party
+* **Role Composition** - Standard is usually 2 tanks, 2 healers, 4 DPS per party
+* **Phantom Job Preferences** - Optional job preferences to help raid leads with party distribution
 * **Side Assignments** - Left (A, B, C) vs Right (1, 2, 3) for positioning
 
-TIP: Forked Tower Blood runs require 24 players to start, so try and fill low populated runs to help the community!
-
-=== Step 2: Find the Signup Thread
-
-Each FT run creates a Discord thread:
-
-1. Look for the thread link in the announcement
-2. Or find it in the channel's active threads
-3. Thread name format: `[RL Name]'s FT Run - [Date/Time]`
+TIP: Please check with your raid lead for any specific requirements or variations in structure for their run. Some may have different party compositions or special rules.
 
 === Step 3: Review Signup Status
 
@@ -311,6 +226,76 @@ Thread: [Click here]
 * Find your party letter (ABC or 123)
 * Follow raid lead instructions
 * Join voice channels if you want to!
+
+
+
+== Joining Baldesion Arsenal (BA) Runs
+
+BA Raid Leaders in CAFE use **password drop** and a **party leader signups** for all BA runs.
+
+Please note _Party Leader Signups_ are optional for BA runs. You can still join the run through the passcode drop method without signing up as a party leader, but signing up helps the raid lead with organization and planning. Keep in mind that you will be required to be responsible for your party of 8 players, so make sure you are comfortable with the role before signing up.
+
+=== Reading the Schedule
+
+Find a run that works for you using the `#arsenal-schedule` channel for CAFE hosted runs or `#na-arsenal-schedule` for external runs.
+
+*Key Information:*
+
+* **Sprout New Player Friendly Runs** - These runs are specifically designed to be welcoming and educational for new players. If you're new to BA, look for these runs and join the voice calls for extra guidance and support. Feel free to ask questions in voice or text, the raid leads and community are here to help you learn! Vet's are more than welcome to join these runs as well, and your experience will be a great help to the new players.
+
+* ** Star plusone button** - Indicates that the raid lead is using the plus-one system for first clears. This allows players to sign up before password drop to guarantee a spot into the upcoming run. To use plus-one, simply run the `/plusone` command and select the run you want to join. The raid lead will then approve your request and add you to the run. Please note that plus-one is for first clears only, so if the run has already cleared once, this option will not be available.
+
+* Click the `⏰ Run Reminder` button to get a DM reminder 90 minutes before the run starts
+* Click the `🔔 Follow Raid Leads` button to get notifications when your preferred Raid Lead schedules a run.
+* Click the `ℹ️ Insructions` button for a quick refresher on how to join BA runs
+* Click the `🔕 Toggle Pings` button to toggle your Forked Raider pings on and off
+
+TIP: Please note you will not be able to use the `Scheduling` button unless you have have the BA Caller role. If you are interested in becoming a BA Caller, please reach out to a raid leader or staff member for more information.
+
+=== How to Join a BA Run
+
+**30 Minutes Before the Run:**
+
+* The passcode will be posted in `#arsenal-passwords`
+* All parties are free-for-all unless the raid lead specifies otherwise
+* You will find the parties listed in the Private Tab of Party Finder in-game (Earth, Wind, Water, Fire, Lightning, Ice, and Support)
+* Be sure to be Online and in Kugane before the passcode drops to ensure you can join quickly
+* Feel free to join the BA West voice channel anytime after the passcode drops to coordinate with the party and listen to callouts. Being in voice call is nver required but can enhance the experience and help with coordination.
+
+TIP: If you used the `/plus-one` system, you will receive a DM with the passcode and party assignment 30 minutes before the run starts, so make sure your DMs are open!
+
+=== Being A Party Leader
+
+*If you want to lead a party:*
+
+1. Go to `#arsenal-schedule` and click `party leads` to be taken to the #arsenal-party-leads announcement channel
+2. Use the dropdown to select a party (Earth, Wind, Water, Fire, Lightning, or Ice)
+3. Make sure you have DM's enabled for this server, as the bot will send you important information about your party and the run.
+
+TIP: You can also use this same method to sign up for Perception or Spirit Dart roles as well!
+
+*Party Leader Responsibilities:*
+
+* **55 Minutes Before:** Party leaders receive the passcode to set up Party Finder
+* **30 Minutes Before:** Passcode is posted publicly in `#arsenal-passwords`
+* **During the Run:** Party Leads are responsible for coordinating their party with ready checks, marker placement, and communicating with the Raid Lead as needed. If you are unable to fulfill these responsibilities, please do not sign up as a party leader and instead join the run through the passcode drop method.
+
+=== CAFE Run Types
+
+*BA runs consist of:*
+
+* **6 Main Parties** (Earth, Wind, Water, Fire, Lightning, Ice)
+  - Each party has 1 Party Leader + 7 members
+  - 48 players total in main parties
+
+* **1 Support Party** (Party S) - Optional
+  - This party stays in Hydatos and clears the support FATE for the run. They may go into BA for the last two bosses.
+  - Sometimes preformed by vets, ask in discord or instance if support slots are open.
+
+* **Special Roles**
+  - **Perception** - Trap detection (uses Perception action)
+  - **Spirit Dart** - Raid damage buff (uses Spirit Dart action)
+
 
 == Joining DRS Runs
 
