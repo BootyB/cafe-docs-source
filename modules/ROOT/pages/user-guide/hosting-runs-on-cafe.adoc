@@ -7,20 +7,24 @@
 :page-publish-targets: web,discord,activity
 :page-discord-channel: #guides
 :page-owner: @docs-team
-:page-last-updated: 2026-05-10
+:page-last-updated: 2026-05-12
 
 == How To Start Leading Runs in CAFE
 ---
 
-Hosting runs in CAFE is a great way to get involved with the community and help out your fellow raiders. Whether you're looking to host a FT run, or just want to organize a pickup raid, CAFE has you covered with exclusive tools to make hosting easy and efficient.
+Hosting runs in CAFE is a great way to get involved with the community and help out your fellow raiders. Whether you're looking to host Forked Tower, DRS or BA CAFE has you covered with exclusive tools to make hosting easy and efficient.
 
 TIP: If you have your own Discord sever and want to join CAFE's NA Schedule Broadcast system, you can! Feel free to reach out to a CAFE staff member to get your server added to the broadcast list.
 
-== FT Roles
+== Raid Lead Roles
 
-FT hosting roles are entirly automated here. Using the `/schedule` command in any channel you can type in will walk you through scheduling a FT run. After creating your first FT run you will be automatically assigned the `@Forked Raid Lead` role, and gerneate a personal Raid Lead thread under `forked-chat` for you to manage your run. 
+Both FT and DRS hosting roles are entirely automated here. Using the `/schedule` command in any channel you can type in will walk you through scheduling a FT run. After creating your first run the Bot will be automatically assign you the associated Raid Lead Role, and generate a personal Raid Lead thread under the appropiate chat channel for you to manage your run. 
 
-The `@Forked Raid Lead` role is automtically removed after not hosting a run for 7 days, but you can always get it back by hosting another run.
+Getting the BA Raid Lead Role is a bit more of a process, although the only hard requirement is that a Raid Lead be able to sucessfully lead and call the entire raid with little to no outside help. This ensures that on each Normal BA run, atleast one person can hold everone's hand through it. 
+
+If you already know how to call, contact someone on `@Staff` to get approved. You'll need to call the run with one of us present to verify it. If you are interested in calling but don't feel comfortable yet, there are plenty of existing callers that are willing to give tips and feedback. TO get practice in before staff approval, ping the relevcant role to request some help: `@DRS-Shadowcalls` or `@BA-Shadowcalls`.
+
+IMPORTANT: **All Raid Lead roles, FT/DRS/BA, will automtically be removed after 7 days from your last hosted run, but you can always get it back by hosting another run.**
 
 **Pinging Roles**
 
@@ -42,7 +46,5 @@ TIP: Try to keep the run description in the post itself short and to the point, 
 
 == DRS and BA Roles
 
-DRS and BA roles are a bit more of a process, although the only hard requirement is that a raid lead be able to sucessfully lead and call and entire raid with little to no outside help. This ensures that on each serious run, atleast one person can hold everonme's hand through it. 
 
-If you already know how to call, contact someone on `@Staff` to get approved. You'll need to call the run with one of us present to verify it. If you are interested in calling but don't feel comfortable yet, there are plenty of existing callers that are willing to give tips and feedback. TO get practice in before staff approval, ping the relevcant role to request some help: `@DRS-Shadowcalls` or `@BA-Shadowcalls`.
 

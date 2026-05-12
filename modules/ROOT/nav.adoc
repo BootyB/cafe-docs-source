@@ -1,5 +1,10 @@
 * xref:index.adoc[Home]
 
+.Help
+* xref:help/faq.adoc[FAQ]
+* xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
+* xref:help/support.adoc[Support]
+
 .Cheeky's Stuff
 * xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
 

@@ -1,0 +1,52 @@
+= Toubleshooting and Bugs
+:page-slug: troubleshooting
+:page-title: Troubleshooting and Bugs
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #help
+:page-owner: @docs-team
+:page-last-updated: 2026-05-12
+
+== Troubleshooting
+
+**Can't click signup button:**
+
+* Signups may be closed - check status embed
+* You may be blacklisted - command will tell you
+* Thread may be archived - ask raid leader to unarchive
+* Bot may be experiencing issues - wait and try again
+
+**Didn't receive reminder:**
+
+* Check DM privacy settings - bot must be able to DM you
+* Reminder sends 90 minutes before - check timing
+* Test with `/forked-preferences` to verify DMs work
+* Bot restarts can prevent delivery (rare)
+
+**Don't see my signup in the list:**
+
+* Use `/my-signups` to verify it registered
+* Check if you're on reserves
+* Thread embed may be updating slowly
+* Contact raid leader if confirmed missing
+
+**Can't select a role:**
+
+* That role may be full - check available slots
+* You may need to select multiple roles
+* Modal may have timed out - try again
+
+**Roster wasn't distributed:**
+
+* Raid leader distributes manually - may be delayed
+* Check thread for announcements
+* DM raid leader if less than 30 minutes to start
+
+== Bug reporting
+
+image::report-button.png[align="center"]
+
+Thanks for the help! Please feel free to use the Report Issue button. If you could provide details with your report that would be super helpful!
+
