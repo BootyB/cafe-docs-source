@@ -31,6 +31,39 @@
 * See run details
 * Check time until run starts
 
+=== Managing your Signups
+
+FT Raid Leads that use the CAFE Roster Manager have an interactive signup system that allows you to select your roles and see the current signup status in real time. The signup thread will have a status embed that shows how many spots are available, which roles are needed, and if signups are open or closed.
+
+*Example:*
+
+[source]
+----
+📊 Forked Tower Signups
+Run Time: May 5, 2026 @ 8:00 PM EDT
+
+Signups: 35 / 48
+Reserves: 3
+
+Available Slots by Role:
+├─ Tank: 2 / 6
+├─ Healer: 1 / 12
+├─ Healer(Shield): Open
+├─ DPS(Melee): 8 / 12
+├─ DPS(Phys Ranged): 5 / 12  
+├─ DPS(Caster): 4 / 12
+└─ DPS(Flex): 7 / 12
+
+Status: ✅ Signups Open
+----
+
+**What This Tells You:**
+
+* How many spots are available
+* Which roles are needed most
+* If signups are open or closed
+* Reserve queue status
+
 === Withdraw from a Run
 
 **Method 1: My Signups Command**
