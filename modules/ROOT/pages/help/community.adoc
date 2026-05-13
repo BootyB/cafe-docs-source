@@ -1,0 +1,50 @@
+= Community Links
+:page-slug: community
+:page-title: Community Links
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #help
+:page-owner: @docs-team
+:page-last-updated: 2026-05-12
+
+== Community Links and Helpful Info
+
+<id:customize> (at the top of your channel list) will let you pick roles for your preferred content.
+
+<id:browse> will let you customize what channels you have visible.
+
+Changing your server nickname to your match your in-game character name will make you easier for others to recognize.
+
+== Server Links
+
+(Crystal) *Crystal Exploratory Missions*: 
+https://discord.gg/cem
+
+(Aether) *Aether Bozja/Baldesion Arsenal*: 
+https://discord.gg/abbaffxiv
+
+(Aether) (DRs) *Lego Steppers/Day Team*: 
+https://discord.gg/YKP76AsMw8
+
+(Primal) *The Help Lines*: 
+https://discord.gg/thehelplines
+
+(Dynamis) *Dynamis Field Operations*: 
+https://discord.gg/vjwYEeubeN
+
+(NA X-DC) *Agents of Eureka*: 
+https://discord.gg/agentsofeureka
+
+(NA X-DC) *Field Ops Enjoyers*: 
+https://discord.gg/foexiv
+
+(Materia) *Content Achievers*: 
+https://discord.gg/FJFxr2U
+
+---
+
+**CAFE Invite Link: **
+https://discord.gg/c-a-f-e
+
