@@ -4,7 +4,7 @@
 * xref:help/faq.adoc[FAQ]
 * xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
 * xref:help/support.adoc[Support]
-* xref:help/community/adoc[Community Links]
+* xref:help/community.adoc[Community Links]
 
 .Cheeky's Stuff
 * xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
