@@ -1,11 +1,5 @@
 * xref:index.adoc[Home]
 
-.Help
-* xref:help/faq.adoc[FAQ]
-* xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
-* xref:help/support.adoc[Support]
-* xref:help/community.adoc[Community Links]
-
 .Cheeky's Stuff
 * xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
 
@@ -30,4 +24,10 @@
 * xref:resources-hub/drs-resources.adoc[Delubrum Reginae Savage Resources]
 * xref:resources-hub/eureka-resources.adoc[Eureka Resources]
 * xref:resources-hub/arsenal-resources.adoc[Baldesion Arsenal Resources]
+
+.Help
+* xref:help/faq.adoc[FAQ]
+* xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
+* xref:help/support.adoc[Support]
+* xref:help/community.adoc[Community Links]
 
