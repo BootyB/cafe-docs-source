@@ -2,11 +2,11 @@
 
 Documentation content for the FFXIV CAFE community.
 
-## 📚 About
+## About
 
 This repository contains the documentation source files (AsciiDoc) for CAFE. The content is built and published using [Antora](https://antora.org/) from the main [cafe-docs](https://github.com/BootyB/cafe-docs) repository.
 
-## 📁 Structure
+## Structure
 
 This is an Antora documentation component with the following structure:
 
@@ -17,13 +17,13 @@ This is an Antora documentation component with the following structure:
   - `images/` - Images and assets
   - `nav.adoc` - Navigation structure
 
-## ✏️ Contributing
+## Contributing
 
 ### Editing Documentation
 
 The easiest way to edit documentation is through our **online editor** at https://cafe-docs.vercel.app/
 
-- Click the "Edit" button on any documentation page
+- Click the "Edit this Page" button on any documentation page
 - Log in with Discord (anonymous edits not supported)
 - Make your changes in the browser-based editor
 - Preview your changes in real-time
@@ -33,8 +33,8 @@ The easiest way to edit documentation is through our **online editor** at https:
 - Edit files directly on GitHub
 - Clone this repository locally:
   ```bash
-  git clone https://github.com/{your-org}/cafe-docs-content.git
-  cd cafe-docs-content
+  git clone https://github.com/{your-org}/cafe-docs-source.git
+  cd cafe-docs-source
   ```
 
 ### File Format
@@ -51,18 +51,15 @@ All documentation is written in [AsciiDoc](https://docs.asciidoctor.org/asciidoc
 **Online Editor (Recommended)**  
 The built-in editor at https://cafe-docs.vercel.app/ provides instant preview as you type. Simply click "Edit" on any page to get started.
 
-**Local Preview**
-To preview locally, you'll need to build with Antora. See the main [cafe-docs](https://github.com/BootyB/cafe-docs) repository for build instructions.
-
-## 🔗 Related Repositories
+## Related Repositories
 
 - [cafe-docs](https://github.com/BootyB/cafe-docs) - Main documentation site builder and editor
 - Build output is published to: https://cafe-docs.vercel.app/
 
-## 📝 License
+## License
 
 MIT License - see LICENSE file for details.
 
-## 💬 Community
+## Community
 
 Join us on Discord: [CAFE](https://discord.gg/c-a-f-e)

@@ -12,7 +12,7 @@
 
 == Stuff That'll Get You Banned
 
-. Not Following Discord's TOS and Community Guidelines ---    https://discord.com/guidelines[Community Guidelines]
+. Not Following Discord's TOS and https://discord.com/guidelines[Community Guidelines]
 
 .. Everyone is welcome here, but ban evasion and guideline violations are not. While we might not hammer every detail in the guidelines, don't give us a reason to!
 
