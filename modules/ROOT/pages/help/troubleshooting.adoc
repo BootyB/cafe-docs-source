@@ -21,8 +21,7 @@
 **Didn't receive reminder:**
 
 * Check DM privacy settings - bot must be able to DM you
-* Reminder sends 90 minutes before - check timing
-* Test with `/forked-preferences` to verify DMs work
+* Reminder sends 90 minutes before - check the time
 * Bot restarts can prevent delivery (rare)
 
 **Don't see my signup in the list:**
@@ -32,15 +31,8 @@
 * Thread embed may be updating slowly
 * Contact raid leader if confirmed missing
 
-**Can't select a role:**
-
-* That role may be full - check available slots
-* You may need to select multiple roles
-* Modal may have timed out - try again
-
 **Roster wasn't distributed:**
 
-* Raid leader distributes manually - may be delayed
 * Check thread for announcements
 * DM raid leader if less than 30 minutes to start
 
