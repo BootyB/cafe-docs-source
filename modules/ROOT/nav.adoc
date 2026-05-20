@@ -27,6 +27,5 @@
 
 .Help
 * xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
-* xref:help/support.adoc[Support]
 * xref:help/community.adoc[Community Links]
 

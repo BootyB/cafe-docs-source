@@ -17,21 +17,12 @@ This page is a collection of resources for players interested in learning more a
 
 TIP: If you're looking for resources on the normal mode of Delubrum Reginae, check out the xref:resources-hub/delubrum-resources.adoc[Delubrum Reginae Resources] page for guides and helpful materials!
 
-=== CAFE Standard DRS Run Structure
-
-DRS runs consist of:
-
-* **6 Parties** (Party A through F)
-* **8 Players per Party** (48 total)
-* **Role Composition** - Typically 2 tanks, 2 healers, 4 DPS per party
-* **Lost Actions Required** - Specific loadouts needed
-
 === DRS Requirements
 
 **Before the run, prepare:**
 
 * Check raid leader's required lost actions list
-* Farm fragments if needed
+* Farm or buy fragments if needed.
 
 **Common DRS Lost Actions:**
 
@@ -74,7 +65,7 @@ image::trinity-pipe.png[align="center"]
 
 *Elemental Brand*
 
-image::elemental Brand.png[align="center"]
+image::elemental-brand.png[align="center"]
 
 *Stygimoloch Lord Debuff Icons*
 
