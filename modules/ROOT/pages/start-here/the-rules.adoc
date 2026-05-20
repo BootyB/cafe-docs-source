@@ -6,7 +6,7 @@
 :page-visibility: public
 :page-publish-targets: web,discord,activity
 :page-discord-channel: #rules
-:page-discord-thread: The Rules
+:page-discord-render-mode: direct
 :page-owner: @docs-team
 :page-last-updated: 2026-05-09
 
