@@ -10,10 +10,7 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-05-09
 
-== The Rules
----
-
-Stuff That'll Get You Banned
+== Stuff That'll Get You Banned
 
 . Not Following Discord's TOS and Community Guidelines ---    https://discord.com/guidelines[Community Guidelines]
 
@@ -47,21 +44,20 @@ Stuff That'll Get You Banned
 
 .. Intentionally disrupting any event hosted in CAFE will result in reciprocal action based on severity. We are here to facilitate a reasonably fair system to organize content around. Disrespecting that intent is not in the spirit of goodwill and will not be tolerated.
 
-[.text-center] 
+[sidebar] 
 We issue warnings for rule violations at our discretion. Collect enough and win a free ban. Particularly heinous offenses may see this threshold waved.
----
 
 == General Guidelines
 
 . Support the Organizers
 
-..If someone is leading a run, theory crafting, or organizing content, give them room to do their thing without stepping on toes. Volunteers are the backbone of any community!
+.. If someone is leading a run, theory crafting, or organizing content, give them room to do their thing without stepping on toes. Volunteers are the backbone of any community!
 
 . Mind the Spoilers!
 
 .. FFXIV Live Letter and new patch spoilers belong only in ⁠#ffxiv-spoilers⁠ until the patch is live.
 
-**We'll lift spoiler rules a little after release. Forays/FieldOps content is exempt.
+.. We'll lift spoiler rules a little after release. Forays/FieldOps content is exempt.
 
 . Let AutoMod Do Its Thing
 
@@ -77,7 +73,8 @@ We issue warnings for rule violations at our discretion. Collect enough and win 
 
 .. While we do allow fflogs to be posted, it's for use as a tool for personal growth, not for pointing out others mistakes or painting others in a bad light. No one should be excluded from raids based on third party tools.
 
-[.text-center] These won't get you banned outright, but may result in a server warning where applicable.
----
+[sidebar]
+These won't get you banned outright, but may result in a server warning where applicable.
 
-[.text-center] Contact Staff via #channel if you need to report anything or have questions about our rules.
+[.text-center]
+Contact Staff via https://discord.com/channels/750103971187654736/1082857180019032095[#modmail-staff-info] in Discord if you need to report anything or have questions about our rules.
