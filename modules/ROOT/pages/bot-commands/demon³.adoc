@@ -6,6 +6,7 @@
 :page-visibility: public
 :page-publish-targets: web,discord,activity
 :page-discord-channel: #bot-help
+:discord-render-mode: thread
 :page-owner: @docs-team
 :page-last-updated: 2026-04-29
 
