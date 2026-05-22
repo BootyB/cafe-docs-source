@@ -1,7 +1,7 @@
 * xref:index.adoc[Home]
 
-.Cheeky's Stuff
-* xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
+//.Cheeky's Stuff
+//* xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
 
 .Start Here
 * xref:start-here/getting-started.adoc[Getting Started]
