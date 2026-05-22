@@ -111,55 +111,47 @@
         },
         {
           "type": "text",
-          "content": "  1. If someone is leading a run, theory crafting, or organizing content, give them room to do their thing without stepping on toes. Volunteers are the backbone of any community!"
+          "content": "If someone is leading a run, theory crafting, or organizing content, give them room to do their thing without stepping on toes. Volunteers are the backbone of any community!"
         },
         {
           "type": "text",
-          "content": "1. Mind the Spoilers!"
+          "content": "2. Mind the Spoilers!"
         },
         {
           "type": "text",
-          "content": "  1. FFXIV Live Letter and new patch spoilers belong only in ⁠#ffxiv-spoilers⁠ until the patch is live."
+          "content": "FFXIV Live Letter and new patch spoilers belong only in ⁠#ffxiv-spoilers⁠ until the patch is live.  We'll lift spoiler rules a little after release. Forays/FieldOps content is exempt."
         },
         {
           "type": "text",
-          "content": "  1. We'll lift spoiler rules a little after release. Forays/FieldOps content is exempt."
+          "content": "3. Let AutoMod Do Its Thing"
         },
         {
           "type": "text",
-          "content": "1. Let AutoMod Do Its Thing"
+          "content": "Our filters help keep the server clean; do not try to get around them. If you get flagged or timed out by mistake (for example, after using either everyone or here command), just let staff know so we can fix it."
         },
         {
           "type": "text",
-          "content": "  1. Our filters help keep the server clean; do not try to get around them."
+          "content": "4. Habitual Line Steppers"
         },
         {
           "type": "text",
-          "content": "  1. If you get flagged or timed out by mistake (for example, after using either everyone or here command), just let staff know so we can fix it."
+          "content": "Line Steppers and Vibe Vampires are likely to be removed if their lack of room reading comprehension goes on for too long."
         },
         {
           "type": "text",
-          "content": "1. Habitual Line Steppers"
+          "content": "5. Exclusion based on third-party-tools is a no-go in CAFE"
         },
         {
           "type": "text",
-          "content": "  1. Line Steppers and Vibe Vampires are likely to be removed if their lack of room reading comprehension goes on for too long."
+          "content": "While we do allow fflogs to be posted, it's for use as a tool for personal growth, not for pointing out others mistakes or painting others in a bad light. No one should be excluded from raids based on third party tools."
         },
         {
           "type": "text",
-          "content": "1. Exclusion based on third-party-tools is a no-go in CAFE"
+          "content": "-# These won't get you banned outright, but may result in a server warning where applicable."
         },
         {
           "type": "text",
-          "content": "  1. While we do allow fflogs to be posted, it's for use as a tool for personal growth, not for pointing out others mistakes or painting others in a bad light. No one should be excluded from raids based on third party tools."
-        },
-        {
-          "type": "text",
-          "content": "These won't get you banned outright, but may result in a server warning where applicable."
-        },
-        {
-          "type": "text",
-          "content": "Contact Staff via #modmail-staff-info in Discord if you need to report anything or have questions about our rules."
+          "content": "Contact Staff via <#1082857180019032095> in Discord if you need to report anything or have questions about our rules."
         }
       ]
     }
