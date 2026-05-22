@@ -150,6 +150,9 @@
           "content": "-# These won't get you banned outright, but may result in a server warning where applicable."
         },
         {
+          "type": "separator"
+        },
+        {
           "type": "text",
           "content": "Contact Staff via <#1082857180019032095> in Discord if you need to report anything or have questions about our rules."
         }
