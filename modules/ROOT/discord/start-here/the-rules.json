@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "source": {
+    "path": "modules/ROOT/pages/start-here/the-rules.adoc",
+    "contentHash": "ab66a068"
+  },
+  "metadata": {
+    "channel": "#rules",
+    "renderMode": "direct",
+    "threadName": "CAFE Discord Server Rules",
+    "useContainer": true
+  },
+  "messages": [
+    {
+      "id": "stuff-that-ll-get-you-banned",
+      "label": "Stuff That'll Get You Banned",
+      "blocks": [
+        {
+          "type": "mediaGallery",
+          "items": [
+            {
+              "url": "https://i.imgur.com/DHzpr48.png"
+            }
+          ]
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "text",
+          "content": "## Stuff That'll Get You Banned"
+        },
+        {
+          "type": "text",
+          "content": "1. Not Following Discord's TOS and [Community Guidelines](https://discord.com/guidelines)"
+        },
+        {
+          "type": "text",
+          "content": "Everyone is welcome here, but ban evasion and guideline violations are not. While we might not hammer every detail in the guidelines, don't give us a reason to!"
+        },
+        {
+          "type": "text",
+          "content": "2. Not Keeping it Safe for Work"
+        },
+        {
+          "type": "text",
+          "content": "No explicit sexual content/discussion, nudity, or real-life gore. Let's keep things comfortable for everyone. It costs you $0 to not be a creep, so just don't."
+        },
+        {
+          "type": "text",
+          "content": "3. Not Being Kind and Respectful"
+        },
+        {
+          "type": "text",
+          "content": "Treat others how you'd like to be treated. Friendly banter/jokes are fine, but do not cross into harassment, personal attacks, or hate speech. If someone isn’t taking something well, drop it. You can push back on ideas, just do not escalate into attacks."
+        },
+        {
+          "type": "text",
+          "content": " 3a. In-depth Politics & Religion"
+        },
+        {
+          "type": "text",
+          "content": "Both are not a focus here. Casual mentions are fine, but centering activities and discussions around them will be moderated. No preaching, debates, or pushing beliefs."
+        },
+        {
+          "type": "text",
+          "content": "4. Not Leaving Drama at the Door"
+        },
+        {
+          "type": "text",
+          "content": "CAFE is not the place for outside conflicts or in-game drama. If something happens during a CAFE-organized event, try to resolve it privately or ask staff to step in."
+        },
+        {
+          "type": "text",
+          "content": "5. Not Respecting Other Communities"
+        },
+        {
+          "type": "text",
+          "content": "Do not use CAFE as a base to harass or disrupt any other Discord server or in-game activity."
+        },
+        {
+          "type": "text",
+          "content": "6. Not Respecting Staff Decisions"
+        },
+        {
+          "type": "text",
+          "content": "If a mod asks you to drop an issue, please do. You can always message them privately later if you want to talk it out."
+        },
+        {
+          "type": "text",
+          "content": "7. Disrupting CAFE-Organized Events"
+        },
+        {
+          "type": "text",
+          "content": "Intentionally disrupting any event hosted in CAFE will result in reciprocal action based on severity. We are here to facilitate a reasonably fair system to organize content around. Disrespecting that intent is not in the spirit of goodwill and will not be tolerated."
+        },
+        {
+          "type": "text",
+          "content": "-# We issue warnings for rule violations at our discretion. Collect enough and win a free ban. Particularly heinous offenses may see this threshold waved."
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "text",
+          "content": "## General Guidelines"
+        },
+        {
+          "type": "text",
+          "content": "1. Support the Organizers"
+        },
+        {
+          "type": "text",
+          "content": "  1. If someone is leading a run, theory crafting, or organizing content, give them room to do their thing without stepping on toes. Volunteers are the backbone of any community!"
+        },
+        {
+          "type": "text",
+          "content": "1. Mind the Spoilers!"
+        },
+        {
+          "type": "text",
+          "content": "  1. FFXIV Live Letter and new patch spoilers belong only in ⁠#ffxiv-spoilers⁠ until the patch is live."
+        },
+        {
+          "type": "text",
+          "content": "  1. We'll lift spoiler rules a little after release. Forays/FieldOps content is exempt."
+        },
+        {
+          "type": "text",
+          "content": "1. Let AutoMod Do Its Thing"
+        },
+        {
+          "type": "text",
+          "content": "  1. Our filters help keep the server clean; do not try to get around them."
+        },
+        {
+          "type": "text",
+          "content": "  1. If you get flagged or timed out by mistake (for example, after using either everyone or here command), just let staff know so we can fix it."
+        },
+        {
+          "type": "text",
+          "content": "1. Habitual Line Steppers"
+        },
+        {
+          "type": "text",
+          "content": "  1. Line Steppers and Vibe Vampires are likely to be removed if their lack of room reading comprehension goes on for too long."
+        },
+        {
+          "type": "text",
+          "content": "1. Exclusion based on third-party-tools is a no-go in CAFE"
+        },
+        {
+          "type": "text",
+          "content": "  1. While we do allow fflogs to be posted, it's for use as a tool for personal growth, not for pointing out others mistakes or painting others in a bad light. No one should be excluded from raids based on third party tools."
+        },
+        {
+          "type": "text",
+          "content": "These won't get you banned outright, but may result in a server warning where applicable."
+        },
+        {
+          "type": "text",
+          "content": "Contact Staff via #modmail-staff-info in Discord if you need to report anything or have questions about our rules."
+        }
+      ]
+    }
+  ]
+}
