@@ -4,57 +4,74 @@ Documentation content for the FFXIV CAFE community.
 
 ## About
 
-This repository contains the documentation source files (AsciiDoc) for CAFE. The content is built and published using [Antora](https://antora.org/) from the main [cafe-docs](https://github.com/BootyB/cafe-docs) repository.
+This repository contains the source content for CAFE Docs. Pages are written in AsciiDoc and are built/published by the separate `cafe-docs` repository.
 
 ## Structure
 
-This is an Antora documentation component with the following structure:
+```text
+modules/ROOT/
+  pages/      AsciiDoc documentation pages
+  discord/    Optional Discord layout sidecars
+  partials/   Reusable AsciiDoc snippets
+  images/     Images and assets
+  nav.adoc    Site navigation
+```
 
-- `antora.yml` - Component descriptor defining the component name, version, and navigation
-- `modules/ROOT/` - Main documentation module
-  - `pages/` - Documentation pages (AsciiDoc format)
-  - `partials/` - Reusable content snippets
-  - `images/` - Images and assets
-  - `nav.adoc` - Navigation structure
+## Editing Docs
 
-## Contributing
+The easiest way to edit is through the online editor on the docs site:
 
-### Editing Documentation
+1. Open the page you want to edit.
+2. Click `Edit this Page`.
+3. Log in with Discord.
+4. Edit the page and preview your changes.
+5. Submit the PR from the editor.
 
-The easiest way to edit documentation is through our **online editor** at https://cafe-docs.vercel.app/
+You can also edit files directly in GitHub or clone this repository locally.
 
-- Click the "Edit this Page" button on any documentation page
-- Log in with Discord (anonymous edits not supported)
-- Make your changes in the browser-based editor
-- Preview your changes in real-time
+## AsciiDoc Pages
 
-**Alternative methods:**
+AsciiDoc pages live in:
 
-- Edit files directly on GitHub
-- Clone this repository locally:
-  ```bash
-  git clone https://github.com/{your-org}/cafe-docs-source.git
-  cd cafe-docs-source
-  ```
+```text
+modules/ROOT/pages/
+```
 
-### File Format
+When adding or moving pages, update:
 
-All documentation is written in [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/). Key conventions:
+```text
+modules/ROOT/nav.adoc
+```
 
-- Use `.adoc` extension for all pages
-- Follow the existing structure in `modules/ROOT/pages/`
-- Update `modules/ROOT/nav.adoc` when adding new pages
-- Use relative xrefs for internal links: `xref:user-guide/joining-raids.adoc[Joining Raids]`
+Use relative xrefs for internal links:
 
-### Preview Changes
+```asciidoc
+xref:user-guide/joining-raids.adoc[Joining Raids]
+```
 
-**Online Editor (Recommended)**  
-The built-in editor at https://cafe-docs.vercel.app/ provides instant preview as you type. Simply click "Edit" on any page to get started.
+## Discord Layouts
+
+Some pages also have a custom Discord layout. These are stored as sidecar JSON files under:
+
+```text
+modules/ROOT/discord/
+```
+
+Example:
+
+```text
+modules/ROOT/pages/start-here/the-rules.adoc
+modules/ROOT/discord/start-here/the-rules.json
+```
+
+If a sidecar exists, Discord publishing uses that layout instead of deriving the Discord message from the AsciiDoc page.
+
+The editor can submit PRs that change the AsciiDoc page, the Discord sidecar, or both. The Discord editor uses a block builder for Components v2 layouts, with raw JSON available only as an advanced view.
 
 ## Related Repositories
 
-- [cafe-docs](https://github.com/BootyB/cafe-docs) - Main documentation site builder and editor
-- Build output is published to: https://cafe-docs.vercel.app/
+- `cafe-docs` - build system, editor, and Discord publisher
+- `cafe-docs-source` - this content repository
 
 ## License
 
