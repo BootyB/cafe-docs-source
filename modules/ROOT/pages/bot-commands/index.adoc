@@ -1,0 +1,19 @@
+= CAFE Bots and Activities
+:page-slug: bot-commands
+:page-title: CAFE Docs
+:page-audience: normal-users
+:page-category: bot-commands
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #bot-commands
+:page-owner: @docs-team
+:page-last-updated: 2026-04-28
+
+CAFE uses several Discord bots to manage our scheduling, runs, and general information. This section contains the complete reference for all bot commands. If you need help with a specific command or have questions about how to use the bots, please check the the links below or ask in the #suggestions-chat???? channel on our Discord server.
+
+== Bots & Discord Activities List
+* xref:bot-commands/proto-ozma.adoc[Proto-Ozma] - Out resident scheduling and raid management bot
+* xref:bot-commands/demon³.adoc[Demon³] - Our administrative bot
+* xref:bot-commands/raiden.adoc[Raiden] - Our bot for voice channel management and several quality of life features
+* xref:user-guide/roster-manager-guide.adoc[CAFE Roster Manager] - CAFE's exclusive drag-and-drop Discord Activity for roster building and management, used for Forked Tower and DRS signups.
+

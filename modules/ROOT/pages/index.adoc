@@ -9,11 +9,11 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-04-28
 
-Welcome to the CAFE documentation! This site contains almost everything you need to know to participate in a FFXIV Forays Raid, as well as guides an instructions for all of CAFE's bots and activities!
+Welcome to the CAFE documentation! This site contains almost everything you need to know to participate in a FFXIV Forays Raid, as well as guides an instructions for all of CAFE's bots and activities! If you're not there already https://discord.gg/c-a-f-e[join our Discord]!
 
 == Quick Links
 
-* xref:start-here/getting-started.adoc[Getting Started Guide] - New to Cafe Raids? Start here!
+* xref:start-here/getting-started.adoc[Getting Started Guide] - New to CAFE? Start here!
 * xref:user-guide/joining-scheduled-runs.adoc[Joining Raids] - Learn how to join raid groups
 * xref:bot-commands/queue-commands.adoc[Bot Commands] - Complete command reference
 
