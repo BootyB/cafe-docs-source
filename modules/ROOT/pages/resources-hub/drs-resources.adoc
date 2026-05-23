@@ -1,5 +1,4 @@
 = Delubrum Savage Resources
-:page-slug: drs-resources
 :page-title: Delubrum Savage Resources
 :page-audience: normal-users
 :page-category: user-guide

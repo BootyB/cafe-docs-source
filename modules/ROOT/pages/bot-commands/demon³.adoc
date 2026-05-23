@@ -1,5 +1,4 @@
 = Demon³ Bot Commands
-:page-slug: Demon³ Bot Commands
 :page-title: Demon³ Bot Commands
 :page-audience: normal-users
 :page-category: bot-commands

@@ -1,5 +1,4 @@
 = How to Join Scheduled Runs (FT, DRS, BA)
-:page-slug: joining-scheduled-runs
 :page-title: How to Join FT, DRS, and BA Runs
 :page-audience: normal-users
 :page-category: user-guide

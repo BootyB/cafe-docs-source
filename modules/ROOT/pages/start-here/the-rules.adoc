@@ -1,5 +1,4 @@
 = CAFE Discord Server Rules
-:page-slug: the-rules
 :page-title: CAFE Discord Server Rules
 :page-audience: normal-users
 :page-category: start-here

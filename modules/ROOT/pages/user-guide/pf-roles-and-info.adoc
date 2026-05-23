@@ -1,5 +1,4 @@
 = A La Carte
-:page-slug: joining-raids
 :page-title: A La Carte
 :page-audience: normal-users
 :page-category: user-guide

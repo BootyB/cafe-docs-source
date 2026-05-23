@@ -1,5 +1,4 @@
 = Eureka Resources
-:page-slug: eureka-resources
 :page-title: Eureka Resources
 :page-audience: normal-users
 :page-category: user-guide

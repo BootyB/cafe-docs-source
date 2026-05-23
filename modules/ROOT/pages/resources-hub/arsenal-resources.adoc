@@ -1,5 +1,4 @@
 = Arsenal Resources
-:page-slug: arsenal-resources
 :page-title: Arsenal Resources
 :page-audience: normal-users
 :page-category: user-guide

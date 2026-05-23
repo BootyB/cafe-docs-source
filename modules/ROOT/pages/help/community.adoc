@@ -1,5 +1,4 @@
 = Community Links
-:page-slug: community
 :page-title: Community Links
 :page-audience: normal-users
 :page-category: user-guide

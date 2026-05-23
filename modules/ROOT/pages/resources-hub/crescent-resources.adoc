@@ -1,5 +1,4 @@
 = The Occult Crescent
-:page-slug: crescent-resources
 :page-title: The Occult Crescent
 :page-audience: normal-users
 :page-category: user-guide

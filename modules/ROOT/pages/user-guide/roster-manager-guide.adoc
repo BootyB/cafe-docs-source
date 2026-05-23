@@ -1,5 +1,4 @@
 = CAFE Roster Manager - Raid Lead Guide
-:page-slug: roster-manager-guide
 :page-title: How to Use the CAFE Roster Manager
 :page-audience: raid-leads
 :page-category: user-guide

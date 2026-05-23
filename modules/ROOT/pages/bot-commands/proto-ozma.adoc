@@ -1,5 +1,4 @@
 = Proto-Ozma Bot Commands
-:page-slug: Proto-Ozma Bot Commands
 :page-title: Proto-Ozma Bot Commands
 :page-audience: normal-users
 :page-category: bot-commands

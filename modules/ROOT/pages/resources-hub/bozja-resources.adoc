@@ -1,5 +1,4 @@
 = Bozja Resources
-:page-slug: bozja-resources
 :page-title: Save the Queen: Blades of Gunnhildr
 :page-audience: normal-users
 :page-category: user-guide

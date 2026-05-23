@@ -1,5 +1,4 @@
 = Toubleshooting and Bugs
-:page-slug: troubleshooting
 :page-title: Troubleshooting and Bugs
 :page-audience: normal-users
 :page-category: user-guide
