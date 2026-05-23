@@ -161,24 +161,6 @@ Start a game of tic-tac-toe with another player.
 
 ---
 
-== Context Menu Commands
-
-=== Toggle Pin
-
-Pin or unpin a message quickly.
-
-*Usage:*
-
-1. Right-click (desktop) or long-press (mobile) a message
-2. Navigate to **Apps** menu
-3. Select **Toggle Pin**
-
-*Response:*
-
-Toggles the pin status of the selected message.
-
----
-
 == Troubleshooting
 
 **Command not responding?**
