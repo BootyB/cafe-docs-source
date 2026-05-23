@@ -4,7 +4,7 @@
 :page-audience: normal-users
 :page-category: start-here
 :page-visibility: public
-:page-publish-targets: web,discord,activity
+:page-publish-targets: web, activity
 :page-discord-channel: #guides
 :page-discord-thread: Getting Started
 :page-owner: @docs-team
