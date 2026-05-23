@@ -71,7 +71,7 @@ Forked Tower and DRS Raid leads in CAFE can use **role-based internal signups** 
 
 TIP: If you are looking for unlock requirements or more information for either of these two activities please check out the `#forked-resources` and `#drs-resources` respectfully.  
 
-==== *How to Sign Up:*
+=== *How to Sign Up:*
 
 image::dropdown.png[align="center"]
 
