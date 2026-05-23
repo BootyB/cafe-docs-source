@@ -18,19 +18,18 @@ TIP: If you have your own Discord sever and want to join CAFE's NA Schedule Broa
 
 == Raid Lead Roles
 
-Both FT and DRS hosting roles are entirely automated here. Using the `/schedule` command in any channel you can type in will walk you through scheduling a FT run. After creating your first run the Bot will be automatically assign you the associated Raid Lead Role, and generate a personal Raid Lead thread under the appropiate chat channel for you to manage your run. 
+All hosting roles are entirely automated here. Using the `/schedule` command in any channel you can type in will walk you through scheduling a run. After creating your first run the Bot will be automatically assign you the associated Raid Lead Role, and generate a personal Raid Lead thread under the appropiate chat channel for you to manage your run. 
 
-Getting the BA Raid Lead Role is a bit more of a process, although the only hard requirement is that a Raid Lead be able to sucessfully lead and call the entire raid with little to no outside help. This ensures that on each Normal BA run, atleast one person can hold everone's hand through it. 
+The only exception is the BA Raid Lead Role, which is a bit more of a process, although the only hard requirement is that a Raid Lead be able to sucessfully lead and call the entire raid with little to no outside help. This ensures that on each Normal BA run, atleast one person can hold everone's hand through it. 
 
-If you already know how to call, contact someone on `@Staff` to get approved. You'll need to call the run with one of us present to verify it. If you are interested in calling but don't feel comfortable yet, there are plenty of existing callers that are willing to give tips and feedback. TO get practice in before staff approval, ping the relevcant role to request some help: `@DRS-Shadowcalls` or `@BA-Shadowcalls`.
+If you already know how to call, contact someone on `@Staff` to get approved. You'll need to call the run with one of us present to verify it. If you are interested in calling but don't feel comfortable yet, there are plenty of existing callers that are willing to give tips and feedback. TO get practice in before staff approval, ping the relevcant role to request some help: `@DRS-Shadowcalls` `@BA-Shadowcalls` `@FT-Shadowcalls`.
 
 IMPORTANT: **All Raid Lead roles, FT/DRS/BA, will automtically be removed after 7 days from your last hosted run, but you can always get it back by hosting another run.**
 
 **Pinging Roles**
 
-Only ping `@Forked Tower Raider` when posting a signup. 
-
-For filling empty slots at run time or dropping an impromptu/FFA run you can ping `@LOOK MA AN FT RUN` in `#forked-passwords`, to direct peoplke to your Raid Lead thread for follow-up information.
+Only ping `@Forked Tower Raider` when posting a signup due to the bot being down.
+For filling empty slots at run time or dropping an impromptu/FFA run you can ping `@LOOK MA AN FT RUN` in `#forked-passwords` channel. Be sure to direct people to your Raid Lead thread for follow-up information.
 
 === Hosting a Run
 
