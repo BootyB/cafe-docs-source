@@ -1,4 +1,4 @@
-# Add this file to cafe-docs-source repository as:
+# Add this file to a repository as:
 # .github/workflows/trigger-docs-build.yml
 
 name: Trigger Docs Site Rebuild
