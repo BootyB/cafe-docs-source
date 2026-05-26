@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "source": {
+    "path": "modules/ROOT/pages/start-here/annoucements.adoc",
+    "contentHash": "5a521ad5"
+  },
+  "metadata": {
+    "channel": "#announcements",
+    "renderMode": "direct",
+    "threadName": "Announcements",
+    "useContainer": true
+  },
+  "messages": [
+    {
+      "id": "introducing-cafe-docs-info",
+      "label": "Introducing cafe-docs.info",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## Introducing cafe-docs.info"
+        },
+        {
+          "type": "text",
+          "content": "<&@816525125057904680> Howdy everyone! Booty here. Hope your week is going well and for those of you in the US, that you had a great Memorial Day weekend! I have some super nerd news to relay today: we have a new home for all of our documentation: https://cafe-docs.info"
+        },
+        {
+          "type": "text",
+          "content": "Going forward, this will be the central hub for all of our documentation, including guides, bot command references, and more. The site is organized into different sections for easy navigation, and you'll be able find everything from getting started guides to detailed bot command references. We still have a ton of work to do to get everything migrated over, but I'm at the very least excited to have a dedicated space for all of our documentation that is easily accessible to everyone."
+        },
+        {
+          "type": "text",
+          "content": "All pages are in AsciiDoc format, which is a simple and powerful markup Language, and I feel allows for more flexibility and better formatting options than the billion and one versions of Markdown. This means that we can create more visually appealing and organized documentation that is easier to read and navigate."
+        },
+        {
+          "type": "text",
+          "content": "Additionally, pages can be easily edited by anyone. Just press the \"Edit this page\" button at the top left of any page to edit the content. There will be a discord Oauth2 page to verify you're in the server, as we will be enforcing a minimum time required in cafe before you're allowed to edit. There is a custom editor built right into the site, so no need to edit the source via GitHub or an IDE. Of course, you can if you want to via https://github.com/BootyB/cafe-docs-source. The editor has some very basic AsciiDoc formatting insert and autocomplete support, which will get fleshed out over time. Submit your changes and they will be reviewed by the docs team and merged if approved."
+        },
+        {
+          "type": "text",
+          "content": "But wait, there's more!"
+        },
+        {
+          "type": "text",
+          "content": "Now, its all the rage these days to implement a source driven documentation site, but astute observers know I don't settle for the ordinary. So, in addition to the web version of the documentation, in the editor there is also a toggle that allows you to build a Discord message components_v2 version of the page that can be posted directly into CAFE. You can already see this in action in this very announcement and our rules channel, which was made via the editor. There is a method to dicatate if section should be directly in a channel, or as a TOC with threads for individual sections. Still very much a WIP, but this means that we can maintain a single source of truth for our documentation that can be easily updated and shared across multiple platforms, including CAFE and maybe even a discord activity in the future."
+        },
+        {
+          "type": "text",
+          "content": "One last super nerd feature: the base site is an Antora site generator that features multi-repository support. This means that we can have different repositories for different sections of the documentation, and they can all be built into a single cohesive site. This has many implications for how we could potentially collaborate with other communities, content creators, and more to create a truly comprehensive resource for all things Forays."
+        },
+        {
+          "type": "text",
+          "content": "I still have a lot of smoothing over the rough edges to do and some features to implement, but I am really excited about this new documentation site and I hope you all find it useful and easy to use. It's still very much a WIP, and I can't do this all by myself, so any help from the community is always appreciated. If you're not keen to editing, but have any feedback or suggestions for improvement, please don't hesitate to reach out to staff via Suggestions Chat. Happy reading and editing!"
+        }
+      ]
+    }
+  ]
+}
