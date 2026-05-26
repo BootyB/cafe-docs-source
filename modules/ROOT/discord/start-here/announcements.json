@@ -31,11 +31,11 @@
         },
         {
           "type": "text",
-          "content": "All pages are in [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) format, a simple and powerful markup Language, which I feel allows for more flexibility and better formatting options than the billion and one versions of Markdown. This means that we can create visually appealing and organized documentation that is easy to read and navigate."
+          "content": "All pages are in [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) format, a simple and powerful markup Language, which I feel allows for more flexibility and better formatting options than the billion and one versions of Markdown. This means that we can create visually appealing and organized documentation that are easy to read and navigate."
         },
         {
           "type": "text",
-          "content": "Additionally, pages can be easily edited by anyone. Just press the \"Edit this page\" button at the top left of any page to edit the content. There will be a discord Oauth2 page to verify you're in the server, as we will be enforcing a minimum time required in cafe before you're allowed to edit. There is a custom editor built right into the site, so no need to edit the source via GitHub or an IDE. Of course, you can if you want to via https://github.com/BootyB/cafe-docs-source. The editor has some very basic AsciiDoc formatting insert and autocomplete support, which will get fleshed out over time. Submit your changes and they will be reviewed by the docs team and merged if approved."
+          "content": "Additionally, pages can be easily edited by anyone. Just press the \"Edit this page\" button at the top left of any page to edit the content. There will be a discord Oauth2 page to verify you're in the server, as we will be enforcing a minimum time required in cafe before you're allowed to edit. There is a custom editor built right into the site, so no need to edit the source via GitHub or an IDE. Of course, you can if you want to via https://github.com/BootyB/cafe-docs-source. The editor has some very basic AsciiDoc formatting insert and autocomplete support, which will get fleshed out over time. Submit your changes and they will be reviewed by me for now and merged if approved."
         },
         {
           "type": "separator"
