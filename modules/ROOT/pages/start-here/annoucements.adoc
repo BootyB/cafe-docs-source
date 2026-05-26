@@ -11,7 +11,7 @@
 
 == Introducing cafe-docs.info
 
-<&@816525125057904680> Howdy everyone! Booty here. Hope your week is going well and for those of you in the US, that you had a great Memorial Day weekend! I have some super nerd news to relay today: we have a new home for all of our documentation: https://cafe-docs.info!
+Howdy everyone! Booty here. Hope your week is going well and for those of you in the US, that you had a great Memorial Day weekend! I have some super nerd news to relay today: we have a new home for all of our documentation: https://cafe-docs.info!
 
 Going forward, this will be the central hub for all of our documentation, including guides, bot command references, and more. The site is organized into different sections for easy navigation, and you'll be able find everything from getting started guides to detailed bot command references. We still have a ton of work to do to get everything migrated over, but I'm at the very least excited to have a dedicated space for all of our documentation that is easily accessible to everyone.
 
