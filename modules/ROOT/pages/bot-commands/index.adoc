@@ -1,4 +1,3 @@
-= CAFE Bots and Activities
 :page-title: CAFE Docs
 :page-audience: normal-users
 :page-category: bot-commands
