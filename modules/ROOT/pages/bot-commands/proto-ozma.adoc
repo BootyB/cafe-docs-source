@@ -539,134 +539,6 @@ Same as `/manage-run` command but faster access from the run message directly.
 
 ---
 
-== Understanding Run Types
-
-=== Baldesion Arsenal (BA)
-
-**Structure:**
-
-* 6 main parties (Party A-F) led by party leaders
-* 1 support party (Party S) - optional
-* Special roles: Perception (trap detection), Spirit Dart (damage mitigation)
-
-**Signup Process:**
-
-* Party leaders sign up via party leader buttons
-* Support party spots are separate
-* Perception and Spirit Dart signups available
-* Plus-one system for first-timers
-
-**Party Assignment:**
-
-* Not automatically assigned
-* Raid leader manages party composition
-* Party friends system helps group preferences
-
----
-
-=== Forked Tower (FT)
-
-**Structure:**
-
-* 4-6 parties (configurable)
-* Role-based composition (e.g., 1 tank, 2 heals, 5 DPS per party)
-* Party A-F with Left/Right side assignments
-
-**Signup Process:**
-
-1. Sign up via thread buttons
-2. Select your available roles (can select multiple)
-3. System tracks signups vs. available slots
-4. Reserve queue activates when full
-
-**Role Selection:**
-
-* Tank
-* Healer
-* Healer(Shield)
-* DPS(Melee)
-* DPS(Phys Ranged)
-* DPS(Caster)
-* DPS(Flex) - Can fill any DPS role
-
-**Roster Distribution:**
-
-* Automatic roster distribution by raid leader
-* Algorithm assigns roles based on needs
-* Party friends are grouped when possible
-* Phantom job preferences considered
-* Reserve players fill dropouts
-
----
-
-=== Delubrum Reginae Savage (DRS)
-
-**Structure:**
-
-* 48-player alliance (6 parties of 8)
-* Role-based composition per party
-* Similar to FT but larger scale
-
-**Signup Process:**
-
-* Role selection required
-* Tracks Essence/Lost Action requirements
-* Roster assignment before run
-
-**Special Considerations:**
-
-* Strict role requirements
-* Reclear-only runs may require proof
-* More complex mechanics require coordination
-
----
-
-== Signup Systems
-
-=== Internal Signups (FT & DRS)
-
-**How it works:**
-
-* Click signup button in run thread
-* Select your available roles from dropdown
-* Bot confirms your signup
-* View your signup status anytime with `/my-signups`
-
-**Reserve System:**
-
-When run is full:
-
-* Additional signups go to reserve queue
-* Reserves are numbered (Reserve #1, #2, etc.)
-* Auto-promoted when spots open
-* Notification sent when moved from reserve to active
-
-**Withdrawing:**
-
-* Click "Remove Sign-up" button in thread, or
-* Use `/my-signups` to withdraw from any run
-* Instant confirmation
-* Next reserve auto-promoted
-
----
-
-=== External Signups
-
-**How it works:**
-
-* Raid leader provides external link (Google Sheets, etc.)
-* Bot announcement includes signup link
-* Raid leader manages roster externally
-* Bot can still track and announce the run
-
-**Limitations:**
-
-* No automatic roster distribution
-* No reserve queue management
-* Manual party assignment required
-
----
-
 == Troubleshooting
 
 **Command not responding?**
@@ -675,13 +547,6 @@ When run is full:
 * Check you're in the correct channel
 * Some commands require specific roles (raid leader, staff)
 * Try again after a moment - Discord may be experiencing issues
-
-**Can't sign up for FT run?**
-
-* Check if signups are closed
-* Verify you're not blacklisted (command will tell you)
-* Run may be at capacity with full reserves
-* Ensure you've selected at least one role
 
 **Reminder not received?**
 
@@ -705,53 +570,6 @@ When run is full:
 
 ---
 
-== Tips & Best Practices
-
-**For Scheduling:**
-
-* Use natural language time input for convenience ("tomorrow 8pm", "next Friday 3pm pacific")
-* Include detailed descriptions - helps attract signups
-* Set passcode ahead of time to avoid last-minute changes
-* Post announcements at least 24-48 hours ahead for best turnout
-
-**For Signups:**
-
-* Sign up early - popular runs fill quickly
-* Select all roles you can play to increase acceptance chances
-* Set party friends early for better grouping
-* Use `/my-signups` regularly to track your commitments
-* Withdraw ASAP if you can't make it - helps reserves get promoted
-
-**For Raid Leaders:**
-
-* Use `/manage-run` to keep tabs on signup progress
-* Distribute rosters 1-2 hours before run for best attendance
-* Consider party friend preferences when manually adjusting
-* Cancel early if you can't lead - give people time to adjust
-
-**For BA Runs:**
-
-* Set party friends to ensure you're with experienced players
-* Sign up for perception/spirit dart early if comfortable
-* Plus-one system is for first clear only - don't abuse it
-* Check `/ba_toolbox` for mechanics refreshers before run
-
-**For FT Runs:**
-
-* Keep phantom job preferences updated
-* Select flexible roles to improve party placement
-* Vote in `/prog-point-poll` to influence community focus
-* Check thread frequently as run time approaches
-
-**For Reminders:**
-
-* Set reminders for runs 2+ days out - easy to forget
-* Use Reminder Manager to view all reminders in one place
-* Ensure bot can DM you (check privacy settings)
-* Don't rely solely on reminders - check schedule regularly
-
----
-
 == Related Documentation
 
 * xref:user-guide/getting-started.adoc[Getting Started with Proto-Ozma]
@@ -768,7 +586,7 @@ When run is full:
 Need help with Proto-Ozma commands?
 
 * Check this documentation first
-* Ask in #bot-help channel
+* Ask in #suggestionschat??? channel
 * Contact staff via ModMail for private issues
 * Report bugs to bot administrators
 * Suggest features in feedback channels
