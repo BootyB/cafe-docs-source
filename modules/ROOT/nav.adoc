@@ -3,7 +3,7 @@
 //.Cheeky's Stuff
 //* xref:cheekys-stuff/find-chris.adoc[Find Christopher Lee]
 
-.xref:start-here/annoucements.adoc[CAFE Announcements & Rules]
+.xref:start-here/announcements.adoc[CAFE Announcements & Rules]
 * xref:start-here/the-rules.adoc[The Rules]
 
 .User Guide
