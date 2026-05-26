@@ -13,7 +13,6 @@ Welcome to the CAFE documentation! This site contains almost everything you need
 
 == Quick Links
 
-* xref:start-here/getting-started.adoc[Getting Started Guide] - New to CAFE? Start here!
 * xref:user-guide/joining-scheduled-runs.adoc[Joining Raids] - Learn how to join raid groups
 * xref:bot-commands/queue-commands.adoc[Bot Commands] - Complete command reference
 
