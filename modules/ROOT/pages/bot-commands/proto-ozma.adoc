@@ -4,7 +4,8 @@
 :page-category: bot-commands
 :page-visibility: public
 :page-publish-targets: web,discord,activity
-:page-discord-channel: #bot-help
+:page-discord-channel: #bot-commands
+:discord-render-mode: thread
 :page-owner: @docs-team
 :page-last-updated: 2026-04-29
 
