@@ -9,7 +9,7 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-05-09
 
-== Introducing cafe-docs.info
+== Introducing cafe-docs.info - May 26, 2026 18:13 EDT
 
 Howdy everyone! Booty here. Hope your week is going well and for those of you in the US, that you had a great Memorial Day weekend! I have some super nerd news to relay today: we have a new home for all of our documentation: https://cafe-docs.info!
 
