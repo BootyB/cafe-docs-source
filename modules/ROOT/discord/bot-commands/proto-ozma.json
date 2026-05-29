@@ -12,22 +12,12 @@
   },
   "messages": [
     {
-      "id": "overview",
-      "label": "Overview",
-      "blocks": [
-        {
-          "type": "text",
-          "content": "Complete reference for all Proto-Ozma bot commands focused on FFXIV Forays raid scheduling and management."
-        }
-      ]
-    },
-    {
       "id": "quick-reference",
       "label": "Quick Reference",
       "blocks": [
         {
           "type": "text",
-          "content": "## Quick Reference\n\n- ``/schedule``  - Schedule Baldesion Arsenal, Forked Tower, or DRS runs\n- ``/plusone`` - Request a plus-one spot for your first BA clear\n- ``/ba_toolbox`` - Access BA guides, macros, timelines, and mechanics\n- ``/my-signups`` - View and manage your Forked Tower and DRS signups\n- ``/forked-preferences & /drs-preferences`` - Manage various preferences including people to group with and sub jobs.\n- ``/prog-point-poll`` - Participate in the biweekly FT prog point poll\n- ``/runaudit`` - Audit BA or DRS runs over a time period\n- ``/manage-run`` - Manage your scheduled runs as a raid leader"
+          "content": "Complete reference for all Proto-Ozma bot commands focused on FFXIV Forays raid scheduling and management.\n\n## Quick Reference\n\n- ``/schedule``  - Schedule Baldesion Arsenal, Forked Tower, or DRS runs\n- ``/plusone`` - Request a plus-one spot for your first BA clear\n- ``/ba_toolbox`` - Access BA guides, macros, timelines, and mechanics\n- ``/my-signups`` - View and manage your Forked Tower and DRS signups\n- ``/forked-preferences & /drs-preferences`` - Manage various preferences including people to group with and sub jobs.\n- ``/prog-point-poll`` - Participate in the biweekly FT prog point poll\n- ``/runaudit`` - Audit BA or DRS runs over a time period\n- ``/manage-run`` - Manage your scheduled runs as a raid leader"
         }
       ]
     },
@@ -40,364 +30,46 @@
           "content": "## Detailed Command Reference\n\n### /schedule\n\nSchedule a new raid run for Baldesion Arsenal (BA), Forked Tower (FT), or Delubrum Reginae Savage (DRS).\n\nSyntax: /schedule\n\nHow it works:\n\n1. Type /schedule in any channel to start the interactive scheduler\n2. Select your raid type (BA, FT, or DRS)\n3. Press the edit description/time buttonscheduling modal with:\n  - Date/Time - Natural language supported (e.g., \"tomorrow 8pm EST\", \"Friday 3pm pacific\")\n  - Run Type - Fresh prog, clear party, reclear, etc.\n  - Description - Details about the run\n  - Sign-up Link (optional) - External spreadsheet or form, this disables bot driven sign-ups\n  - Passcode (optional) - Custom 4-digit passcode or auto-generated\n  - Customization (FT & DRS only) - Party count and role composition (e.g., \"6 parties 1t2h5d\")\n4. Confirm your selections\n5. Select options for the run via the dropdown.\n6. Bot creates the run announcement and manages signups\n\nNatural Language & Time Format Examples:\ntomorrow 10pm EST\nnext Friday 3pm pacific\nMay 5th at 8:30 PM EDT\n2024-10-02 18:30 GMT\n\nRole Composition Format:\n6 parties 1t2h5d       (6 parties: 1 tank, 2 heals, 5 DPS each)\n4 parties 2t2h4d       (4 parties: 2 tanks, 2 heals, 4 DPS each)\n\n**NOTE:** Timezone defaults to US Eastern Time (GMT-4/5) if not specified. Use natural language for easy scheduling!"
         },
         {
+          "type": "separator"
+        },
+        {
           "type": "text",
           "content": "## /plusone\n\nRequest a plus-one spot for your first Baldesion Arsenal clear. This allows you to bring a friend or get assistance from experienced players.\n\nSyntax: /plusone\n\nHow it works:\n1. Run /plusone and read the disclaimer\n2. Confirm you want to continue\n3. Bot displays next upcoming BA runs\n4. Contact the raid leader of the run.\n\nImportant Guidelines:\n- Intended for first clear only\n- Helping a friend is acceptable\n- Abuse of this system may result in restrictions\n- Raid leaders have final approval"
         },
         {
-          "type": "text",
-          "content": "---"
+          "type": "separator"
         },
         {
           "type": "text",
           "content": "## /ba_toolbox\n\nAccess Baldesion Arsenal macros, boss timelines, and mechanic animations.\n\nSyntax: /ba_toolbox\n\nMacros & General Guides:\n  - Portal Macro - Party assignment macro and portal map\n  - sportals - Solo elemental room portal routing\n  - Elemental Room Percepting - Trap, portal, and chest locations for all rooms\n\nBoss Mechanics (Animated):\n\n- Absolute Virtue Mechanics\n  - Puddles\n  - Medusa Javelin\n  - Hostile Aspect\n  - Meteor\n  - All Mechanics (displays all at once)\n- Proto-Ozma Mechanics\n  - Acceleration Bomb\n  - Black Hole\n  - Meteor\n  - Ozma Cube form orbs\n  - All Mechanics (displays all at once)\nText Timelines:\nDetailed boss fight timelines for:\n- Art\n- Owain\n- Raiden\n- Absolute Virtue\n- Proto Ozma\n\nHow to use:\n1. Run /ba_toolbox\n2. Select a category from the dropdown\n3. For mechanics or timelines, select specific boss/mechanic\n4. Bot posts the resource directly to the channel, except for timelines\n5. Toolbox remains open for additional selections"
         },
         {
-          "type": "text",
-          "content": "---"
+          "type": "separator"
         },
         {
           "type": "text",
-          "content": "## /my-signups"
+          "content": "## /my-signups\n\nView and manage all your active Forked Tower and DRS signups in one convenient interface.\n\nSyntax: /my-signups\n\nFeatures:\n- View All Signups - See all upcoming runs you're registered for\n- Quick Withdrawal - Unsign from runs directly from the menu\n- Run Details - Shows:\n  - Run date and time\n  - Raid leader name\n  - Your selected roles\n  - Party assignment (if distributed)\n  - Signup status (Active, Reserve, or specific slot)\n- Multi-Run Management - Handle multiple signups across different raid leaders\n\n**NOTE:** If you're blacklisted from one raid leads or all FT/DRS signups, this command will inform you and show the reason."
         },
         {
-          "type": "text",
-          "content": "View and manage all your active Forked Tower and DRS signups in one convenient interface.\n\nSyntax: /my-signups\n\nFeatures:\n- View All Signups - See all upcoming runs you're registered for\n- Quick Withdrawal - Unsign from runs directly from the menu\n- Run Details - Shows:\n  - Run date and time\n  - Raid leader name\n  - Your selected roles\n  - Party assignment (if distributed)\n  - Signup status (Active, Reserve, or specific slot)\n- Multi-Run Management - Handle multiple signups across different raid leaders\n\n**NOTE:** If you're blacklisted from one raid leads or all FT/DRS signups, this command will inform you and show the reason."
-        },
-        {
-          "type": "text",
-          "content": "---"
+          "type": "separator"
         },
         {
           "type": "text",
           "content": "## /forked-preferences & /drs-preferences\n\nManage your personal preferences for Forked Tower raids including party friend lists and phantom job selections. These selections allow Raid Leads utilizing the CAFE Roster Manager to better place you where you want to go!\n\nSyntax: /forked-preferences | /drs-preferences\n\nAvailable Preferences:\n- Party Homies (FT Runs):\n  - Add up to 5 Discord users you prefer to party with\n  - System attempts to place you together when possible, raid leaders manually doing their roster can see these preferences.\n  - Selections have to be mutual (both parties run this command and select each other) for this system to work\n- Phantom Jobs (FT) & DRS Roles:\n  - Select your preferred roles for each raid\n  - Bot considers these during automatic roster creation\n- Default Time zone:\n  - After setting this, becomes the default time zone if none is given during scheduling\n- Willing to Sit Out\n  - Signals to raid leaders that you're willing to sit out if there is overflow on their run"
         },
         {
-          "type": "text",
-          "content": "---"
-        },
-        {
-          "type": "text",
-          "content": "## /prog-point-poll"
-        },
-        {
-          "type": "text",
-          "content": "Participate in the bi-weekly Forked Tower progression point poll to help determine community prog priorities.\n\nSyntax: /prog-point-poll\n\nHow it works:\n1. Run /prog-point-poll\n2. Modal appears with current week's prog point options\n3. Select which prog points you'd like to see\n4. Submit your vote\n5. Results are aggregated bi-weekly\n\n- One vote per user per week\n- Can update your vote before weekly reset\n- Results may influence raid leader prog focus, no guarantees!"
-        },
-        {
-          "type": "text",
-          "content": "---"
-        },
-        {
-          "type": "text",
-          "content": "## /runaudit"
-        },
-        {
-          "type": "text",
-          "content": "Audit Baldesion Arsenal or Delubrum Reginae Savage runs over a selected time period to analyze completion rates and statistics."
-        },
-        {
-          "type": "text",
-          "content": "Syntax:"
-        },
-        {
-          "type": "text",
-          "content": "/runaudit runtype:<ba|drs> timerange:<week1|week2|month1|month3> [ephemeral:true]"
-        },
-        {
-          "type": "text",
-          "content": "Parameters:"
-        },
-        {
-          "type": "text",
-          "content": "- runtype (required) - Select BA or DRS"
-        },
-        {
-          "type": "text",
-          "content": "- timerange (required) - Time period to audit:"
-        },
-        {
-          "type": "text",
-          "content": "- week1 - Last 1 week"
-        },
-        {
-          "type": "text",
-          "content": "- week2 - Last 2 weeks"
-        },
-        {
-          "type": "text",
-          "content": "- month1 - Last 1 month"
-        },
-        {
-          "type": "text",
-          "content": "- month3 - Last 3 months"
-        },
-        {
-          "type": "text",
-          "content": "- ephemeral (optional) - Show results only to you (default: false for staff, true for others)"
-        },
-        {
-          "type": "text",
-          "content": "Statistics Provided:"
-        },
-        {
-          "type": "text",
-          "content": "- Total runs scheduled"
-        },
-        {
-          "type": "text",
-          "content": "- Completed runs"
-        },
-        {
-          "type": "text",
-          "content": "- Cancelled runs"
-        },
-        {
-          "type": "text",
-          "content": "- Success rate percentage"
-        },
-        {
-          "type": "text",
-          "content": "- Runs by raid leader (breakdown)"
-        },
-        {
-          "type": "text",
-          "content": "- Runs by type (Fresh, Reclear, etc.)"
-        },
-        {
-          "type": "text",
-          "content": "- Average party fill rate"
-        },
-        {
-          "type": "text",
-          "content": "Cooldown:"
-        },
-        {
-          "type": "text",
-          "content": "- 5-minute cooldown per user"
-        },
-        {
-          "type": "text",
-          "content": "- Prevents spam and database load"
-        },
-        {
-          "type": "text",
-          "content": "- Cooldown bypassed for staff with ephemeral=false"
-        },
-        {
-          "type": "text",
-          "content": "Example Output:"
-        },
-        {
-          "type": "text",
-          "content": "📊 BA Run Audit - Last 1 Month"
-        },
-        {
-          "type": "text",
-          "content": "Total Runs: 45"
-        },
-        {
-          "type": "text",
-          "content": "├─ Completed: 38 (84.4%)"
-        },
-        {
-          "type": "text",
-          "content": "├─ Cancelled: 7 (15.6%)"
-        },
-        {
-          "type": "text",
-          "content": "└─ Success Rate: 84.4%"
-        },
-        {
-          "type": "text",
-          "content": "Top Raid Leaders:"
-        },
-        {
-          "type": "text",
-          "content": "1. @RaidLeader1 - 15 runs (13 completed)"
-        },
-        {
-          "type": "text",
-          "content": "2. @RaidLeader2 - 12 runs (11 completed)"
-        },
-        {
-          "type": "text",
-          "content": "3. @RaidLeader3 - 10 runs (9 completed)"
-        },
-        {
-          "type": "text",
-          "content": "Run Types:"
-        },
-        {
-          "type": "text",
-          "content": "├─ Fresh Prog: 18 runs"
+          "type": "separator"
         },
         {
           "type": "text",
-          "content": "├─ Reclear: 20 runs"
+          "content": "## /prog-point-poll\n\nParticipate in the bi-weekly Forked Tower progression point poll to help determine community prog priorities.\n\nSyntax: /prog-point-poll\n\nHow it works:\n1. Run /prog-point-poll\n2. Modal appears with current week's prog point options\n3. Select which prog points you'd like to see\n4. Submit your vote\n5. Results are aggregated bi-weekly\n\n- One vote per user per week\n- Can update your vote before weekly reset\n- Results may influence raid leader prog focus, no guarantees!"
         },
         {
-          "type": "text",
-          "content": "└─ Practice: 7 runs"
-        },
-        {
-          "type": "text",
-          "content": "**TIP:** Use this command to track community activity and identify trends!"
-        },
-        {
-          "type": "text",
-          "content": "---"
-        },
-        {
-          "type": "text",
-          "content": "## /manage-run"
-        },
-        {
-          "type": "text",
-          "content": "Manage your scheduled raid runs as a raid leader. View, edit, or cancel your upcoming runs."
-        },
-        {
-          "type": "text",
-          "content": "Syntax:"
-        },
-        {
-          "type": "text",
-          "content": "/manage-run"
-        },
-        {
-          "type": "text",
-          "content": "Who can use this:"
-        },
-        {
-          "type": "text",
-          "content": "- Raid leaders can manage their own runs"
-        },
-        {
-          "type": "text",
-          "content": "- Staff members can manage any user's runs"
-        },
-        {
-          "type": "text",
-          "content": "Features:"
-        },
-        {
-          "type": "text",
-          "content": "View Your Runs:"
-        },
-        {
-          "type": "text",
-          "content": "- Lists all your upcoming scheduled runs (BA, FT, DRS)"
-        },
-        {
-          "type": "text",
-          "content": "- Shows run details, current signups, and status"
-        },
-        {
-          "type": "text",
-          "content": "Edit Runs:"
-        },
-        {
-          "type": "text",
-          "content": "- Change run time"
-        },
-        {
-          "type": "text",
-          "content": "- Update description"
-        },
-        {
-          "type": "text",
-          "content": "- Modify party configuration (FT only)"
-        },
-        {
-          "type": "text",
-          "content": "- Toggle signup availability"
-        },
-        {
-          "type": "text",
-          "content": "Cancel Runs:"
-        },
-        {
-          "type": "text",
-          "content": "- Cancel runs with notification to all signups"
-        },
-        {
-          "type": "text",
-          "content": "- Removes run from schedule"
-        },
-        {
-          "type": "text",
-          "content": "- Sends DMs to affected users"
-        },
-        {
-          "type": "text",
-          "content": "Run Information:"
-        },
-        {
-          "type": "text",
-          "content": "- View detailed signup lists"
-        },
-        {
-          "type": "text",
-          "content": "- Check party composition"
-        },
-        {
-          "type": "text",
-          "content": "- See reserve queue"
-        },
-        {
-          "type": "text",
-          "content": "- Export roster data"
-        },
-        {
-          "type": "text",
-          "content": "How to use:"
-        },
-        {
-          "type": "text",
-          "content": "1. Run /manage-run"
-        },
-        {
-          "type": "text",
-          "content": "2. If raid leader: Bot shows your runs"
-        },
-        {
-          "type": "text",
-          "content": "3. If staff: Select a user first, then their runs"
-        },
-        {
-          "type": "text",
-          "content": "4. Select the run you want to manage from dropdown"
-        },
-        {
-          "type": "text",
-          "content": "5. Choose the action to perform"
-        },
-        {
-          "type": "text",
-          "content": "Example Run Selection:"
-        },
-        {
-          "type": "text",
-          "content": "Select a run to manage:"
-        },
-        {
-          "type": "text",
-          "content": "▸ FT - May 5, 8:00 PM EDT (12 signups, 6 parties)"
-        },
-        {
-          "type": "text",
-          "content": "▸ BA - May 7, 6:00 PM EDT (Fresh Prog, 5 PLs signed)"
-        },
-        {
-          "type": "text",
-          "content": "▸ DRS - May 9, 4:00 PM EDT (Reclear, 18 signups)"
-        },
-        {
-          "type": "text",
-          "content": "**NOTE:** Cancelling a run sends automatic notifications to the applicable channel!"
+          "type": "separator"
         },
         {
           "type": "text",
-          "content": "---"
+          "content": "## /manage-run\n\nManage your scheduled raid runs as a raid leader. View, edit, or cancel your upcoming runs.\n\nSyntax: /manage-run\n\nWho can use this:\n- Raid leaders can manage their own runs\n- Staff members can manage any user's runs\n\nFeatures:\n- Lists all your upcoming scheduled runs (BA, FT, DRS)\n- Shows run details, current signups, and status\nEdit Runs:\n- Change run time\n- Update description\n- Modify party configuration (FT only)\n- Toggle signup availability\nCancel Runs:\n- Cancel runs with notification to all signups (notification not implemented)\n- Removes run from schedule\n\nHow to use:\n1. Run /manage-run\n2. If raid leader: Bot shows your runs\n3. If staff: Select a user first, then their runs\n4. Select the run you want to manage from dropdown\n5. Choose the action to perform\n\nExample Run Selection: NEED IMAGE HERE\n\n**NOTE:** Cancelling a run sends automatic notifications to the applicable channel!"
         }
       ]
     },
@@ -407,159 +79,25 @@
       "blocks": [
         {
           "type": "text",
-          "content": "## Context Menu Commands"
+          "content": "## Context Menu Commands\n\nContext menu commands are accessed by right-clicking (desktop) or long-pressing (mobile) on messages.\n\n"
+        },
+        {
+          "type": "separator"
         },
         {
           "type": "text",
-          "content": "Context menu commands are accessed by right-clicking (desktop) or long-pressing (mobile) on messages."
+          "content": "## Set/Remove Reminder\n\nSet or remove a personal reminder for a scheduled run. Bot will DM you 90 minutes before the run starts.\n\nHow to use:\n1. Right-click a run announcement message\n2. Navigate to Apps menu\n3. Select Set/Remove Reminder\n4. Confirm in the ephemeral interaction\n\nFeatures:\n- Works for all raid types: BA/DRS/FT\n- 90-minute advance notification\n- Includes run details in reminder DM\n- May show available spots and current signup status\n- One-click removal from reminders\n- Manages multiple reminders via Reminder Manager button in any schedule channel\n\nReminder Content: NEED IMAGE HERE"
         },
         {
           "type": "text",
-          "content": "## Set/Remove Reminder"
+          "content": "Disclaimer: Reminders are sent on a best-effort basis. Bot restarts or technical issues may prevent delivery."
+        },
+        {
+          "type": "separator"
         },
         {
           "type": "text",
-          "content": "Set or remove a personal reminder for a scheduled run. Bot will DM you 90 minutes before the run starts."
-        },
-        {
-          "type": "text",
-          "content": "How to use:"
-        },
-        {
-          "type": "text",
-          "content": "1. Right-click a run announcement message"
-        },
-        {
-          "type": "text",
-          "content": "2. Navigate to Apps menu"
-        },
-        {
-          "type": "text",
-          "content": "3. Select Set/Remove Reminder"
-        },
-        {
-          "type": "text",
-          "content": "4. Confirm in the DM interaction"
-        },
-        {
-          "type": "text",
-          "content": "Features:"
-        },
-        {
-          "type": "text",
-          "content": "- Works for both BA/DRS and FT runs"
-        },
-        {
-          "type": "text",
-          "content": "- 90-minute advance notification"
-        },
-        {
-          "type": "text",
-          "content": "- Includes run details in reminder DM"
-        },
-        {
-          "type": "text",
-          "content": "- Shows available spots and current signup status"
-        },
-        {
-          "type": "text",
-          "content": "- One-click removal from reminders"
-        },
-        {
-          "type": "text",
-          "content": "- Manages multiple reminders via Reminder Manager button"
-        },
-        {
-          "type": "text",
-          "content": "Reminder Content:"
-        },
-        {
-          "type": "text",
-          "content": "⏰ Run Reminder - 90 Minutes Warning"
-        },
-        {
-          "type": "text",
-          "content": "Forked Tower Run"
-        },
-        {
-          "type": "text",
-          "content": "Starts: May 5, 2026 8:00 PM EDT (in 90 minutes)"
-        },
-        {
-          "type": "text",
-          "content": "Raid Leader: @RaidLeader"
-        },
-        {
-          "type": "text",
-          "content": "Current Status: 35/48 signups (13 spots available)"
-        },
-        {
-          "type": "text",
-          "content": "Thread: [Click here to view]"
-        },
-        {
-          "type": "text",
-          "content": "Disclaimer:"
-        },
-        {
-          "type": "text",
-          "content": "Reminders are sent on a best-effort basis. Bot restarts or technical issues may prevent delivery."
-        },
-        {
-          "type": "text",
-          "content": "---"
-        },
-        {
-          "type": "text",
-          "content": "## Manage Run"
-        },
-        {
-          "type": "text",
-          "content": "Quick access to run management interface via context menu."
-        },
-        {
-          "type": "text",
-          "content": "How to use:"
-        },
-        {
-          "type": "text",
-          "content": "1. Right-click a run announcement message"
-        },
-        {
-          "type": "text",
-          "content": "2. Navigate to Apps menu"
-        },
-        {
-          "type": "text",
-          "content": "3. Select Manage Run"
-        },
-        {
-          "type": "text",
-          "content": "4. Access management options (if authorized)"
-        },
-        {
-          "type": "text",
-          "content": "Requirements:"
-        },
-        {
-          "type": "text",
-          "content": "- Must be the raid leader of the run, or"
-        },
-        {
-          "type": "text",
-          "content": "- Must have staff permissions"
-        },
-        {
-          "type": "text",
-          "content": "Functionality:"
-        },
-        {
-          "type": "text",
-          "content": "Same as /manage-run command but faster access from the run message directly."
-        },
-        {
-          "type": "text",
-          "content": "---"
+          "content": "## Manage Run\n\nQuick access to run management interface via context menu.\n\nHow to use:\n1. Right-click a run announcement message\n2. Navigate to Apps menu\n3. Select Manage Run\n4. Access management options (if authorized)\n\nRequirements:\n- Must be the raid leader of the run, or\n- Must have staff permissions\n\nFunctionality:\nSame as /manage-run command but faster access from the run message directly."
         }
       ]
     },
@@ -569,87 +107,7 @@
       "blocks": [
         {
           "type": "text",
-          "content": "## Troubleshooting"
-        },
-        {
-          "type": "text",
-          "content": "Command not responding?"
-        },
-        {
-          "type": "text",
-          "content": "- Verify bot is online (green status)"
-        },
-        {
-          "type": "text",
-          "content": "- Check you're in the correct channel"
-        },
-        {
-          "type": "text",
-          "content": "- Some commands require specific roles (raid leader, staff)"
-        },
-        {
-          "type": "text",
-          "content": "- Try again after a moment - Discord may be experiencing issues"
-        },
-        {
-          "type": "text",
-          "content": "Reminder not received?"
-        },
-        {
-          "type": "text",
-          "content": "- Check your DM settings allow messages from server members"
-        },
-        {
-          "type": "text",
-          "content": "- Bot must be able to DM you (test with /forked-preferences)"
-        },
-        {
-          "type": "text",
-          "content": "- Reminders sent 90 minutes before - check timing"
-        },
-        {
-          "type": "text",
-          "content": "- Bot restarts may prevent delivery (rare)"
-        },
-        {
-          "type": "text",
-          "content": "Natural language time not parsing?"
-        },
-        {
-          "type": "text",
-          "content": "- Include timezone if outside Eastern Time"
-        },
-        {
-          "type": "text",
-          "content": "- Use common formats: \"May 5 at 8pm EST\""
-        },
-        {
-          "type": "text",
-          "content": "- Fall back to explicit format: \"2026-05-05 20:00\""
-        },
-        {
-          "type": "text",
-          "content": "- Check AM/PM specification"
-        },
-        {
-          "type": "text",
-          "content": "Can't manage my run?"
-        },
-        {
-          "type": "text",
-          "content": "- Verify you're the raid leader for that run"
-        },
-        {
-          "type": "text",
-          "content": "- Use /manage-run not right-click if thread was deleted"
-        },
-        {
-          "type": "text",
-          "content": "- Contact staff if run is showing as someone else's"
-        },
-        {
-          "type": "text",
-          "content": "---"
+          "content": "## Troubleshooting\n\nCommand not responding?\n- Verify bot is online\n- Check you're in the correct channel\n- Some commands require specific roles (raid leader, staff)\n- Try again after a moment, Discord may be experiencing issues\n\nReminder not received?\n- Check your DM settings allow messages from server members\n- Bot must be able to DM you\n- Reminders sent 90 minutes before - check timing\n- Bot restarts may prevent delivery (rare)\n\nNatural language time not parsing?\n- Include timezone if outside Eastern Time\n- Use common formats: \"May 5 at 8pm EST\"\n- Fall back to explicit format: \"2026-05-05 20:00\"\n- Check AM/PM specification if not using 24hr time.\n\nCan't manage my run?\n- Verify you actually have a run scheduled\n- Use /manage-run not right-click if thread was deleted\n- Contact staff if run is showing as someone else's"
         }
       ]
     },
@@ -663,10 +121,6 @@
         },
         {
           "type": "text",
-          "content": "- Getting Started with Proto-Ozma"
-        },
-        {
-          "type": "text",
           "content": "- Comprehensive Signup Guide"
         },
         {
@@ -675,61 +129,7 @@
         },
         {
           "type": "text",
-          "content": "- BA Scheduling System"
-        },
-        {
-          "type": "text",
-          "content": "- FT Role Assignment Algorithm"
-        },
-        {
-          "type": "text",
-          "content": "- Attendance Streak System"
-        },
-        {
-          "type": "text",
           "content": "---"
-        }
-      ]
-    },
-    {
-      "id": "support",
-      "label": "Support",
-      "blocks": [
-        {
-          "type": "text",
-          "content": "## Support"
-        },
-        {
-          "type": "text",
-          "content": "Need help with Proto-Ozma commands?"
-        },
-        {
-          "type": "text",
-          "content": "- Check this documentation first"
-        },
-        {
-          "type": "text",
-          "content": "- Ask in #suggestionschat??? channel"
-        },
-        {
-          "type": "text",
-          "content": "- Contact staff via ModMail for private issues"
-        },
-        {
-          "type": "text",
-          "content": "- Report bugs to bot administrators"
-        },
-        {
-          "type": "text",
-          "content": "- Suggest features in feedback channels"
-        },
-        {
-          "type": "text",
-          "content": "---"
-        },
-        {
-          "type": "text",
-          "content": "Last updated: April 29, 2026"
         }
       ]
     }
