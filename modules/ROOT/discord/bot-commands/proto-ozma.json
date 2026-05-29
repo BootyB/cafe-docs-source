@@ -27,7 +27,14 @@
       "blocks": [
         {
           "type": "text",
-          "content": "## Detailed Command Reference\n\n### /schedule\n\nSchedule a new raid run for Baldesion Arsenal (BA), Forked Tower (FT), or Delubrum Reginae Savage (DRS).\n\nSyntax: /schedule\n\nHow it works:\n\n1. Type /schedule in any channel to start the interactive scheduler\n2. Select your raid type (BA, FT, or DRS)\n3. Press the edit description/time buttonscheduling modal with:\n  - Date/Time - Natural language supported (e.g., \"tomorrow 8pm EST\", \"Friday 3pm pacific\")\n  - Run Type - Fresh prog, clear party, reclear, etc.\n  - Description - Details about the run\n  - Sign-up Link (optional) - External spreadsheet or form, this disables bot driven sign-ups\n  - Passcode (optional) - Custom 4-digit passcode or auto-generated\n  - Customization (FT & DRS only) - Party count and role composition (e.g., \"6 parties 1t2h5d\")\n4. Confirm your selections\n5. Select options for the run via the dropdown.\n6. Bot creates the run announcement and manages signups\n\nNatural Language & Time Format Examples:\ntomorrow 10pm EST\nnext Friday 3pm pacific\nMay 5th at 8:30 PM EDT\n2024-10-02 18:30 GMT\n\nRole Composition Format:\n6 parties 1t2h5d       (6 parties: 1 tank, 2 heals, 5 DPS each)\n4 parties 2t2h4d       (4 parties: 2 tanks, 2 heals, 4 DPS each)\n\n**NOTE:** Timezone defaults to US Eastern Time (GMT-4/5) if not specified. Use natural language for easy scheduling!"
+          "content": "## Detailed Command Reference"
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "text",
+          "content": "### /schedule\n\nSchedule a new raid run for Baldesion Arsenal (BA), Forked Tower (FT), or Delubrum Reginae Savage (DRS).\n\nSyntax: /schedule\n\nHow it works:\n\n1. Type /schedule in any channel to start the interactive scheduler\n2. Select your raid type (BA, FT, or DRS)\n3. Press the edit description/time buttonscheduling modal with:\n  - Date/Time - Natural language supported (e.g., \"tomorrow 8pm EST\", \"Friday 3pm pacific\")\n  - Run Type - Fresh prog, clear party, reclear, etc.\n  - Description - Details about the run\n  - Sign-up Link (optional) - External spreadsheet or form, this disables bot driven sign-ups\n  - Passcode (optional) - Custom 4-digit passcode or auto-generated\n  - Customization (FT & DRS only) - Party count and role composition (e.g., \"6 parties 1t2h5d\")\n4. Confirm your selections\n5. Select options for the run via the dropdown.\n6. Bot creates the run announcement and manages signups\n\nNatural Language & Time Format Examples:\ntomorrow 10pm EST\nnext Friday 3pm pacific\nMay 5th at 8:30 PM EDT\n2024-10-02 18:30 GMT\n\nRole Composition Format:\n6 parties 1t2h5d       (6 parties: 1 tank, 2 heals, 5 DPS each)\n4 parties 2t2h4d       (4 parties: 2 tanks, 2 heals, 4 DPS each)\n\n**NOTE:** Timezone defaults to US Eastern Time (GMT-4/5) if not specified. Use natural language for easy scheduling!"
         },
         {
           "type": "separator"
@@ -49,10 +56,13 @@
         {
           "type": "text",
           "content": "## /my-signups\n\nView and manage all your active Forked Tower and DRS signups in one convenient interface.\n\nSyntax: /my-signups\n\nFeatures:\n- View All Signups - See all upcoming runs you're registered for\n- Quick Withdrawal - Unsign from runs directly from the menu\n- Run Details - Shows:\n  - Run date and time\n  - Raid leader name\n  - Your selected roles\n  - Party assignment (if distributed)\n  - Signup status (Active, Reserve, or specific slot)\n- Multi-Run Management - Handle multiple signups across different raid leaders\n\n**NOTE:** If you're blacklisted from one raid leads or all FT/DRS signups, this command will inform you and show the reason."
-        },
-        {
-          "type": "separator"
-        },
+        }
+      ]
+    },
+    {
+      "id": "message-1780087810821",
+      "label": "New Message",
+      "blocks": [
         {
           "type": "text",
           "content": "## /forked-preferences & /drs-preferences\n\nManage your personal preferences for Forked Tower raids including party friend lists and phantom job selections. These selections allow Raid Leads utilizing the CAFE Roster Manager to better place you where you want to go!\n\nSyntax: /forked-preferences | /drs-preferences\n\nAvailable Preferences:\n- Party Homies (FT Runs):\n  - Add up to 5 Discord users you prefer to party with\n  - System attempts to place you together when possible, raid leaders manually doing their roster can see these preferences.\n  - Selections have to be mutual (both parties run this command and select each other) for this system to work\n- Phantom Jobs (FT) & DRS Roles:\n  - Select your preferred roles for each raid\n  - Bot considers these during automatic roster creation\n- Default Time zone:\n  - After setting this, becomes the default time zone if none is given during scheduling\n- Willing to Sit Out\n  - Signals to raid leaders that you're willing to sit out if there is overflow on their run"
@@ -86,11 +96,7 @@
         },
         {
           "type": "text",
-          "content": "## Set/Remove Reminder\n\nSet or remove a personal reminder for a scheduled run. Bot will DM you 90 minutes before the run starts.\n\nHow to use:\n1. Right-click a run announcement message\n2. Navigate to Apps menu\n3. Select Set/Remove Reminder\n4. Confirm in the ephemeral interaction\n\nFeatures:\n- Works for all raid types: BA/DRS/FT\n- 90-minute advance notification\n- Includes run details in reminder DM\n- May show available spots and current signup status\n- One-click removal from reminders\n- Manages multiple reminders via Reminder Manager button in any schedule channel\n\nReminder Content: NEED IMAGE HERE"
-        },
-        {
-          "type": "text",
-          "content": "Disclaimer: Reminders are sent on a best-effort basis. Bot restarts or technical issues may prevent delivery."
+          "content": "## Set/Remove Reminder\n\nSet or remove a personal reminder for a scheduled run. Bot will DM you 90 minutes before the run starts.\n\nHow to use:\n1. Right-click a run announcement message\n2. Navigate to Apps menu\n3. Select Set/Remove Reminder\n4. Confirm in the ephemeral interaction\n\nFeatures:\n- Works for all raid types: BA/DRS/FT\n- 90-minute advance notification\n- Includes run details in reminder DM\n- May show available spots and current signup status\n- One-click removal from reminders\n- Manages multiple reminders via Reminder Manager button in any schedule channel\n\nReminder Content: NEED IMAGE HERE\n\nDisclaimer: Reminders are sent on a best-effort basis. Bot restarts or technical issues may prevent delivery."
         },
         {
           "type": "separator"
@@ -117,19 +123,7 @@
       "blocks": [
         {
           "type": "text",
-          "content": "## Related Documentation"
-        },
-        {
-          "type": "text",
-          "content": "- Comprehensive Signup Guide"
-        },
-        {
-          "type": "text",
-          "content": "- Raid Leader Guide"
-        },
-        {
-          "type": "text",
-          "content": "---"
+          "content": "## Related Documentation\n\n- Comprehensive Signup Guide\n- Raid Leader Guide\n\nNAV TOC TO BE ADDED"
         }
       ]
     }
