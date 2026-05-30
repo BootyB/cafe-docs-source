@@ -1,3 +1,4 @@
+= CAFE Bots & Discord Activities
 :page-title: CAFE Docs
 :page-audience: normal-users
 :page-category: bot-commands
@@ -8,9 +9,8 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-04-28
 
-CAFE uses several Discord bots to manage our scheduling, runs, and general information. This section contains the complete reference for all bot commands. If you need help with a specific command or have questions about how to use the bots, please check the the links below or ask in the #suggestions-chat???? channel on our Discord server.
+CAFE uses several Discord bots to manage our scheduling, runs, and general information. This section contains the complete reference for all bot commands. If you need help with a specific command or have questions about how to use the bots, please check the the links below or ask in the https://discord.com/channels/750103971187654736/1327327629090750504[suggestions-chat] channel on our Discord server. Check the links below for the complete references.
 
-== Bots & Discord Activities List
 * xref:bot-commands/proto-ozma.adoc[Proto-Ozma] - Out resident scheduling and raid management bot
 * xref:bot-commands/demon³.adoc[Demon³] - Our administrative bot
 * xref:bot-commands/raiden.adoc[Raiden] - Our bot for voice channel management and several quality of life features

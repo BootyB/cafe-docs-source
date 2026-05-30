@@ -1,5 +1,5 @@
-= Demon³ Bot Commands
-:page-title: Demon³ Bot Commands
+= Demon³
+:page-title: Demon³
 :page-audience: normal-users
 :page-category: bot-commands
 :page-visibility: public
@@ -9,7 +9,7 @@
 :page-owner: @docs-team
 :page-last-updated: 2026-04-29
 
-Complete reference for all bot commands.
+Partial reference for Demon³ bot commands. Staff commands not included.
 
 == Quick Reference
 
