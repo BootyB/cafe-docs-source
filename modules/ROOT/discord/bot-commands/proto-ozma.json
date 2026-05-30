@@ -17,7 +17,7 @@
       "blocks": [
         {
           "type": "text",
-          "content": "Complete reference for all Proto-Ozma bot commands focused on FFXIV Forays raid scheduling and management.\n\n## Quick Reference\n\n- ``/schedule``  - Schedule Baldesion Arsenal, Forked Tower, or DRS runs\n- ``/plusone`` - Request a plus-one spot for your first BA clear\n- ``/ba_toolbox`` - Access BA guides, macros, timelines, and mechanics\n- ``/my-signups`` - View and manage your Forked Tower and DRS signups\n- ``/forked-preferences & /drs-preferences`` - Manage various preferences including people to group with and sub jobs.\n- ``/prog-point-poll`` - Participate in the biweekly FT prog point poll\n- ``/runaudit`` - Audit BA or DRS runs over a time period\n- ``/manage-run`` - Manage your scheduled runs as a raid leader"
+          "content": "Complete reference for all Proto-Ozma bot commands focused on FFXIV Forays raid scheduling and management.\n\n## Quick Reference\n\n- ``/schedule``  - Schedule Baldesion Arsenal, Forked Tower, or DRS runs\n- ``/plusone`` - Request a plus-one spot for your first BA clear\n- ``/ba_toolbox`` - Access BA guides, macros, timelines, and mechanics\n- ``/my-signups`` - View and manage your Forked Tower and DRS signups\n- ``/forked-preferences & /drs-preferences`` - Manage various preferences including people to group with and sub jobs.\n- ``/prog-point-poll`` - Participate in the biweekly FT prog point poll\n- ``/manage-run`` - Manage your scheduled runs as a raid leader"
         }
       ]
     },
@@ -38,24 +38,71 @@
         },
         {
           "type": "separator"
-        },
+        }
+      ]
+    },
+    {
+      "id": "message-1780102953141",
+      "label": "New Message",
+      "blocks": [
         {
           "type": "text",
           "content": "## /plusone\n\nRequest a plus-one spot for your first Baldesion Arsenal clear. This allows you to bring a friend or get assistance from experienced players.\n\nSyntax: /plusone\n\nHow it works:\n1. Run /plusone and read the disclaimer\n2. Confirm you want to continue\n3. Bot displays next upcoming BA runs\n4. Contact the raid leader of the run.\n\nImportant Guidelines:\n- Intended for first clear only\n- Helping a friend is acceptable\n- Abuse of this system may result in restrictions\n- Raid leaders have final approval"
         },
         {
           "type": "separator"
-        },
+        }
+      ]
+    },
+    {
+      "id": "message-1780103131202",
+      "label": "New Message",
+      "blocks": [
         {
           "type": "text",
           "content": "## /ba_toolbox\n\nAccess Baldesion Arsenal macros, boss timelines, and mechanic animations.\n\nSyntax: /ba_toolbox\n\nMacros & General Guides:\n  - Portal Macro - Party assignment macro and portal map\n  - sportals - Solo elemental room portal routing\n  - Elemental Room Percepting - Trap, portal, and chest locations for all rooms\n\nBoss Mechanics (Animated):\n\n- Absolute Virtue Mechanics\n  - Puddles\n  - Medusa Javelin\n  - Hostile Aspect\n  - Meteor\n  - All Mechanics (displays all at once)\n- Proto-Ozma Mechanics\n  - Acceleration Bomb\n  - Black Hole\n  - Meteor\n  - Ozma Cube form orbs\n  - All Mechanics (displays all at once)\nText Timelines:\nDetailed boss fight timelines for:\n- Art\n- Owain\n- Raiden\n- Absolute Virtue\n- Proto Ozma\n\nHow to use:\n1. Run /ba_toolbox\n2. Select a category from the dropdown\n3. For mechanics or timelines, select specific boss/mechanic\n4. Bot posts the resource directly to the channel, except for timelines\n5. Toolbox remains open for additional selections"
         },
         {
           "type": "separator"
-        },
+        }
+      ]
+    },
+    {
+      "id": "message-1780103160292",
+      "label": "New Message",
+      "blocks": [
         {
           "type": "text",
           "content": "## /my-signups\n\nView and manage all your active Forked Tower and DRS signups in one convenient interface.\n\nSyntax: /my-signups\n\nFeatures:\n- View All Signups - See all upcoming runs you're registered for\n- Quick Withdrawal - Unsign from runs directly from the menu\n- Run Details - Shows:\n  - Run date and time\n  - Raid leader name\n  - Your selected roles\n  - Party assignment (if distributed)\n  - Signup status (Active, Reserve, or specific slot)\n- Multi-Run Management - Handle multiple signups across different raid leaders\n\n**NOTE:** If you're blacklisted from one raid leads or all FT/DRS signups, this command will inform you and show the reason."
+        },
+        {
+          "type": "separator"
+        }
+      ]
+    },
+    {
+      "id": "message-1780103050349",
+      "label": "New Message",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## /forked-preferences & /drs-preferences\n\nManage your personal preferences for Forked Tower raids including party friend lists and phantom job selections. These selections allow Raid Leads utilizing the CAFE Roster Manager to better place you where you want to go!\n\nSyntax: /forked-preferences | /drs-preferences\n\nAvailable Preferences:\n- Party Homies (FT Runs):\n  - Add up to 5 Discord users you prefer to party with\n  - System attempts to place you together when possible, raid leaders manually doing their roster can see these preferences.\n  - Selections have to be mutual (both parties run this command and select each other) for this system to work\n- Phantom Jobs (FT) & DRS Roles:\n  - Select your preferred roles for each raid\n  - Bot considers these during automatic roster creation\n- Default Time zone:\n  - After setting this, becomes the default time zone if none is given during scheduling\n- Willing to Sit Out\n  - Signals to raid leaders that you're willing to sit out if there is overflow on their run"
+        },
+        {
+          "type": "separator"
+        }
+      ]
+    },
+    {
+      "id": "message-1780103343230",
+      "label": "New Message",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## /prog-point-poll\n\nParticipate in the bi-weekly Forked Tower progression point poll to help determine community prog priorities.\n\nSyntax: /prog-point-poll\n\nHow it works:\n1. Run /prog-point-poll\n2. Modal appears with current week's prog point options\n3. Select which prog points you'd like to see\n4. Submit your vote\n5. Results are aggregated bi-weekly\n\n- One vote per user per week\n- Can update your vote before weekly reset\n- Results may influence raid leader prog focus, no guarantees!"
+        },
+        {
+          "type": "separator"
         }
       ]
     },
@@ -65,21 +112,10 @@
       "blocks": [
         {
           "type": "text",
-          "content": "## /forked-preferences & /drs-preferences\n\nManage your personal preferences for Forked Tower raids including party friend lists and phantom job selections. These selections allow Raid Leads utilizing the CAFE Roster Manager to better place you where you want to go!\n\nSyntax: /forked-preferences | /drs-preferences\n\nAvailable Preferences:\n- Party Homies (FT Runs):\n  - Add up to 5 Discord users you prefer to party with\n  - System attempts to place you together when possible, raid leaders manually doing their roster can see these preferences.\n  - Selections have to be mutual (both parties run this command and select each other) for this system to work\n- Phantom Jobs (FT) & DRS Roles:\n  - Select your preferred roles for each raid\n  - Bot considers these during automatic roster creation\n- Default Time zone:\n  - After setting this, becomes the default time zone if none is given during scheduling\n- Willing to Sit Out\n  - Signals to raid leaders that you're willing to sit out if there is overflow on their run"
-        },
-        {
-          "type": "separator"
-        },
-        {
-          "type": "text",
-          "content": "## /prog-point-poll\n\nParticipate in the bi-weekly Forked Tower progression point poll to help determine community prog priorities.\n\nSyntax: /prog-point-poll\n\nHow it works:\n1. Run /prog-point-poll\n2. Modal appears with current week's prog point options\n3. Select which prog points you'd like to see\n4. Submit your vote\n5. Results are aggregated bi-weekly\n\n- One vote per user per week\n- Can update your vote before weekly reset\n- Results may influence raid leader prog focus, no guarantees!"
-        },
-        {
-          "type": "separator"
-        },
-        {
-          "type": "text",
           "content": "## /manage-run\n\nManage your scheduled raid runs as a raid leader. View, edit, or cancel your upcoming runs.\n\nSyntax: /manage-run\n\nWho can use this:\n- Raid leaders can manage their own runs\n- Staff members can manage any user's runs\n\nFeatures:\n- Lists all your upcoming scheduled runs (BA, FT, DRS)\n- Shows run details, current signups, and status\nEdit Runs:\n- Change run time\n- Update description\n- Modify party configuration (FT only)\n- Toggle signup availability\nCancel Runs:\n- Cancel runs with notification to all signups (notification not implemented)\n- Removes run from schedule\n\nHow to use:\n1. Run /manage-run\n2. If raid leader: Bot shows your runs\n3. If staff: Select a user first, then their runs\n4. Select the run you want to manage from dropdown\n5. Choose the action to perform\n\nExample Run Selection: NEED IMAGE HERE\n\n**NOTE:** Cancelling a run sends automatic notifications to the applicable channel!"
+        },
+        {
+          "type": "separator"
         }
       ]
     },
@@ -100,10 +136,19 @@
         },
         {
           "type": "separator"
-        },
+        }
+      ]
+    },
+    {
+      "id": "message-1780103414527",
+      "label": "New Message",
+      "blocks": [
         {
           "type": "text",
           "content": "## Manage Run\n\nQuick access to run management interface via context menu.\n\nHow to use:\n1. Right-click a run announcement message\n2. Navigate to Apps menu\n3. Select Manage Run\n4. Access management options (if authorized)\n\nRequirements:\n- Must be the raid leader of the run, or\n- Must have staff permissions\n\nFunctionality:\nSame as /manage-run command but faster access from the run message directly."
+        },
+        {
+          "type": "separator"
         }
       ]
     },
