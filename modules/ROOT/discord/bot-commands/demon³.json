@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "source": {
+    "path": "modules/ROOT/pages/bot-commands/demon³.adoc",
+    "contentHash": "ae0c07de"
+  },
+  "metadata": {
+    "channel": "#bot-commands",
+    "renderMode": "thread",
+    "threadName": "Demon³",
+    "useContainer": true
+  },
+  "messages": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Partial reference for Demon³ bot commands. Staff commands not included."
+        }
+      ]
+    },
+    {
+      "id": "quick-reference",
+      "label": "Quick Reference",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## Quick Reference\n\n```\nCommand | Description\n/d20\nRoll a 20-sided die with physics simulation\n/eorzeatime\nDisplay current Eorzean, Server, and Local times\n/tictactoe\nPlay tic-tac-toe with another player\n```"
+        }
+      ]
+    },
+    {
+      "id": "detailed-command-reference",
+      "label": "Detailed Command Reference",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## Detailed Command Reference\n\n## /d20\n\nRoll a 20-sided die with realistic physics simulation.\n\nSyntax:\n```discord\n/d20\n```\n\nExamples:\n\n```discord\n/d20\n/d20 animated:true\n```\n\nResponse:\n\nThe bot simulates a realistic dice roll using physics including:\n\n- Initial throw velocity and spin\n- Bounce physics and trajectory\n- Environmental factors (temperature, humidity from real sensors)\n- Playing surface dimensions\n- Settling time and stability\n\nSpecial Results:\n\n- Natural 20 (Critical Success) - Green embed with success message\n- Natural 1 (Critical Fail) - Red embed with fail image\n\nRoll Analysis includes:\n\n- Throw statistics (speed, rotations, bounces)\n- Real-time room conditions (temperature, humidity)\n- Table effects and throw style\n- Final stability percentage\n- Environmental impact on dice movement\n\n**NOTE:** Room conditions are fetched from real environmental sensors when available!\n\n---\n\n## /eorzeatime\n\nDisplay the current time in Eorzea (FFXIV), Server Time (UTC), and your Local Time.\n\nSyntax:\n```discord\n/eorzeatime\n```\n\nResponse:\n\nShows a live-updating message with:\n\n- Server Time (UTC) - FFXIV server time\n- Eorzea Time - In-game Eorzean time\n- Local Time - Your local timezone\n\nThe message updates automatically every Eorzean minute (~3 seconds).\n\n**NOTE:** The message will continue updating in real-time for 10min.\n\n---\n\n## /tictactoe\n\nStart a game of tic-tac-toe with another player.\n\nSyntax:\n```discord\n/tictactoe\n```\n\nHow it works:\n\n1. Run /tictactoe to start\n2. Select your opponent from the user menu\n3. Bot randomly assigns X and O\n4. Players take turns clicking buttons on the game board\n5. First to get three in a row wins!\n\nResponse includes:\n\n- Visual game board with button interface\n- Current turn indicator\n- Player assignments (X and O)\n- Win/draw detection\n\nRestrictions:\n\n- Cannot play against yourself\n- Cannot play against bots\n- Only one game per player pair at a time\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "label": "Troubleshooting",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## Troubleshooting\n\nCommand not responding?\n\n- Verify the bot is online (green status indicator)\n- Check you have required roles/permissions\n- Try using the command in an appropriate channel\n- Some commands may be temporarily disabled\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "related-documentation",
+      "label": "Related Documentation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## Related Documentation\n\n- [Proto-Ozma](https://discord.com/channels/750103971187654736/1510123524273213490)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "label": "Support",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "## Support\n\nNeed help with a command?\n\n- Check this documentation first\n- Ask in #somechannel channel\n- Contact staff via ModMail\n- Report bugs to staff\n\n---\n\nLast updated: April 29, 2026"
+        }
+      ]
+    }
+  ]
+}
