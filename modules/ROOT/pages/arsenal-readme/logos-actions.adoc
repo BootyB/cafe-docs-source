@@ -1,0 +1,18 @@
+= Logos Actions
+:page-slug: logos-actions
+:page-title: Logos Actions
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+You can see recommendations for which actions you should take depending on your class and how to use them in this image::tray-building.png[handy flowchart].
+
+Also, in case you missed it during the Eureka story or tutorial, you can make two logos actions to bring with you into BA. It's highly recommended you bring a Spirit of The Remembered, a damage/healing/tank Wisdom, and a utility. Normally the Remembered is made by itself and popped first, before filling in the rest of your logos slots.
+
+This is a tray. It's probably not the best tray for you, but it is a tray.
+
+image::logos-tray.png[Logos Tray]

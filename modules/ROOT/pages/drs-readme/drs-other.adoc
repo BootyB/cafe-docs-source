@@ -1,0 +1,19 @@
+== Additional Resources
+:page-slug: drs-other
+:page-title: Additonal Resources
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+== Other Resources
+
+
+== Additional Resources
+
+Browse `#bozja-resources` for more advanced guides and other topics covering Bozja, Zandor, DRN and DRS.
+If you have any questions, @ or DM anyone with the `@Arsenal Raid Lead`, `@Mod`, or `@Admin` roles!
+

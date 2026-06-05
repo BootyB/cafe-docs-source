@@ -1,0 +1,35 @@
+= Unlocking BA and Gearing Up
+:page-slug: unlocking-ba
+:page-title: Unlocking BA
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+== Unlocking BA
+
+To unlock BA, you need to complete all available quests in Eureka Hydatos: 
+[link=https://tinyurl.com/BAQuests]
+image::hydatos-quests.png[Hydatos Quests]
+
+After completing them, talk to the Expedition Scholar. They will give you a big warning and ask you to confirm that you’re ready. You will know that you have unlocked it when you see the message “Baldesion Arsenal unlocked”. 
+
+image::ba-warning.png[BA Warning]
+
+== Gearing Up
+
+It is highly recommended that you aquire and equip Kirin’s Osode of Fending/Maiming/Striking/Scouting/Aiming or Vermilion Cloak of Casting/Healing.
+
+image::vermillion-kirin.png[BA Gear]
+
+You can trade the following items at Nostalgic Fellow in Kugane ( 7.8 , 14.2 ) to receive the gear:
+
+2 Cryptic Seals for Kirin’s Osode
+3 Damascene Cloths for Vermilion Cloak
+
+Cloths and Seals are found in chests in the Arsenal or on the Market Board. **You can also ask around the server if anyone has any spare ones. Don't be shy! People are more than willing to help you out as long as you're not being rude!**
+
+If you don't have your upgraded elemental +2 armor, you'll want to wear your level 80-90 gear. Cassie’s Earring or Blitz Ring(formerly Speed Belt) are not required and are optional. Please meld Kirin's/Vermilion, but any other melds are only counted for items ilvl 300 and below. Just stick to your lvl 80-90 or ilvl 405+ gear and any elemental +2 gear you've acquired.
