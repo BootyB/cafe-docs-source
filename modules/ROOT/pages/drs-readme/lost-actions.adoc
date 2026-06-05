@@ -1,0 +1,19 @@
+= Lost Actions
+:page-slug: lost-actions
+:page-title: Lost Actions
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+The best resource we have for Lost Actions can be found in this guide:
+
+https://docs.google.com/spreadsheets/d/11aMSvRlvVkv9ZhDdks19ge1p0HipHOq8RGAIe-N4UxU/edit#gid=0[Delubrum Reginae Savage Lost Action Loadout Guide] (Credit: Seliph Tride - Discord: jay#1827)
+
+More info incoming when we have it! In the mean time check out the * xref:resources-hub/drs-resources.adoc[Delubrum Reginae Savage Resources] page for more information on Lost Actions and other DRS-related content.
+
+// holding onto this bookmark until I get the feeling to do something about a better visual guide.//
+//image::logos-tray.png[Logos Tray]//

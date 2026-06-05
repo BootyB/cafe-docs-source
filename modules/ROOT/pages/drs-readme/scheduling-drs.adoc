@@ -1,0 +1,50 @@
+= Scheduling & Run Types
+:page-slug: scheduling-drs
+:page-title: Scheduling & Run Types
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+== Scheduling/Timestamps
+
+• **Run Times**
+
+All runs scheduled use Discord timestamps, which automatically adjust to your device's local time.
+
+• **Example Timestamp**
+
+Tuesday, June 24, 1969 6:20 PM
+
+This timestamp will always show in your device's local time zone.
+
+• **Avoid Assumptions**
+
+Don't assume others are in your time zone. Saying "I'd like to join the run at 8pm!" can be confusing. Try to refer to the run ID or how many hours are left until the run.
+
+• **Example Scheduled Run**
+
+Runs are listed first by Type and second in chronological order (top to bottom) in `#⁠drs-schedule`: 
+
+image::run-26.png[Example 26]
+
+== Run Types
+
+• **Fresh/AnyProg Run**:
+
+A simple starter run with the intent to learn. While some tactics may differ between raid leads, this is generally a new player friendly run. These runs are not expected to clear.
+
+• **Seeker, Queens Guard, Phantom, Avowed**:
+
+To get the best of these runs you need to have seen up to have cleared the previous fights. These runs are intended to be a bit more difficult than Fresh/AnyProg runs, and may include some mechanics that require a bit more coordination. These runs are not expected to clear but do expect to relevel afterwards. Study beforehand is highly recommended.
+
+• **Reclear (RC**):
+
+This type of run is usually aimed at going through the DRS raid quickly and without many explanations. Thus, it is usually for people who have already cleared DRS.
+
+• **Non-Standard**:
+
+A not so typical CAFE run with a theme or condition that makes it not normal. Be sure to check the run notes and make sure your expectations match, as clearing is not a guarantee.

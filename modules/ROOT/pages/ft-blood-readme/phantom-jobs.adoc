@@ -1,0 +1,19 @@
+= Phantom Jobs
+:page-slug: phantom-jobs
+:page-title: Phantom Jobs
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+The best resource we have for Lost Actions can be found in this guide:
+
+https://ffxiv.consolegameswiki.com/wiki/Phantom_Job[Phantom Job Wiki Article] 
+
+More info incoming when we have it! In the mean time check out the * xref:resources-hub/ft-resources.adoc[Forked Tower: Blood Resources] page for more information on Lost Actions and other Occult-related content.
+
+// holding onto this bookmark until I get the feeling to do something about a better visual guide.//
+//image::logos-tray.png[Logos Tray]//

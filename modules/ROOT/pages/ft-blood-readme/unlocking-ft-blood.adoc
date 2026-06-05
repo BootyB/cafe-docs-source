@@ -1,0 +1,40 @@
+= Unlocking Forked Tower and Gearing Up
+:page-slug: unlocking-ft-blood
+:page-title: Unlocking FT
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+== Unlocking Forked Tower Blood
+
+To unlock The Forked Tower: Blood you will need to have completed the quest "Past and Crescent"
+
+[link:https://www.reddit.com/r/ffxiv/comments/1kzdlp5/a_simple_guide_to_forked_tower_prep/]
+image::ft-blood-prep.png[align center]
+
+== Spawning Conditions
+
+
+- 16 people of at least Knowledge Level 20
+
+- 16 people have completed the story to unlock Forked Tower
+
+- First spawn has a 5 minute internal timer.
+
+- Subsequent spawns have a 60 minute internal timer
+
+-- Timer starts when no Forked Tower is currently on going
+
+-- Timer is reduced by 5 minutes when succesfully doing CEs
+
+-- Timer is reduced by 1 minute when successfully doing FATEs (including pot fates)
+
+When both conditions are met AND the internal timer reaches zero (either naturally or by being put below zero when completing FATEs/CEs) Forked Tower will spawn.
+
+== Gearing Up
+
+The relic gear you can make in The Occult Crescent does come with a boost in stats that is specific for this area. Upgrading your gear is recommended if you intend to clear or run the raid more than once.

@@ -1,0 +1,26 @@
+= Aetheric Stablizers, Support and Additonal Resources
+:page-slug: stablilizers-and-support
+:page-title: Aetheric Stablizers, Support and Additonal Resources
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+== Aetheric Stablilizers
+
+You DO NOT need Aetheric Stabilizers for the run and generally do not want to use it. On most all run, RED stable portals are used, which will respawn AFTER Blue unstable ones. Using a stabilizer will consume one blue portal and prevent a red portal from spawning, potentially causing issues if the run is full. Please review our rules regarding portal sniping.
+
+== Support
+
+The Support Group’s purpose in Hydatos is to kill support FATE that will spawn after all portals in Elemental Rooms are pressed. You will need DISPEL for the support FATE and also preferably Spirit of the Remembered.
+
+After the FATE is killed you can grab the Elemental Buff (fairy), and finish appraising logograms and making trays. You can grab one of the portals which will spawn in 8 Random locations. When portals will change from Blue to Red they can change location. If you have Stabilizer with you and want to use it - this is the only time you can freely do it.
+
+== Additional Resources
+
+Browse `#⁠eureka-resources` for more advanced guides and other topics covering Eureka and BA.
+If you have any questions, @ or DM anyone with the `@Arsenal Raid Lead`, `@Mod`, or `@Admin` roles!
+

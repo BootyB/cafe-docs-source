@@ -1,0 +1,26 @@
+= Unlocking DRS and Gearing Up
+:page-slug: unlocking-drs
+:page-title: Unlocking DRS
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #guides
+:page-owner: @docs-team
+:page-last-updated: 2026-06-04
+
+== Unlocking Delubrum Reginae Savage
+
+To unlock DRS, you need to unlock and complete Delubrum Reginae Normal before you can access the quest from the Troubled Gentleman in Gangos (6.6, 5.0) to unlock this duty with the quest *A Seaside Story* 
+
+You will also need the following requirements to unlock DRS:
+
+• Completed the "Fit for a Queen" quest.
+• A Resistance Rank of 15 or higher.
+• Currently holding atleast 700,000 mettle.
+
+== Gearing Up
+
+There is no known items you can get aside from the Zando specific gear that will help more than your current best-in-slot gear. 
+
+Zandor gear and the Relic weapons provide Hate to your gear. Haste is a nice extra and provides a boost to your DPS.

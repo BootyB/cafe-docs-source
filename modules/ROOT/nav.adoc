@@ -23,6 +23,27 @@
 * xref:resources-hub/eureka-resources.adoc[Eureka Resources]
 * xref:resources-hub/arsenal-resources.adoc[Baldesion Arsenal Resources]
 
+.xref:arsenal-readme/index.adoc[Arsenal Readme]
+* xref:arsenal-readme/join-a-ba-run.adoc[Joining a BA Run on CAFE (Crystal DC)]
+* xref:arsenal-readme/scheduling-ba.adoc[Scheduling & Runtypes]
+* xref:arsenal-readme/unlocking-ba.adoc[Unlocking BA and Gearing Up]
+* xref:arsenal-readme/logos-actions.adoc[Logos Actions]
+* xref:arsenal-readme/stabilizers-and-support.adoc[Aetheric Stablilizers, Support and Additonal Resources]
+
+.xref:drs-readme/index.adoc[DRS Readme]
+* xref:drs-readme/join-a-drs-run.adoc[Joining a DRS Run on CAFE (Crystal DC)]
+* xref:drs-readme/scheduling-drs.adoc[Scheduling & Runtypes]
+* xref:drs-readme/unlocking-drs.adoc[Unlocking DRS and Gearing Up]
+* xref:drs-readme/lost-actions.adoc[Lost Actions]
+* xref:drs-readme/drs-other.adoc[Additional Resources]
+
+.xref:ft-blood-readme/index.adoc[Forked Tower Blood Readme]
+* xref:ft-blood-readme/join-a-ft-blood-run.adoc[Joining a Forked Tower Blood Run on CAFE (Crystal DC)]
+* xref:ft-blood-readme/scheduling-ft-blood.adoc[Scheduling & Runtypes]
+* xref:ft-blood-readme/unlocking-ft-blood.adoc[Unlocking Forked Tower Blood and Gearing Up]
+* xref:ft-blood-readme/phantom-jobs.adoc[Phantom Jobs]
+* xref:ft-blood-readme/ft-blood-other.adoc[Additional Resources]
+
 .Help
 * xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
 * xref:help/community.adoc[Community Links]
