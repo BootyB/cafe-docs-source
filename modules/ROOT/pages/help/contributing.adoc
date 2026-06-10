@@ -1,0 +1,36 @@
+= Contributing to the Wiki
+:page-title: Submissions and Contributions
+:page-audience: normal-users
+:page-category: user-guide
+:page-visibility: public
+:page-publish-targets: web,discord,activity
+:page-discord-channel: #help
+:page-owner: @docs-team
+:page-last-updated: 2026-06-10
+
+== Rules and Regulations
+
+CAFE docs is a community-driven project, and we welcome contributions from anyone who wants to help out! However, there are a few rules and guidelines that we ask all contributors to follow to ensure that our documentation remains accurate, up-to-date, and respectful of our community.
+
+All contributions will be reviewed and approved by a member of the CAFE docs team before they are added to any part of CAFE docs. Please do not add information that is not related to CAFE or its content. If you wish to add to our community with information on content we do not normally include please reach out to a member of the docs team to discuss how we can best share that information with our community. 
+
+* All contributions must be accurate and up-to-date. Please double-check your information before submitting it.
+
+* All contributions must be properly sourced. If you are adding information that is not common knowledge, please include a source for your information.
+
+* All contributions must be properly formatted. Please follow the formatting guidelines outlined in our contribution guidelines. 
+
+* All contributions must be made in good faith. Please do not submit false or misleading information.
+
+* All contributions must be respectful and appropriate. We do not tolerate any form of harassment or discrimination in our community.
+
+All content included in CAFE docs is not exclusive to CAFE and may be used by anyone for any purpose. By contributing to CAFE docs, you are agreeing to allow your contributions to be used by anyone for any purpose.
+
+== How to Contribute to CAFE Docs
+
+Submitting to CAFE docs is easy! We have a few different ways that you can contribute, depending on your preferences and the type of contribution you want to make.
+
+* If you want to contribute a small piece of information or a correction, you can submit it directly through our website. Simply click on the "Contribute" button on the page where you want to make your contribution, and fill out the form with your information.
+
+* If you have images or screenshots that you want to contribute or if you have any other questions regarding submissions, please reach out in Discord in the `#suggestions-chat` channel and a member of the docs team will assist you with submitting your images.
+
