@@ -47,3 +47,4 @@
 .Help
 * xref:help/troubleshooting.adoc[Troubleshooting and Bugs]
 * xref:help/community.adoc[Community Links]
+* xref:help/contributing.adoc[Contributing to the Wiki]
